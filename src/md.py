@@ -30,7 +30,7 @@ def equilibration(prmtop_file, crd_file):
     # Simulation reporters
     simulation.reporters.append(DCDReporter('equilibration.dcd', 10))
         simulation.reporters.append(StateDataReporter('equilibration.csv', 10, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True, volume = True , totalEnergy= True, separator='\t'))
-    simulation.step(200)
+    simulation.step(5000)
 
     # Saving data
     positions = simulation.context.getState(getPositions=True).getPositions()
@@ -50,7 +50,7 @@ def production(simulation):
     # Simulation reporters
     simulation.reporters.append(DCDReporter('production.dcd', 100))
     simulation.reporters.append(StateDataReporter('production.csv', 100, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True,volume=True, totalEnergy= True, separator='\t'))
-    simulation.step(5000)
+    simulation.step(1000)
 
 
 
