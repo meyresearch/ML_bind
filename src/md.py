@@ -29,7 +29,7 @@ def equilibration(prmtop_file, crd_file):
 
     # Simulation reporters
     simulation.reporters.append(DCDReporter('equilibration.dcd', 10))
-        simulation.reporters.append(StateDataReporter('equilibration.csv', 10, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True, volume = True , totalEnergy= True, separator='\t'))
+    simulation.reporters.append(StateDataReporter('equilibration.csv', 10, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True, volume = True , totalEnergy= True, separator='\t'))
     simulation.step(5000)
 
     # Saving data
