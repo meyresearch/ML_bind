@@ -50,7 +50,7 @@ def production(simulation):
     # Simulation reporters
     simulation.reporters.append(DCDReporter('production.dcd', 100))
     simulation.reporters.append(StateDataReporter('production.csv', 100, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True,volume=True, totalEnergy= True, separator='\t'))
-    simulation.step(1000)
+    simulation.step(5000)
 
 
 
