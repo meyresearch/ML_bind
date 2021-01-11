@@ -46,6 +46,10 @@ def production(simulation):
     # NPT for production:
     system.addForce(MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
     
+    #Removing equilibration reporters
+    simulation.reporters.pop(-1)
+    simulation.reporters.pop(-1)
+    
     print("Running production")
     # Simulation reporters
     simulation.reporters.append(DCDReporter('production.dcd', 100))
