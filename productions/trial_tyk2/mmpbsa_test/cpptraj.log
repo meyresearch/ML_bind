@@ -1,0 +1,4 @@
+# 01/11/21 12:32:16
+parm tyk2_10_2.prm7
+parmstrip :WAT
+parmwrite out tyk2_10_unsolvated.prm7
