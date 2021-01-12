@@ -1,0 +1,35 @@
+# 01/12/21 12:42:50
+parm tyk2_10.prm7
+ls
+parmstrip :WAT
+parmstrip :NA
+parminfo 0
+parmstrip @1-41
+parminfo 0
+parmwrite out tyk2_vacuum.prm7
+# 01/12/21 13:22:40
+parm tyk2_10.prm7
+parminfo
+parmstrip :WAT
+parminfo
+parmstrip :NA
+parminfo
+parmstrip !:1
+parmwrite out lig10_vacuum.prm7
+# 01/12/21 13:30:07
+parm tyk2_10.prm7
+parminfo
+# 01/12/21 13:38:01
+parm tyk2_10_unsolvated_nona.prm7
+# 01/12/21 13:39:45
+parm tyk2_10_unsolvated_nona.prm7
+parminfo
+# 01/12/21 13:42:26
+parm 6_tyk2_10_unsolvated_nona.prm7
+# 01/12/21 13:44:17
+parm 6_lig10_vacuum.prm7
+parm 6_tyk2_vacuum.prm7
+# 01/12/21 13:47:56
+parm tyk2_10.prm7
+# 01/12/21 13:58:40
+parm 6_tyk2_10.prm7
