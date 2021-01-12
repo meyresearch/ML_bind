@@ -31,3 +31,16 @@ parm tyk2_10.prm7
 parm tyk2_10.prm7
 changeradii amber6
 outparm 6_tyk2_10.prm7
+# Log started on 01/12/2021 [mm/dd/yyyy] at 14:07:11
+parm tyk2_10.prm7
+changeradii amber6
+outparm test_parm.prm7
+# Log started on 01/12/2021 [mm/dd/yyyy] at 14:09:27
+parm tyk2_10.prm7
+atom tyk2_10.prm7
+# Log started on 01/12/2021 [mm/dd/yyyy] at 14:12:12
+changeradii amber6
+parm tyk2_10.prm7
+
+changeradii amber6
+outparm 6_tyk2_10.prm7
