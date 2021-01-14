@@ -1,6 +1,7 @@
 from __future__ import print_function
 from simtk.openmm import * 
 from simtk.openmm.app import *
+from parmed.openmm import *
 from simtk import unit
 from sys import stdout
 import sys
@@ -53,7 +54,7 @@ def production(simulation):
     print("Running production")
     # Simulation reporters
     simulation.reporters.append(DCDReporter('production.dcd', 100))
-    #simulation.reporters.append(StateDataReporter('production.csv', 100, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True,volume=True, totalEnergy= True, separator='\t'))
+    simulation.reporters.append(StateDataReporter('production.csv', 100, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True,volume=True, totalEnergy= True, separator='\t'))
     simulation.reporters.append(MdcrdReporter('production.mdcrd', 100))
     simulation.step(50000)
     
