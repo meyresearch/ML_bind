@@ -54,6 +54,7 @@ def production(simulation):
     # Simulation reporters
     simulation.reporters.append(DCDReporter('production.dcd', 100))
     simulation.reporters.append(StateDataReporter('production.csv', 100, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True,volume=True, totalEnergy= True, separator='\t'))
+    simulation.reporters.append(MdcrdReporter('production.mdcrd', 100))
     simulation.step(50000)
     
     # Save final frame to PDB file
