@@ -22,12 +22,12 @@ time = timestep/500 #in picoseconds
 equilibration_data["Time (ps)"] = time
 
 # Create more arrays of variables in columns
-potentialenergy = equilibration_data["Potential Energy (kJ/mole)"].to_numpy()
-kineticenergy = equilibration_data["Kinetic Energy (kJ/mole)"].to_numpy()
-totalenergy = equilibration_data["Total Energy (kJ/mole)"].to_numpy()
+potentialenergy = equilibration_data["Potential Energy (kilocalorie/mole)"].to_numpy()
+kineticenergy = equilibration_data["Kinetic Energy (kilocalorie/mole)"].to_numpy()
+totalenergy = equilibration_data["Total Energy (kilocalorie/mole)"].to_numpy()
 temperature = equilibration_data["Temperature (K)"].to_numpy()
-density = equilibration_data["Density (g/mL)"].to_numpy()
-volume = equilibration_data["Box Volume (nm^3)"].to_numpy()
+density = equilibration_data["Density (gram/(item*milliliter))"].to_numpy()
+volume = equilibration_data["Box Volume (angstrom**3)"].to_numpy()
 
 # Print dataframe
 print(equilibration_data)
@@ -39,7 +39,7 @@ def create_plots(y_variable):
     # Create total energy plot. Saved as "totalenergy.png"
         plt.plot(time, totalenergy/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
-        plt.ylabel("Total Energy (x$10^3$ kJ/mol)")
+        plt.ylabel("Total Energy (x$10^3$ kilocalorie/mol)")
         plt.savefig('totalenergy.png', dpi=300)
         plt.clf()
 
@@ -47,7 +47,7 @@ def create_plots(y_variable):
     # Create kinetic energy plot. Saved as "kineticenergy.png"
         plt.plot(time, kineticenergy/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
-        plt.ylabel("Kinetic Energy (x$10^3$ kJ/mol)")
+        plt.ylabel("Kinetic Energy (x$10^3$ kilocalorie/mol)")
         plt.savefig('kineticenergy.png', dpi=300)
         plt.clf()
 
@@ -55,7 +55,7 @@ def create_plots(y_variable):
     # Create potential energy plot. Saved as "potentialenergy.png"
         plt.plot(time, potentialenergy/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
-        plt.ylabel("Potential Energy (x$10^3$ kJ/mol)")
+        plt.ylabel("Potential Energy (x$10^3$ kilocalorie/mol)")
         plt.savefig('potentialenergy.png', dpi=300)
         plt.clf()
 
@@ -71,13 +71,13 @@ def create_plots(y_variable):
     # Create density plot. Saved as "density.png"
         plt.plot(time, density, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
-        plt.ylabel("Density (g/mL)")
+        plt.ylabel("Density (g/(item*mL))")
         plt.savefig('density.png', dpi=300)
         plt.clf()
 
     elif y_variable == 'volume':
     # Create volume plot. Saved as "volume.png"
-        plt.plot(time, volume, color = 'black', linewidth = '1.5')
+        plt.plot(time, volume/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Box Volume ($nm^3$)")
         plt.savefig('volume.png', dpi=300)
@@ -87,21 +87,21 @@ def create_plots(y_variable):
         # Create total energy plot. Saved as "totalenergy.png"
         plt.plot(time, totalenergy/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
-        plt.ylabel("Total Energy (x$10^3$ kJ/mol)")
+        plt.ylabel("Total Energy (x$10^3$ kcal/mol)")
         plt.savefig('totalenergy.png', dpi=300)
         plt.clf()
         
         # Create kinetic energy plot. Saved as "kineticenergy.png"
         plt.plot(time, kineticenergy/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
-        plt.ylabel("Kinetic Energy (x$10^3$ kJ/mol)")
+        plt.ylabel("Kinetic Energy (x$10^3$ kcal/mol)")
         plt.savefig('kineticenergy.png', dpi=300)
         plt.clf()
         
         # Create potential energy plot. Saved as "potentialenergy.png"
         plt.plot(time, potentialenergy/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
-        plt.ylabel("Potential Energy (x$10^3$ kJ/mol)")
+        plt.ylabel("Potential Energy (x$10^3$ kcal/mol)")
         plt.savefig('potentialenergy.png', dpi=300)
         plt.clf()
         
@@ -115,12 +115,12 @@ def create_plots(y_variable):
         # Create density plot. Saved as "density.png"
         plt.plot(time, density, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
-        plt.ylabel("Density (g/mL)")
+        plt.ylabel("Density (g/(item*mL))")
         plt.savefig('density.png', dpi=300)
         plt.clf()
         
         # Create volume plot. Saved as "volume.png"
-        plt.plot(time, volume, color = 'black', linewidth = '1.5')
+        plt.plot(time, volume/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Box Volume ($nm^3$)")
         plt.savefig('volume.png', dpi=300)
