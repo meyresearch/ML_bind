@@ -66,9 +66,7 @@ def production(simulation):
 
 if __name__ == '__main__':
 	deviceindex = sys.argv[3]
-    
     simulation = equilibration(sys.argv[1], sys.argv[2])
-    
 	production(simulation)
 
 
