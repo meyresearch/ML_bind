@@ -16,7 +16,8 @@ def equilibration(prmtop_file, crd_file):
     2.0*unit.femtoseconds)
     integrator.setConstraintTolerance(0.00001)
     platform = Platform.getPlatformByName('OpenCL')
-    simulation = Simulation(prmtop.topology, system, integrator, platform)
+    properties = {'OpenCLPrecision': 'mixed', 'OpenCLDeviceIndex': str(deviceindex)}
+    simulation = Simulation(prmtop.topology, system, integrator, platform, properties)
     # Set the current positions
     simulation.context.setPositions(inpcrd.positions)
 
@@ -64,7 +65,9 @@ def production(simulation):
 
 
 if __name__ == '__main__':
-	simulation = equilibration(sys.argv[1], sys.argv[2])
+	deviceindex = sys.argv[3]
+ 
+    simulation = equilibration(sys.argv[1], sys.argv[2])
 
 	production(simulation)
 
