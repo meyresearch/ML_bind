@@ -12,10 +12,10 @@ Definition:
 Get potential energy (in kJ/mol) of the ligand in the last frame of an MD simulation. This only works with simulations containing the protein Tyk2 (as the ligand index is residue 288)
 
 Usage:
-python getenergy.py production.pdb (ligand_topology.top) production_short.mdcrd
+python getenergy.py production.pdb production_short.mdcrd (ligand_topology.top)
 '''
 
-def get_energy(pdb_file, prmtop_file, mdcrd_file):
+def get_energy(pdb_file, mdcrd_file, prmtop_file):
     
     print('Loading trajectory...')
     #Load MD trajectory
