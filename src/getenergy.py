@@ -57,7 +57,7 @@ def get_energy(pdb_file, mdcrd_file, prmtop_file):
     #Write positions to PDB file
     positions = simulation.context.getState(getPositions=True).getPositions()
     PDBFile.writeFile(simulation.topology, positions, open('ligand.pdb', 'w'))
-    print('Ligand structure saved as ligand.pdb')
+    print('Ligand structure was saved as ligand.pdb')
     
     return potentialenergy
 
