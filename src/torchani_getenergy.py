@@ -34,8 +34,8 @@ def get_ani_energy(pdb_file):
     force = -derivative
     
     #Print energy and force results
-    print('Energy:', energy.item(), 'Hartrees')
     print('Force:', force.squeeze())
+    print('Energy:', energy.item(), 'Hartrees')
     
 if __name__=='__main__':
     get_ani_energy(sys.argv[1])
