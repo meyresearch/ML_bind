@@ -3,6 +3,11 @@ import pandas as pd
 import torch
 import torchani
 
+'''
+Usage:
+python get_ani_energy.py ligand.pdb
+'''
+
 def get_ani_energy(pdb_file):
     #Read ligand.pdb file
     ligand = pd.read_csv(pdb_file, delim_whitespace=True, skiprows=1, header =None, usecols=[2,6,7,8,11], names=['atom_id', 'x', 'y', 'z', 'atom_type'])
