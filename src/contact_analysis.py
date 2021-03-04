@@ -51,7 +51,7 @@ def contact_analysis(mdcrd_file, top_file):
     print("Most common atom contacts between residue and protein:")
     print("   (If empty there were no contacts to report)")
     for atom_contact in trajectory_contacts.most_common_atoms_for_residue(lig_top):
-        if atom_contact[1] > 0.9:
+        if atom_contact[1] > 0.8:
             print(atom_contact)
     print(" ")
 
