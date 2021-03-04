@@ -9,6 +9,7 @@ from contact_map import ContactTrajectory, RollingContactFrequency, ContactFrequ
 
 '''
 Find hydrogen bonds and contacts between ligand and protein. Inputs are trajectory (mdcrd) file and topology (top, prmtop or prm7) file.
+Please note this only works with Tyk2 solvated_complex topology files (which have the ligand as the 289th residue).
 
 Usage: python contact_analysis.py trajectory_short.mdcrd solvated_complex.top
 '''
