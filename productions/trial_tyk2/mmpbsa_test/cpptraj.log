@@ -2,3 +2,9 @@
 parm tyk2_10_2.prm7
 parmstrip :WAT
 parmwrite out tyk2_10_unsolvated.prm7
+# 01/11/21 13:29:32
+--help
+parmstrip --help
+parm tyk2_10_unsolvated.prm7
+parmstrip :NA
+parmwrite out tyk2_10_unsolvated_nona.prm7
