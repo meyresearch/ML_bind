@@ -41,9 +41,9 @@ simulation.step(100)
 
 system.addForce(mm.MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
 
-simulation.reporters.append(app.DCDReporter('trajectory.dcd', 1000))
-simulation.reporters.append(app.StateDataReporter(stdout, 1000, step=True,
-    potentialEnergy=True, temperature=True, progress=True, remainingTime=True, volume=True, 
+simulation.reporters.append(app.DCDReporter('trajectory.dcd', 100))
+simulation.reporters.append(app.StateDataReporter(stdout, 100, step=True,
+    potentialEnergy=True, temperature=True, progress=True, remainingTime=True, volume=True,
     speed=True, totalSteps=1000, separator='\t'))
 
 print('Running Production...')
