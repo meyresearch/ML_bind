@@ -32,7 +32,7 @@ def equilibration(prmtop_file, crd_file):
     # Simulation reporters
     simulation.reporters.append(DCDReporter('equilibration.dcd', 100))
     simulation.reporters.append(StateDataReporter('equilibration.csv', 100, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True, volume = True , totalEnergy= True, separator='\t'))
-    simulation.step(250)
+    simulation.step(5000)
 
     # Saving data
     positions = simulation.context.getState(getPositions=True).getPositions()
@@ -64,14 +64,14 @@ def production(prmtop_file, crd_file, positions, velocities):
     # Set velocities from end of equilibration
     simulation.context.setVelocities(velocities)
 
-    print("Running production")
+    print("Running production...")
 
     # Simulation reporters
     simulation.reporters.append(DCDReporter('production.dcd', 100))
     simulation.reporters.append(StateDataReporter('production.csv', 100, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True,volume=True, totalEnergy= True, separator='\t'))
     simulation.reporters.append(MdcrdReporter('production.mdcrd', 100))
 
-    simulation.step(3000)
+    simulation.step(30000)
 
     # Save final frame to PDB file
     positions = simulation.context.getState(getPositions=True).getPositions()
@@ -82,4 +82,4 @@ if __name__ == '__main__':
     deviceindex = sys.argv[3]
     positions, velocities = equilibration(sys.argv[1], sys.argv[2])
     production(sys.argv[1], sys.argv[2], positions, velocities)
-    print("Done.")
+    print("Done!")
