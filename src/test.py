@@ -12,8 +12,8 @@ import sys
 
 prmtop_file=sys.argv[1]
 crd_file=sys.argv[2]
-prmtop = AmberPrmtopFile(prmtop_file)
-inpcrd = AmberInpcrdFile(crd_file)
+prmtop = app.AmberPrmtopFile(prmtop_file)
+inpcrd = app.AmberInpcrdFile(crd_file)
 system = prmtop.createSystem(nonbondedMethod=app.PME,
     nonbondedCutoff=1.0*unit.nanometers, constraints=app.HBonds, rigidWater=True,
     ewaldErrorTolerance=0.0005)
