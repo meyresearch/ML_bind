@@ -36,9 +36,6 @@ if __name__ == '__main__':
     simulation.reporters.append(StateDataReporter('equilibration.csv', 100, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True, volume = True , totalEnergy= True, separator='\t'))
     simulation.step(250)
 
-    # NPT for production:
-    system.addForce(MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
-
     # Saving data
     positions = simulation.context.getState(getPositions=True).getPositions()
     velocities = simulation.context.getState(getVelocities=True).getVelocities()
@@ -46,7 +43,26 @@ if __name__ == '__main__':
     checkpoint = 'equilibration.chk'
     simulation.saveCheckpoint(checkpoint)
 
+    #simulation production
+    prmtop = AmberPrmtopFile(sys.argv[1])
+    inpcrd = AmberInpcrdFile(sys.argv[2])
+    system = prmtop.createSystem(nonbondedMethod=PME,
+    nonbondedCutoff=1.0*unit.nanometers, constraints=HBonds, rigidWater=True,
+    ewaldErrorTolerance=0.0005)
+    # NPT for production:
+    system.addForce(MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
+    integrator = LangevinIntegrator(300*unit.kelvin, 1.0/unit.picoseconds,
+    2.0*unit.femtoseconds)
+    integrator.setConstraintTolerance(0.00001)
+    platform = Platform.getPlatformByName('OpenCL')
+    properties = {'OpenCLPrecision': 'mixed', 'OpenCLDeviceIndex': str(deviceindex)}
+    simulation = Simulation(prmtop.topology, system, integrator, platform, properties)
 
+    # Set the positions from end of equilibration
+    simulation.context.setPositions(positions)
+    # Set the velocities from end of equilibration
+    simulation.context.setVelocities(velocities)
+    print('Equilibrating...')
 
     #Removing equilibration reporters
     simulation.reporters.pop(-1)
