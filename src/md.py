@@ -41,9 +41,9 @@ def equilibration(prmtop_file, crd_file):
     checkpoint = 'equilibration.chk'
     simulation.saveCheckpoint(checkpoint)
 
-    return eq_positions, eq_velocities
+    return positions, velocities
 
-def production(prmtop_file, crd_file, eq_positions, eq_velocities):
+def production(prmtop_file, crd_file, positions, velocities):
     prmtop = AmberPrmtopFile(prmtop_file)
     inpcrd = AmberInpcrdFile(crd_file)
     system = prmtop.createSystem(nonbondedMethod=PME,
@@ -59,11 +59,9 @@ def production(prmtop_file, crd_file, eq_positions, eq_velocities):
     simulation = Simulation(prmtop.topology, system, integrator, platform, properties)
 
     # Set positions from end of equilibration
-    positions=eq_positions
     simulation.context.setPositions(positions)
 
     # Set velocities from end of equilibration
-    velocities=eq_velocities
     simulation.context.setVelocities(velocities)
 
     print("Running production")
@@ -83,4 +81,4 @@ def production(prmtop_file, crd_file, eq_positions, eq_velocities):
 if __name__ == '__main__':
     deviceindex = sys.argv[3]
     positions, velocities = equilibration(sys.argv[1], sys.argv[2])
-    production(sys.argv[1], sys.argv[2])
+    production(sys.argv[1], sys.argv[2], positions, velocities)
