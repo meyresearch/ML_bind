@@ -36,14 +36,17 @@ if __name__ == '__main__':
     simulation.reporters.append(StateDataReporter('equilibration.csv', 100, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True, volume = True , totalEnergy= True, separator='\t'))
     simulation.step(250)
 
+    # NPT for production:
+    system.addForce(MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
+
     # Saving data
     positions = simulation.context.getState(getPositions=True).getPositions()
     velocities = simulation.context.getState(getVelocities=True).getVelocities()
     PDBFile.writeFile(simulation.topology, positions, open('equilibration.pdb', 'w'))
     checkpoint = 'equilibration.chk'
     simulation.saveCheckpoint(checkpoint)
-    # NPT for production:
-    system.addForce(MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
+
+
 
     #Removing equilibration reporters
     simulation.reporters.pop(-1)
