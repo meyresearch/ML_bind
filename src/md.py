@@ -82,3 +82,4 @@ if __name__ == '__main__':
     deviceindex = sys.argv[3]
     positions, velocities = equilibration(sys.argv[1], sys.argv[2])
     production(sys.argv[1], sys.argv[2], positions, velocities)
+    print("Done.")
