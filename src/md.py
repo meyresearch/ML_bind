@@ -41,7 +41,7 @@ def equilibration(prmtop_file, crd_file):
     checkpoint = 'equilibration.chk'
     simulation.saveCheckpoint(checkpoint)
     # NPT for production:
-    simulation.system.addForce(MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
+    system.addForce(MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
     return simulation
 
 def production(simulation):
