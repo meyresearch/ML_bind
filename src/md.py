@@ -32,7 +32,7 @@ def equilibration(prmtop_file, crd_file):
     # Simulation reporters
     simulation.reporters.append(DCDReporter('equilibration.dcd', 100))
     simulation.reporters.append(StateDataReporter('equilibration.csv', 100, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True, volume = True , totalEnergy= True, separator='\t'))
-    simulation.step(250000)
+    simulation.step(2500)
 
     # Saving data
     positions = simulation.context.getState(getPositions=True).getPositions()
@@ -40,12 +40,11 @@ def equilibration(prmtop_file, crd_file):
     PDBFile.writeFile(simulation.topology, positions, open('equilibration.pdb', 'w'))
     checkpoint = 'equilibration.chk'
     simulation.saveCheckpoint(checkpoint)
+    # NPT for production:
+    simulation.system.addForce(MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
     return simulation
 
 def production(simulation):
-
-    # NPT for production:
-    simulation.system.addForce(MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
 
     #Removing equilibration reporters
     simulation.reporters.pop(-1)
@@ -56,7 +55,7 @@ def production(simulation):
     simulation.reporters.append(DCDReporter('production.dcd', 100))
     simulation.reporters.append(StateDataReporter('production.csv', 100, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True,volume=True, totalEnergy= True, separator='\t'))
     simulation.reporters.append(MdcrdReporter('production.mdcrd', 100))
-    simulation.step(3000000)
+    simulation.step(30000)
 
     # Save final frame to PDB file
     positions = simulation.context.getState(getPositions=True).getPositions()
