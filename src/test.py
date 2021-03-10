@@ -21,7 +21,7 @@ system = prmtop.createSystem(nonbondedMethod=app.PME,
 integrator = mm.LangevinIntegrator(300*unit.kelvin, 1.0/unit.picoseconds,
     2.0*unit.femtoseconds)
 integrator.setConstraintTolerance(0.00001)
-system.addForce(mm.MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
+
 platform = mm.Platform.getPlatformByName('OpenCL')
 properties = {'OpenCLPrecision': 'mixed', 'OpenCLDeviceIndex': str(deviceindex)}
 simulation = app.Simulation(prmtop.topology, system, integrator, platform,
@@ -34,6 +34,7 @@ simulation.minimizeEnergy()
 simulation.context.setVelocitiesToTemperature(300*unit.kelvin)
 print('Equilibrating...')
 simulation.step(100)
+system.addForce(mm.MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
 
 simulation.reporters.append(app.DCDReporter('trajectory.dcd', 1000))
 simulation.reporters.append(app.StateDataReporter(stdout, 100, step=True,
