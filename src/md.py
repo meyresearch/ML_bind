@@ -40,21 +40,37 @@ def equilibration(prmtop_file, crd_file):
     PDBFile.writeFile(simulation.topology, positions, open('equilibration.pdb', 'w'))
     checkpoint = 'equilibration.chk'
     simulation.saveCheckpoint(checkpoint)
+
+    return positions, velocities
+
+def production(prmtop_file, crd_file):
+    prmtop = AmberPrmtopFile(prmtop_file)
+    inpcrd = AmberInpcrdFile(crd_file)
+    system = prmtop.createSystem(nonbondedMethod=PME,
+    nonbondedCutoff=1.0*unit.nanometers, constraints=HBonds, rigidWater=True,
+    ewaldErrorTolerance=0.0005)
     # NPT for production:
     system.addForce(MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
-    return simulation
+    integrator = LangevinIntegrator(300*unit.kelvin, 1.0/unit.picoseconds,
+    2.0*unit.femtoseconds)
+    integrator.setConstraintTolerance(0.00001)
+    platform = Platform.getPlatformByName('OpenCL')
+    properties = {'OpenCLPrecision': 'mixed', 'OpenCLDeviceIndex': str(deviceindex)}
+    simulation = Simulation(prmtop.topology, system, integrator, platform, properties)
 
-def production(simulation):
-    print(type(simulation))
-    #Removing equilibration reporters
-    simulation.reporters.pop(-1)
-    simulation.reporters.pop(-1)
+    # Set positions from end of equilibration
+    simulation.context.setPositions(positions)
+
+    # Set velocities from end of equilibration
+    simulation.context.setVelocities(velocities)
 
     print("Running production")
+
     # Simulation reporters
     simulation.reporters.append(DCDReporter('production.dcd', 100))
     simulation.reporters.append(StateDataReporter('production.csv', 100, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True,volume=True, totalEnergy= True, separator='\t'))
     simulation.reporters.append(MdcrdReporter('production.mdcrd', 100))
+
     simulation.step(3000)
 
     # Save final frame to PDB file
@@ -64,5 +80,5 @@ def production(simulation):
 
 if __name__ == '__main__':
     deviceindex = sys.argv[3]
-    simulation = equilibration(sys.argv[1], sys.argv[2])
-    production(simulation)
+    positions, velocities = equilibration(sys.argv[1], sys.argv[2])
+    production(sys.argv[1], sys.argv[2])
