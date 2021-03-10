@@ -18,6 +18,7 @@ inpcrd = app.AmberInpcrdFile(crd_file)
 system = prmtop.createSystem(nonbondedMethod=app.PME,
     nonbondedCutoff=1.0*unit.nanometers, constraints=app.HBonds, rigidWater=True,
     ewaldErrorTolerance=0.0005)
+system.addForce(mm.MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
 integrator = mm.LangevinIntegrator(300*unit.kelvin, 1.0/unit.picoseconds,
     2.0*unit.femtoseconds)
 integrator.setConstraintTolerance(0.00001)
@@ -37,8 +38,6 @@ simulation.context.setVelocitiesToTemperature(300*unit.kelvin)
 
 print('Equilibrating...')
 simulation.step(100)
-
-simulation.system.addForce(mm.MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
 
 
 simulation.reporters.append(app.DCDReporter('trajectory.dcd', 100))
