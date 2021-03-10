@@ -38,7 +38,7 @@ simulation.context.setVelocitiesToTemperature(300*unit.kelvin)
 print('Equilibrating...')
 simulation.step(100)
 
-app.simulation.system.addForce(mm.MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
+simulation.system.addForce(mm.MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
 
 simulation.reporters.append(app.DCDReporter('trajectory.dcd', 100))
 simulation.reporters.append(app.StateDataReporter(stdout, 100, step=True,
