@@ -21,7 +21,7 @@ integrator = mm.LangevinIntegrator(300*unit.kelvin, 1.0/unit.picoseconds,
     2.0*unit.femtoseconds)
 integrator.setConstraintTolerance(0.00001)
 system.addForce(mm.MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
-platform = mm.getPlatformByName('OpenCL')
+platform = app.getPlatformByName('OpenCL')
 properties = {'OpenCLPrecision': 'mixed', 'OpenCLDeviceIndex': str(deviceindex)}
 simulation = app.Simulation(prmtop.topology, system, integrator, platform,
     properties)
