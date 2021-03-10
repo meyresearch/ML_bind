@@ -35,8 +35,8 @@ simulation.context.setVelocitiesToTemperature(300*unit.kelvin)
 print('Equilibrating...')
 simulation.step(100)
 
-simulation.reporters.append(DCDReporter('equilibration.dcd', 100))
-simulation.reporters.append(StateDataReporter('equilibration.csv', 100, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True, volume = True , totalEnergy= True, separator='\t'))
+simulation.app.reporters.append(DCDReporter('equilibration.dcd', 100))
+simulation.app.reporters.append(StateDataReporter('equilibration.csv', 100, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True, volume = True , totalEnergy= True, separator='\t'))
 
 system.addForce(mm.MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
 
