@@ -33,8 +33,8 @@ simulation.minimizeEnergy()
 
 simulation.context.setVelocitiesToTemperature(300*unit.kelvin)
 
-simulation.reporters.append(app.DCDReporter('equilibration.dcd', 100))
-simulation.reporters.append(app.StateDataReporter('equilibration.csv', 100, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True, volume = True , totalEnergy= True, separator='\t'))
+#simulation.reporters.append(app.DCDReporter('equilibration.dcd', 100))
+#simulation.reporters.append(app.StateDataReporter('equilibration.csv', 100, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True, volume = True , totalEnergy= True, separator='\t'))
 
 print('Equilibrating...')
 simulation.step(100)
