@@ -12,6 +12,7 @@ import sys
 
 prmtop_file=sys.argv[1]
 crd_file=sys.argv[2]
+deviceindex = sys.argv[3]
 prmtop = app.AmberPrmtopFile(prmtop_file)
 inpcrd = app.AmberInpcrdFile(crd_file)
 system = prmtop.createSystem(nonbondedMethod=app.PME,
