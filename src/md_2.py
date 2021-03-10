@@ -6,9 +6,11 @@ from simtk import unit
 from sys import stdout
 import sys
 
-def equilibration(prmtop_file, crd_file):
-    prmtop = AmberPrmtopFile(prmtop_file)
-    inpcrd = AmberInpcrdFile(crd_file)
+if __name__ == '__main__':
+    deviceindex = sys.argv[3]
+
+    prmtop = AmberPrmtopFile(sys.argv[1])
+    inpcrd = AmberInpcrdFile(sys.argv[2])
     system = prmtop.createSystem(nonbondedMethod=PME,
     nonbondedCutoff=1.0*unit.nanometers, constraints=HBonds, rigidWater=True,
     ewaldErrorTolerance=0.0005)
@@ -42,10 +44,7 @@ def equilibration(prmtop_file, crd_file):
     simulation.saveCheckpoint(checkpoint)
     # NPT for production:
     system.addForce(MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
-    return simulation
 
-def production(simulation):
-    print(type(simulation))
     #Removing equilibration reporters
     simulation.reporters.pop(-1)
     simulation.reporters.pop(-1)
@@ -60,9 +59,3 @@ def production(simulation):
     # Save final frame to PDB file
     positions = simulation.context.getState(getPositions=True).getPositions()
     PDBFile.writeFile(simulation.topology, positions, open('production.pdb', 'w'))
-
-
-if __name__ == '__main__':
-    deviceindex = sys.argv[3]
-    simulation = equilibration(sys.argv[1], sys.argv[2])
-    production(simulation)
