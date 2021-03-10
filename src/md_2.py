@@ -63,10 +63,7 @@ if __name__ == '__main__':
     # Set the velocities from end of equilibration
     simulation.context.setVelocities(velocities)
     print('Equilibrating...')
-
-    #Removing equilibration reporters
-    simulation.reporters.pop(-1)
-    simulation.reporters.pop(-1)
+    
 
     print("Running production")
     # Simulation reporters
