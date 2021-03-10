@@ -34,12 +34,11 @@ simulation.minimizeEnergy()
 simulation.context.setVelocitiesToTemperature(300*unit.kelvin)
 print('Equilibrating...')
 simulation.step(100)
-system.addForce(mm.MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
 
-simulation.reporters.append(app.DCDReporter('trajectory.dcd', 1000))
-simulation.reporters.append(app.StateDataReporter(stdout, 100, step=True,
-    potentialEnergy=True, temperature=True, volume=True, progress=True, remainingTime=True,
-    speed=True, totalSteps=1000, separator='\t'))
+simulation.reporters.append(DCDReporter('equilibration.dcd', 100))
+simulation.reporters.append(StateDataReporter('equilibration.csv', 100, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True, volume = True , totalEnergy= True, separator='\t'))
+
+system.addForce(mm.MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
 
 print('Running Production...')
 simulation.step(1000)
