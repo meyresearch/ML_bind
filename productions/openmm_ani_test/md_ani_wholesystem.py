@@ -9,22 +9,20 @@ from openmmml import MLPotential
 
 prmtop_file=sys.argv[1]
 crd_file=sys.argv[2]
-pdb_file=sys.argv[3]
 prmtop = AmberPrmtopFile(prmtop_file)
 inpcrd = AmberInpcrdFile(crd_file)
-pdb= PDBFile(pdb_file)
 
 potential = MLPotential('ani2x')
-system = potential.createSystem(pdb.topology)
+system = potential.createSystem(prmtop.topology)
 
 integrator = LangevinIntegrator(300*unit.kelvin, 1.0/unit.picoseconds,
 2.0*unit.femtoseconds)
 integrator.setConstraintTolerance(0.00001)
 platform = Platform.getPlatformByName('OpenCL')
 properties = {'OpenCLPrecision': 'mixed'}
-simulation = Simulation(pdb.topology, system, integrator, platform, properties)
+simulation = Simulation(prmtop.topology, system, integrator, platform, properties)
 # Set the current positions
-simulation.context.setPositions(pdb.positions)
+simulation.context.setPositions(inpcrd.positions)
 
 print('Minimizing...')
 simulation.minimizeEnergy()
