@@ -13,7 +13,7 @@ prmtop = AmberPrmtopFile(prmtop_file)
 inpcrd = AmberInpcrdFile(crd_file)
 
 potential = MLPotential('ani2x')
-system = potential.createSystem(prmtop)
+system = potential.createSystem(prmtop.topology)
 
 integrator = LangevinIntegrator(300*unit.kelvin, 1.0/unit.picoseconds,
 2.0*unit.femtoseconds)
