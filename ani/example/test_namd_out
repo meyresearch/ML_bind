@@ -1,0 +1,2407 @@
+Charm++: standalone mode (not using charmrun)
+Charm++> Running in Multicore mode: 4 threads (PEs)
+Charm++> Using recursive bisection (scheme 3) for topology aware partitions
+Converse/Charm++ Commit ID: v6.10.2-0-g7bf00fa-namd-charm-6.10.2-build-2020-Aug-05-556
+Warning> Randomization of virtual memory (ASLR) is turned on in the kernel, thread migration may not work! Run 'echo 0 > /proc/sys/kernel/randomize_va_space' as root to disable it, or try running with '+isomalloc_sync'.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 1 hosts (1 sockets x 10 cores x 2 PUs = 20-way SMP)
+Charm++> cpu topology info is gathered in 0.001 seconds.
+Info: NAMD 2.14 for Linux-x86_64-multicore
+Info: 
+Info: Please visit http://www.ks.uiuc.edu/Research/namd/
+Info: for updates, documentation, and support information.
+Info: 
+Info: Please cite Phillips et al., J. Chem. Phys. 153:044130 (2020) doi:10.1063/5.0014475
+Info: in all publications reporting results obtained with NAMD.
+Info: 
+Info: Based on Charm++/Converse 61002 for multicore-linux-x86_64-iccstatic
+Info: Built Mon Aug 24 10:08:36 CDT 2020 by jim on belfast.ks.uiuc.edu
+Info: 1 NAMD  2.14  Linux-x86_64-multicore  4    azuma  ppxasjsm
+Info: Running on 4 processors, 1 nodes, 1 physical nodes.
+Info: CPU topology information available.
+Info: Charm++/Converse parallel runtime startup completed at 0.00442927 s
+CkLoopLib is used in SMP with simple dynamic scheduling (converse-level notification)
+Info: 269.195 MB of memory in use based on /proc/self/stat
+Info: Configuration file is md.conf
+Info: Working in the current directory /home/ppxasjsm/Projects/namd_ani/NNP-MM/examples/erlotinib-water
+TCL: Suspending until startup complete.
+Info: EXTENDED SYSTEM FILE   initial.xsc
+Info: SIMULATION PARAMETERS:
+Info: TIMESTEP               2
+Info: NUMBER OF STEPS        0
+Info: STEPS PER CYCLE        10
+Info: PERIODIC CELL BASIS 1  54.9752 0 0
+Info: PERIODIC CELL BASIS 2  0 57.3749 0
+Info: PERIODIC CELL BASIS 3  0 0 53.2634
+Info: PERIODIC CELL CENTER   3.41 -21.7 23.9
+Info: WRAPPING ALL CLUSTERS AROUND PERIODIC BOUNDARIES ON OUTPUT.
+Info: LOAD BALANCER  Centralized
+Info: LOAD BALANCING STRATEGY  New Load Balancers -- DEFAULT
+Info: LDB PERIOD             2000 steps
+Info: FIRST LDB TIMESTEP     50
+Info: LAST LDB TIMESTEP     -1
+Info: LDB BACKGROUND SCALING 1
+Info: HOM BACKGROUND SCALING 1
+Info: MIN ATOMS PER PATCH    40
+Info: INITIAL TEMPERATURE    298.15
+Info: CENTER OF MASS MOVING INITIALLY? NO
+Info: DIELECTRIC             1
+Info: EXCLUDE                SCALED ONE-FOUR
+Info: 1-4 ELECTROSTATICS SCALED BY 1
+Info: MODIFIED 1-4 VDW PARAMETERS WILL BE USED
+Info: DCD FILENAME           md.dcd
+Info: DCD FREQUENCY          10000
+Info: DCD FIRST STEP         10000
+Info: DCD FILE WILL CONTAIN UNIT CELL DATA
+Info: XST FILENAME           md.xst
+Info: XST FREQUENCY          10000
+Info: NO VELOCITY DCD OUTPUT
+Info: NO FORCE DCD OUTPUT
+Info: OUTPUT FILENAME        md
+Info: BINARY OUTPUT FILES WILL BE USED
+Info: RESTART FILENAME       md.restart
+Info: RESTART FREQUENCY      10000
+Info: BINARY RESTART FILES WILL BE USED
+Info: SWITCHING ACTIVE
+Info: SWITCHING ON           10
+Info: SWITCHING OFF          12
+Info: PAIRLIST DISTANCE      14
+Info: PAIRLIST SHRINK RATE   0.01
+Info: PAIRLIST GROW RATE     0.01
+Info: PAIRLIST TRIGGER       0.3
+Info: PAIRLISTS PER CYCLE    2
+Info: PAIRLISTS ENABLED
+Info: MARGIN                 0.495
+Info: HYDROGEN GROUP CUTOFF  2.5
+Info: PATCH DIMENSION        16.995
+Info: ENERGY OUTPUT STEPS    10000
+Info: CROSSTERM ENERGY INCLUDED IN DIHEDRAL
+Info: TIMING OUTPUT STEPS    100000
+Info: PRESSURE OUTPUT STEPS  10000
+Info: QM FORCES ACTIVE
+Info: QM PDB PARAMETER FILE: qmmm.pdb
+Info: QM SOFTWARE: custom
+Info: QM ATOM CHARGES FROM QM SOFTWARE: NONE
+Info: QM EXECUTABLE PATH: /home/ppxasjsm/Projects/namd_ani/NNP-MM/client.py
+Info: QM COLUMN: occ
+Info: QM BASE DIRECTORY: /dev/shm
+Info: QM POINT CHARGES WILL BE SELECTED EVERY 1 STEPS.
+Info: QM executions per node: 1
+Info: COLLECTIVE VARIABLES CALCULATION REQUESTED
+Info: COLLECTIVE VARIABLES CONFIGURATION   rest.tcl
+Info: LANGEVIN DYNAMICS ACTIVE
+Info: LANGEVIN TEMPERATURE   298.15
+Info: LANGEVIN USING BBK INTEGRATOR
+Info: LANGEVIN DAMPING COEFFICIENT IS 1 INVERSE PS
+Info: LANGEVIN DYNAMICS NOT APPLIED TO HYDROGENS
+Info: LANGEVIN PISTON PRESSURE CONTROL ACTIVE
+Info:        TARGET PRESSURE IS 1.01325 BAR
+Info:     OSCILLATION PERIOD IS 100 FS
+Info:             DECAY TIME IS 50 FS
+Info:     PISTON TEMPERATURE IS 298.15 K
+Info:       PRESSURE CONTROL IS GROUP-BASED
+Info:    INITIAL STRAIN RATE IS -6.84836e-05 -6.84836e-05 -6.84836e-05
+Info:       CELL FLUCTUATION IS ISOTROPIC
+Info: USING VERLET I (r-RESPA) MTS SCHEME.
+Info: C1 SPLITTING OF LONG RANGE ELECTROSTATICS
+Info: PLACING ATOMS IN PATCHES BY HYDROGEN GROUPS
+Info: RIGID BONDS TO HYDROGEN : ALL
+Info:         ERROR TOLERANCE : 1e-08
+Info:          MAX ITERATIONS : 100
+Info: RIGID WATER USING SETTLE ALGORITHM
+Info: RANDOM NUMBER SEED     1615815700
+Info: USE HYDROGEN BONDS?    NO
+Info: COORDINATE PDB         solvate.pdb
+Info: STRUCTURE FILE         solvate.psf
+Info: PARAMETER file: CHARMM format! 
+Info: PARAMETERS             toppar/mol.prm
+Info: PARAMETERS             toppar/par_all36m_prot.prm
+Info: PARAMETERS             toppar/par_all36_cgenff.prm
+Info: PARAMETERS             toppar/toppar_water_ions.prm
+Info: PARAMETERS             toppar/par_all36_lipid.prm
+Info: PARAMETERS             toppar/par_all36_carb.prm
+Info: PARAMETERS             toppar/par_all36_na.prm
+Info: USING ARITHMETIC MEAN TO COMBINE L-J SIGMA PARAMETERS
+Info: BINARY COORDINATES     initial.coor
+Info: SUMMARY OF PARAMETERS:
+Info: 955 BONDS
+Info: 2808 ANGLES
+Info: 6905 DIHEDRAL
+Info: 198 IMPROPER
+Info: 6 CROSSTERM
+Info: 355 VDW
+Info: 78 VDW_PAIRS
+Info: 0 NBTHOLE_PAIRS
+Info: TIME FOR READING PSF FILE: 0.0647365
+Info: Reading pdb file solvate.pdb
+Info: TIME FOR READING PDB FILE: 0.0157498
+Info: 
+Info: Using the following PDB file for QM parameters: qmmm.pdb
+Info: Number of QM atoms (excluding Dummy atoms): 40
+Info: 1) Group ID: 1 ; Group size: 40 atoms ; Total PSF charge: -0
+Info: ****************************
+Info: STRUCTURE SUMMARY:
+Info: 17074 ATOMS
+Info: 11398 BONDS
+Info: 5746 ANGLES
+Info: 96 DIHEDRALS
+Info: 2 IMPROPERS
+Info: 0 CROSSTERMS
+Info: 0 EXCLUSIONS
+Info: 17051 RIGID BONDS
+Info: 34171 DEGREES OF FREEDOM
+Info: 5701 HYDROGEN GROUPS
+Info: 3 ATOMS IN LARGEST HYDROGEN GROUP
+Info: 5701 MIGRATION GROUPS
+Info: 3 ATOMS IN LARGEST MIGRATION GROUP
+Info: TOTAL MASS = 102599 amu
+Info: TOTAL CHARGE = -2.04891e-08 e
+Info: MASS DENSITY = 1.01411 g/cm^3
+Info: ATOM DENSITY = 0.101629 atoms/A^3
+Info: *****************************
+Info: Reading from binary file initial.coor
+Info: 
+Info: Entering startup at 0.270655 s, 295.816 MB of memory in use
+Info: Startup phase 0 took 7.5981e-05 s, 295.816 MB of memory in use
+Info: The QM region will remove 42 bonds, 68 angles, 96 dihedrals, 2 impropers and 0 crossterms.
+Info: ADDED 17229 IMPLICIT EXCLUSIONS
+Info: Startup phase 1 took 0.00286901 s, 296.875 MB of memory in use
+Info: NONBONDED TABLE R-SQUARED SPACING: 0.0625
+Info: NONBONDED TABLE SIZE: 769 POINTS
+Info: ABSOLUTE IMPRECISION IN FAST TABLE ENERGY: 3.38813e-21 AT 11.8295
+Info: RELATIVE IMPRECISION IN FAST TABLE ENERGY: 5.45773e-14 AT 11.9138
+Info: ABSOLUTE IMPRECISION IN FAST TABLE FORCE: 8.47033e-22 AT 11.9138
+Info: RELATIVE IMPRECISION IN FAST TABLE FORCE: 1.6856e-15 AT 11.9138
+Info: INCONSISTENCY IN FAST TABLE ENERGY VS FORCE: 0.000290274 AT 0.251946
+Info: ABSOLUTE IMPRECISION IN VDWA TABLE ENERGY: 9.86076e-32 AT 11.8295
+Info: RELATIVE IMPRECISION IN VDWA TABLE ENERGY: 6.75473e-14 AT 11.9138
+Info: ABSOLUTE IMPRECISION IN VDWA TABLE FORCE: 4.62223e-32 AT 11.9138
+Info: RELATIVE IMPRECISION IN VDWA TABLE FORCE: 2.12237e-15 AT 11.9138
+Info: INCONSISTENCY IN VDWA TABLE ENERGY VS FORCE: 0.0040507 AT 0.251946
+Info: ABSOLUTE IMPRECISION IN VDWB TABLE ENERGY: 4.1359e-25 AT 11.8295
+Info: RELATIVE IMPRECISION IN VDWB TABLE ENERGY: 7.56853e-15 AT 11.9138
+Info: ABSOLUTE IMPRECISION IN VDWB TABLE FORCE: 3.87741e-26 AT 11.9138
+Info: RELATIVE IMPRECISION IN VDWB TABLE FORCE: 5.97409e-16 AT 11.9138
+Info: INCONSISTENCY IN VDWB TABLE ENERGY VS FORCE: 0.00150189 AT 0.251946
+Info: Startup phase 2 took 0.00280381 s, 301.078 MB of memory in use
+Info: Startup phase 3 took 6.0866e-05 s, 301.078 MB of memory in use
+Info: Startup phase 4 took 9.7372e-05 s, 301.211 MB of memory in use
+Info: Startup phase 5 took 3.5454e-05 s, 301.211 MB of memory in use
+Info: PATCH GRID IS 3 (PERIODIC) BY 3 (PERIODIC) BY 3 (PERIODIC)
+Info: PATCH GRID IS 1-AWAY BY 1-AWAY BY 1-AWAY
+Info: REMOVING COM VELOCITY 0.0688041 0.0328052 -0.00658526
+Info: LARGEST PATCH (7) HAS 666 ATOMS
+Info: TORUS A SIZE 1 USING 0
+Info: TORUS B SIZE 1 USING 0
+Info: TORUS C SIZE 1 USING 0
+Info: TORUS MINIMAL MESH SIZE IS 1 BY 1 BY 1
+Info: Placed 100% of base nodes on same physical node as patch
+Info: Startup phase 6 took 0.00375736 s, 305.266 MB of memory in use
+Info: Startup phase 7 took 7.1833e-05 s, 305.266 MB of memory in use
+Info: Startup phase 8 took 3.7635e-05 s, 305.266 MB of memory in use
+Info: Startup phase 9 took 3.7765e-05 s, 305.266 MB of memory in use
+Info: Startup phase 10 took 3.6659e-05 s, 305.266 MB of memory in use
+Info: Startup phase 11 took 0.000114851 s, 305.266 MB of memory in use
+LDB: Central LB being created...
+Info: Startup phase 12 took 0.000114632 s, 305.266 MB of memory in use
+Info: CREATING 541 COMPUTE OBJECTS
+colvars: ----------------------------------------------------------------------
+colvars: Initializing the collective variables module, version "2020-07-07".
+colvars: Please cite Fiorin et al, Mol Phys 2013:
+colvars:  https://dx.doi.org/10.1080/00268976.2013.813594
+colvars: in any publication based on this calculation.
+colvars: SMP parallelism is enabled; if needed, use "smp off" to override this.
+colvars: This version was built with the C++11 standard or higher.
+colvars: Using NAMD interface, version "2020-05-04".
+colvars: ----------------------------------------------------------------------
+colvars: Reading new configuration from file "rest.tcl":
+colvars: # units = "" [default]
+colvars: # smp = on [default]
+colvars: # colvarsTrajFrequency = 500
+colvars: # colvarsRestartFrequency = 10000 [default]
+colvars: # scriptedColvarForces = off [default]
+colvars: # scriptingAfterBiases = off [default]
+colvars: ----------------------------------------------------------------------
+colvars:   Initializing a new collective variable.
+colvars:   # name = "solute1"
+colvars:   Initializing a new "distance" component.
+colvars:     # name = "" [default]
+colvars:     # componentCoeff = 1 [default]
+colvars:     # componentExp = 1 [default]
+colvars:     # period = 0 [default]
+colvars:     # wrapAround = 0 [default]
+colvars:     # forceNoPBC = off [default]
+colvars:     # scalable = on [default]
+colvars:       Initializing atom group "group1".
+colvars:       # name = "" [default]
+colvars:       # centerReference = off [default]
+colvars:       # rotateReference = off [default]
+colvars:       # atomsOfGroup = "" [default]
+colvars:       # indexGroup = "" [default]
+colvars:       # psfSegID =  [default]
+colvars:       # atomsFile = "" [default]
+colvars:       # dummyAtom = ( 0 , 0 , 0 ) [default]
+colvars:       # enableForces = on [default]
+colvars:       # enableFitGradients = on [default]
+colvars:       Enabling scalable calculation for group "group1".
+colvars:       # printAtomIDs = off [default]
+colvars:       Atom group "group1" defined with 52 atoms requested: total mass = 379.415, total charge = -2.04891e-08.
+colvars:       Initializing atom group "group2".
+colvars:       # name = "" [default]
+colvars:       # centerReference = off [default]
+colvars:       # rotateReference = off [default]
+colvars:       # atomsOfGroup = "" [default]
+colvars:       # indexGroup = "" [default]
+colvars:       # psfSegID =  [default]
+colvars:       # atomsFile = "" [default]
+colvars:       # dummyAtom = ( 3.41 , -21.8 , 23.9 )
+colvars:       # enableFitGradients = on [default]
+colvars:       # printAtomIDs = off [default]
+colvars:       Atom group "group2" defined with 0 atoms requested: total mass = 1, total charge = 0.
+colvars:     # oneSiteSystemForce = off [default]
+colvars:     # oneSiteTotalForce = off [default]
+colvars:   All components initialized.
+colvars:   # timeStepFactor = 1 [default]
+colvars:   # width = 1 [default]
+colvars:   # lowerBoundary = 0 [default]
+colvars:   # upperBoundary = 0 [default]
+colvars:   # hardLowerBoundary = on [default]
+colvars:   # hardUpperBoundary = off [default]
+colvars:   # expandBoundaries = off [default]
+colvars:   # extendedLagrangian = off [default]
+colvars:   # outputValue = on [default]
+colvars:   # outputVelocity = off [default]
+colvars:   # outputTotalForce = off [default]
+colvars:   # outputAppliedForce = off [default]
+colvars:   # subtractAppliedForce = off [default]
+colvars:   # runAve = off [default]
+colvars:   # corrFunc = off [default]
+colvars: ----------------------------------------------------------------------
+colvars: Collective variables initialized, 1 in total.
+colvars: ----------------------------------------------------------------------
+colvars:   Initializing a new "harmonic" instance.
+colvars:   # name = "soluterest1"
+colvars:   # colvars = { solute1 }
+colvars:   # stepZeroData = off [default]
+colvars:   # outputEnergy = off [default]
+colvars:   # outputFreq = 10000 [default]
+colvars:   # timeStepFactor = 1 [default]
+colvars:   # writeTISamples = off [default]
+colvars:   # writeTIPMF = off [default]
+colvars:   # centers = { 0 }
+colvars:   # targetCenters = { 0 } [default]
+colvars:   # outputCenters = off [default]
+colvars:   # forceConstant = 1
+colvars:   # targetForceConstant = -1 [default]
+colvars:   The force constant for colvar "solute1" will be rescaled to 1 according to the specified width (1).
+colvars: ----------------------------------------------------------------------
+colvars: Collective variables biases initialized, 1 in total.
+colvars: ----------------------------------------------------------------------
+colvars: Collective variables module (re)initialized.
+colvars: ----------------------------------------------------------------------
+colvars: Updating NAMD interface:
+colvars: Warning: enabling wrapAll can lead to inconsistent results for Colvars calculations: please disable wrapAll, as is the default option in NAMD.
+colvars: updating atomic data (0 atoms).
+colvars: updating group data (1 scalable groups, 52 atoms in total).
+colvars: updating grid object data (0 grid objects in total).
+colvars: Re-initialized atom group for variable "solute1":0/0. 52 atoms: total mass = 379.415, total charge = -2.04891e-08.
+colvars: Re-initialized atom group for variable "solute1":0/1. 0 atoms: total mass = 1, total charge = 0.
+colvars: The restart output state file will be "md.restart.colvars.state".
+colvars: The final output state file will be "md.colvars.state".
+colvars: Opening trajectory file "md.colvars.traj".
+colvars: Redefining the Tcl "cv" command to the new script interface.
+Info: useSync: 0 useProxySync: 0
+Info: Startup phase 13 took 0.00143476 s, 305.266 MB of memory in use
+Info: Startup phase 14 took 5.6883e-05 s, 305.266 MB of memory in use
+Info: Startup phase 15 took 4.2241e-05 s, 305.516 MB of memory in use
+Info: Finished startup at 0.282302 s, 305.516 MB of memory in use
+
+TCL: Running for 1000 steps
+Info: List of ranks running QM simulations: 0.
+colvars: Updating NAMD interface:
+colvars: Warning: enabling wrapAll can lead to inconsistent results for Colvars calculations: please disable wrapAll, as is the default option in NAMD.
+colvars: updating atomic data (0 atoms).
+colvars: updating group data (1 scalable groups, 52 atoms in total).
+colvars: updating grid object data (0 grid objects in total).
+colvars: Re-initialized atom group for variable "solute1":0/0. 52 atoms: total mass = 379.415, total charge = -2.04891e-08.
+colvars: Re-initialized atom group for variable "solute1":0/1. 0 atoms: total mass = 1, total charge = 0.
+colvars: The restart output state file will be "md.restart.colvars.state".
+colvars: The final output state file will be "md.colvars.state".
+colvars: Synchronizing (emptying the buffer of) trajectory file "md.colvars.traj".
+QMENERGY:       0         1.0000   -633539.3265
+
+PRESSURE: 0 -398.43 424.009 -265.85 424.045 -355.739 134.25 -265.85 134.094 -183.931
+GPRESSURE: 0 -455.9 419.984 -283.821 428.177 -422.068 65.5047 -316.217 71.1422 -59.2665
+ETITLE:      TS           BOND          ANGLE          DIHED          IMPRP               ELECT            VDW       BOUNDARY           MISC        KINETIC               TOTAL           TEMP      POTENTIAL         TOTAL3        TEMPAVG            PRESSURE      GPRESSURE         VOLUME       PRESSAVG      GPRESSAVG
+
+QMETITLE:      TS           QMID         ENERGY
+
+ENERGY:       0         0.0000         0.0000         0.0000         0.0000         -63921.9359      5965.9526         0.0000   -633509.7169     10029.9941        -681435.7060       295.4156   -691465.7001   -681413.6658       295.4156           -312.7000      -312.4117    168003.3212      -312.7000      -312.4117
+
+OPENING EXTENDED SYSTEM TRAJECTORY FILE
+QMENERGY:       1         1.0000   -633540.5600
+
+QMENERGY:       2         1.0000   -633543.1906
+
+QMENERGY:       3         1.0000   -633545.4245
+
+QMENERGY:       4         1.0000   -633546.6566
+
+QMENERGY:       5         1.0000   -633546.6354
+
+QMENERGY:       6         1.0000   -633545.9383
+
+QMENERGY:       7         1.0000   -633546.4350
+
+QMENERGY:       8         1.0000   -633548.2627
+
+QMENERGY:       9         1.0000   -633549.2077
+
+LDB: ============= START OF LOAD BALANCING ============== 21.4674
+LDB: ============== END OF LOAD BALANCING =============== 21.4675
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 21.4676
+QMENERGY:      10         1.0000   -633547.9706
+
+QMENERGY:      11         1.0000   -633545.6709
+
+QMENERGY:      12         1.0000   -633544.2426
+
+QMENERGY:      13         1.0000   -633545.0259
+
+QMENERGY:      14         1.0000   -633547.0957
+
+QMENERGY:      15         1.0000   -633549.1603
+
+QMENERGY:      16         1.0000   -633550.1886
+
+QMENERGY:      17         1.0000   -633550.0899
+
+QMENERGY:      18         1.0000   -633549.3914
+
+QMENERGY:      19         1.0000   -633548.6867
+
+QMENERGY:      20         1.0000   -633548.1976
+
+QMENERGY:      21         1.0000   -633547.7533
+
+QMENERGY:      22         1.0000   -633547.9988
+
+QMENERGY:      23         1.0000   -633548.4283
+
+QMENERGY:      24         1.0000   -633548.5285
+
+QMENERGY:      25         1.0000   -633548.1071
+
+QMENERGY:      26         1.0000   -633548.2791
+
+QMENERGY:      27         1.0000   -633550.1336
+
+QMENERGY:      28         1.0000   -633552.9633
+
+QMENERGY:      29         1.0000   -633555.2897
+
+QMENERGY:      30         1.0000   -633555.9273
+
+QMENERGY:      31         1.0000   -633554.4845
+
+QMENERGY:      32         1.0000   -633552.5671
+
+QMENERGY:      33         1.0000   -633551.6452
+
+QMENERGY:      34         1.0000   -633551.1085
+
+QMENERGY:      35         1.0000   -633550.1553
+
+QMENERGY:      36         1.0000   -633549.6132
+
+QMENERGY:      37         1.0000   -633550.2809
+
+QMENERGY:      38         1.0000   -633552.0508
+
+QMENERGY:      39         1.0000   -633554.3749
+
+QMENERGY:      40         1.0000   -633556.3567
+
+QMENERGY:      41         1.0000   -633556.8275
+
+QMENERGY:      42         1.0000   -633555.9340
+
+QMENERGY:      43         1.0000   -633554.2876
+
+QMENERGY:      44         1.0000   -633552.7484
+
+QMENERGY:      45         1.0000   -633552.1097
+
+QMENERGY:      46         1.0000   -633551.9703
+
+QMENERGY:      47         1.0000   -633551.7430
+
+QMENERGY:      48         1.0000   -633551.2988
+
+QMENERGY:      49         1.0000   -633550.7814
+
+LDB: ============= START OF LOAD BALANCING ============== 26.7447
+LDB: Largest compute 8 load 0.069987 is 3.0% of average load 2.324789
+LDB: Average compute 0.009370 is 0.4% of average load 2.324789
+LDB: Partitioning computes with target load 0.232479
+LDB: Increased migratable compute count from 513 to 513
+LDB: Largest unpartitionable compute is 0.001402
+LDB: ============== END OF LOAD BALANCING =============== 26.745
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 26.7452
+QMENERGY:      50         1.0000   -633550.3643
+
+Info: Initial time: 4 CPUs 0.12975 s/step 0.750868 days/ns 317.887 MB memory
+QMENERGY:      51         1.0000   -633549.8601
+
+QMENERGY:      52         1.0000   -633548.4789
+
+QMENERGY:      53         1.0000   -633545.6203
+
+QMENERGY:      54         1.0000   -633542.4033
+
+QMENERGY:      55         1.0000   -633541.8105
+
+QMENERGY:      56         1.0000   -633543.2102
+
+QMENERGY:      57         1.0000   -633543.6398
+
+QMENERGY:      58         1.0000   -633542.0590
+
+QMENERGY:      59         1.0000   -633539.7745
+
+LDB: ============= START OF LOAD BALANCING ============== 27.8829
+LDB: ============== END OF LOAD BALANCING =============== 27.883
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 27.883
+QMENERGY:      60         1.0000   -633539.7746
+
+QMENERGY:      61         1.0000   -633543.2805
+
+QMENERGY:      62         1.0000   -633549.1137
+
+QMENERGY:      63         1.0000   -633554.2026
+
+QMENERGY:      64         1.0000   -633556.1575
+
+QMENERGY:      65         1.0000   -633553.7597
+
+QMENERGY:      66         1.0000   -633548.3337
+
+QMENERGY:      67         1.0000   -633543.3245
+
+QMENERGY:      68         1.0000   -633542.2940
+
+QMENERGY:      69         1.0000   -633545.9319
+
+QMENERGY:      70         1.0000   -633551.6617
+
+QMENERGY:      71         1.0000   -633556.8901
+
+QMENERGY:      72         1.0000   -633560.0986
+
+QMENERGY:      73         1.0000   -633560.3077
+
+QMENERGY:      74         1.0000   -633558.2332
+
+QMENERGY:      75         1.0000   -633555.5463
+
+QMENERGY:      76         1.0000   -633553.6956
+
+QMENERGY:      77         1.0000   -633553.0329
+
+QMENERGY:      78         1.0000   -633553.0375
+
+QMENERGY:      79         1.0000   -633552.9629
+
+QMENERGY:      80         1.0000   -633552.9495
+
+QMENERGY:      81         1.0000   -633553.1010
+
+QMENERGY:      82         1.0000   -633553.1471
+
+QMENERGY:      83         1.0000   -633552.4069
+
+QMENERGY:      84         1.0000   -633550.7996
+
+QMENERGY:      85         1.0000   -633549.2859
+
+QMENERGY:      86         1.0000   -633549.4872
+
+QMENERGY:      87         1.0000   -633551.3263
+
+QMENERGY:      88         1.0000   -633553.4169
+
+QMENERGY:      89         1.0000   -633554.0520
+
+QMENERGY:      90         1.0000   -633552.7426
+
+QMENERGY:      91         1.0000   -633549.7826
+
+QMENERGY:      92         1.0000   -633546.8107
+
+QMENERGY:      93         1.0000   -633546.2878
+
+QMENERGY:      94         1.0000   -633549.0963
+
+QMENERGY:      95         1.0000   -633553.5193
+
+QMENERGY:      96         1.0000   -633556.7646
+
+QMENERGY:      97         1.0000   -633556.6527
+
+QMENERGY:      98         1.0000   -633553.0011
+
+QMENERGY:      99         1.0000   -633548.3549
+
+LDB: ============= START OF LOAD BALANCING ============== 32.8708
+LDB: Largest compute 8 load 0.064704 is 2.9% of average load 2.200474
+LDB: Average compute 0.008691 is 0.4% of average load 2.200474
+LDB: TIME 32.871 LOAD: AVG 2.20047 MAX 4.9878  PROXIES: TOTAL 55 MAXPE 17 MAXPATCH 3 None MEM: 318.098 MB
+LDB: TIME 32.8712 LOAD: AVG 2.20047 MAX 3.62548  PROXIES: TOTAL 56 MAXPE 17 MAXPATCH 3 TorusLB MEM: 318.098 MB
+LDB: ============== END OF LOAD BALANCING =============== 32.8715
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 32.8724
+QMENERGY:     100         1.0000   -633546.6173
+
+Info: Initial time: 4 CPUs 0.121708 s/step 0.704329 days/ns 318.098 MB memory
+QMENERGY:     101         1.0000   -633548.4848
+
+QMENERGY:     102         1.0000   -633550.4559
+
+QMENERGY:     103         1.0000   -633550.5827
+
+QMENERGY:     104         1.0000   -633549.1682
+
+QMENERGY:     105         1.0000   -633547.4551
+
+QMENERGY:     106         1.0000   -633546.6904
+
+QMENERGY:     107         1.0000   -633547.2022
+
+QMENERGY:     108         1.0000   -633548.5324
+
+QMENERGY:     109         1.0000   -633550.1406
+
+QMENERGY:     110         1.0000   -633552.0348
+
+QMENERGY:     111         1.0000   -633554.1346
+
+QMENERGY:     112         1.0000   -633555.5010
+
+QMENERGY:     113         1.0000   -633554.7670
+
+QMENERGY:     114         1.0000   -633552.4944
+
+QMENERGY:     115         1.0000   -633550.1959
+
+QMENERGY:     116         1.0000   -633549.1378
+
+QMENERGY:     117         1.0000   -633549.9854
+
+QMENERGY:     118         1.0000   -633552.1006
+
+QMENERGY:     119         1.0000   -633553.8213
+
+QMENERGY:     120         1.0000   -633553.7144
+
+QMENERGY:     121         1.0000   -633551.4276
+
+QMENERGY:     122         1.0000   -633549.5886
+
+QMENERGY:     123         1.0000   -633549.5584
+
+QMENERGY:     124         1.0000   -633550.7696
+
+QMENERGY:     125         1.0000   -633551.9800
+
+QMENERGY:     126         1.0000   -633552.7875
+
+QMENERGY:     127         1.0000   -633553.1223
+
+QMENERGY:     128         1.0000   -633552.6903
+
+QMENERGY:     129         1.0000   -633551.7073
+
+QMENERGY:     130         1.0000   -633550.9147
+
+QMENERGY:     131         1.0000   -633551.7425
+
+QMENERGY:     132         1.0000   -633553.7993
+
+QMENERGY:     133         1.0000   -633555.6703
+
+QMENERGY:     134         1.0000   -633555.3711
+
+QMENERGY:     135         1.0000   -633553.6530
+
+QMENERGY:     136         1.0000   -633553.0052
+
+QMENERGY:     137         1.0000   -633554.0427
+
+QMENERGY:     138         1.0000   -633555.1956
+
+QMENERGY:     139         1.0000   -633555.5462
+
+QMENERGY:     140         1.0000   -633556.1497
+
+QMENERGY:     141         1.0000   -633558.3556
+
+QMENERGY:     142         1.0000   -633560.8579
+
+QMENERGY:     143         1.0000   -633560.7592
+
+QMENERGY:     144         1.0000   -633557.7948
+
+QMENERGY:     145         1.0000   -633554.8674
+
+QMENERGY:     146         1.0000   -633554.6187
+
+QMENERGY:     147         1.0000   -633556.1322
+
+QMENERGY:     148         1.0000   -633556.3576
+
+QMENERGY:     149         1.0000   -633554.2051
+
+LDB: ============= START OF LOAD BALANCING ============== 37.5443
+LDB: Largest compute 32 load 0.074082 is 2.7% of average load 2.696864
+LDB: Average compute 0.010219 is 0.4% of average load 2.696864
+LDB: TIME 37.5446 LOAD: AVG 2.69686 MAX 4.66766  PROXIES: TOTAL 55 MAXPE 17 MAXPATCH 3 None MEM: 318.098 MB
+LDB: TIME 37.5448 LOAD: AVG 2.69686 MAX 4.66766  PROXIES: TOTAL 56 MAXPE 17 MAXPATCH 3 RefineTorusLB MEM: 318.098 MB
+LDB: TIME 37.5448 LOAD: AVG 2.69686 MAX 4.66766  PROXIES: TOTAL 56 MAXPE 17 MAXPATCH 3 RefineTorusLB MEM: 318.098 MB
+LDB: Reverting to original mapping
+LDB: ============== END OF LOAD BALANCING =============== 37.545
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 37.5453
+QMENERGY:     150         1.0000   -633551.5265
+
+Info: Initial time: 4 CPUs 0.093308 s/step 0.539977 days/ns 318.098 MB memory
+QMENERGY:     151         1.0000   -633550.8323
+
+QMENERGY:     152         1.0000   -633552.5204
+
+QMENERGY:     153         1.0000   -633554.6641
+
+QMENERGY:     154         1.0000   -633555.4904
+
+QMENERGY:     155         1.0000   -633554.8713
+
+QMENERGY:     156         1.0000   -633553.8957
+
+QMENERGY:     157         1.0000   -633553.0602
+
+QMENERGY:     158         1.0000   -633553.2629
+
+QMENERGY:     159         1.0000   -633554.8110
+
+QMENERGY:     160         1.0000   -633556.7092
+
+QMENERGY:     161         1.0000   -633556.8393
+
+QMENERGY:     162         1.0000   -633555.3492
+
+QMENERGY:     163         1.0000   -633553.5628
+
+QMENERGY:     164         1.0000   -633552.4310
+
+QMENERGY:     165         1.0000   -633552.2229
+
+QMENERGY:     166         1.0000   -633552.4335
+
+QMENERGY:     167         1.0000   -633552.1906
+
+QMENERGY:     168         1.0000   -633551.6418
+
+QMENERGY:     169         1.0000   -633550.9972
+
+QMENERGY:     170         1.0000   -633551.2217
+
+QMENERGY:     171         1.0000   -633552.5319
+
+QMENERGY:     172         1.0000   -633553.9523
+
+QMENERGY:     173         1.0000   -633554.6834
+
+QMENERGY:     174         1.0000   -633554.8628
+
+QMENERGY:     175         1.0000   -633555.3667
+
+QMENERGY:     176         1.0000   -633555.6345
+
+QMENERGY:     177         1.0000   -633555.1820
+
+QMENERGY:     178         1.0000   -633554.3932
+
+QMENERGY:     179         1.0000   -633553.4426
+
+QMENERGY:     180         1.0000   -633552.4300
+
+QMENERGY:     181         1.0000   -633551.3101
+
+QMENERGY:     182         1.0000   -633549.8616
+
+QMENERGY:     183         1.0000   -633548.4215
+
+QMENERGY:     184         1.0000   -633547.8963
+
+QMENERGY:     185         1.0000   -633549.0383
+
+QMENERGY:     186         1.0000   -633551.5515
+
+QMENERGY:     187         1.0000   -633553.9484
+
+QMENERGY:     188         1.0000   -633554.6591
+
+QMENERGY:     189         1.0000   -633553.9695
+
+QMENERGY:     190         1.0000   -633553.3758
+
+QMENERGY:     191         1.0000   -633553.9324
+
+QMENERGY:     192         1.0000   -633554.9303
+
+QMENERGY:     193         1.0000   -633555.4627
+
+QMENERGY:     194         1.0000   -633555.1597
+
+QMENERGY:     195         1.0000   -633555.6454
+
+QMENERGY:     196         1.0000   -633557.0432
+
+QMENERGY:     197         1.0000   -633557.1188
+
+QMENERGY:     198         1.0000   -633554.5804
+
+QMENERGY:     199         1.0000   -633551.8522
+
+LDB: ============= START OF LOAD BALANCING ============== 42.8361
+LDB: Largest compute 11 load 0.077458 is 2.7% of average load 2.819197
+LDB: Average compute 0.009905 is 0.4% of average load 2.819197
+LDB: TIME 42.8364 LOAD: AVG 2.8192 MAX 5.29084  PROXIES: TOTAL 55 MAXPE 17 MAXPATCH 3 None MEM: 318.098 MB
+LDB: TIME 42.8365 LOAD: AVG 2.8192 MAX 5.29084  PROXIES: TOTAL 56 MAXPE 17 MAXPATCH 3 RefineTorusLB MEM: 318.098 MB
+LDB: TIME 42.8366 LOAD: AVG 2.8192 MAX 5.29084  PROXIES: TOTAL 56 MAXPE 17 MAXPATCH 3 RefineTorusLB MEM: 318.098 MB
+LDB: Reverting to original mapping
+LDB: ============== END OF LOAD BALANCING =============== 42.8367
+Info: useSync: 0 useProxySync: 0
+LDB: =============== DONE WITH MIGRATION ================ 42.837
+QMENERGY:     200         1.0000   -633552.7384
+
+Info: Benchmark time: 4 CPUs 0.106028 s/step 0.61359 days/ns 318.098 MB memory
+QMENERGY:     201         1.0000   -633557.8747
+
+QMENERGY:     202         1.0000   -633562.6233
+
+QMENERGY:     203         1.0000   -633562.3419
+
+QMENERGY:     204         1.0000   -633557.0417
+
+QMENERGY:     205         1.0000   -633551.4870
+
+QMENERGY:     206         1.0000   -633550.0773
+
+QMENERGY:     207         1.0000   -633552.7168
+
+QMENERGY:     208         1.0000   -633556.7845
+
+QMENERGY:     209         1.0000   -633559.0598
+
+QMENERGY:     210         1.0000   -633557.7320
+
+QMENERGY:     211         1.0000   -633553.8681
+
+QMENERGY:     212         1.0000   -633551.7648
+
+QMENERGY:     213         1.0000   -633553.9371
+
+QMENERGY:     214         1.0000   -633558.1399
+
+QMENERGY:     215         1.0000   -633559.9063
+
+QMENERGY:     216         1.0000   -633558.6154
+
+QMENERGY:     217         1.0000   -633556.8772
+
+QMENERGY:     218         1.0000   -633556.4383
+
+QMENERGY:     219         1.0000   -633556.7782
+
+QMENERGY:     220         1.0000   -633556.8384
+
+QMENERGY:     221         1.0000   -633556.3532
+
+QMENERGY:     222         1.0000   -633556.5344
+
+QMENERGY:     223         1.0000   -633558.0319
+
+QMENERGY:     224         1.0000   -633559.9253
+
+QMENERGY:     225         1.0000   -633561.0906
+
+QMENERGY:     226         1.0000   -633560.8621
+
+QMENERGY:     227         1.0000   -633559.4941
+
+QMENERGY:     228         1.0000   -633557.6005
+
+QMENERGY:     229         1.0000   -633556.8538
+
+QMENERGY:     230         1.0000   -633556.9878
+
+QMENERGY:     231         1.0000   -633557.3162
+
+QMENERGY:     232         1.0000   -633557.3697
+
+QMENERGY:     233         1.0000   -633556.5954
+
+QMENERGY:     234         1.0000   -633555.4377
+
+QMENERGY:     235         1.0000   -633555.2353
+
+QMENERGY:     236         1.0000   -633557.1371
+
+QMENERGY:     237         1.0000   -633559.8966
+
+QMENERGY:     238         1.0000   -633560.3598
+
+QMENERGY:     239         1.0000   -633557.2833
+
+QMENERGY:     240         1.0000   -633553.2542
+
+QMENERGY:     241         1.0000   -633552.4298
+
+QMENERGY:     242         1.0000   -633555.4630
+
+QMENERGY:     243         1.0000   -633558.9524
+
+QMENERGY:     244         1.0000   -633559.0567
+
+QMENERGY:     245         1.0000   -633555.5380
+
+QMENERGY:     246         1.0000   -633553.1523
+
+QMENERGY:     247         1.0000   -633554.3301
+
+QMENERGY:     248         1.0000   -633556.5350
+
+QMENERGY:     249         1.0000   -633557.4766
+
+QMENERGY:     250         1.0000   -633557.3558
+
+Info: Benchmark time: 4 CPUs 0.0840174 s/step 0.486212 days/ns 318.098 MB memory
+QMENERGY:     251         1.0000   -633557.1537
+
+QMENERGY:     252         1.0000   -633557.6540
+
+QMENERGY:     253         1.0000   -633558.8738
+
+QMENERGY:     254         1.0000   -633560.1941
+
+QMENERGY:     255         1.0000   -633560.5378
+
+QMENERGY:     256         1.0000   -633559.4234
+
+QMENERGY:     257         1.0000   -633557.9797
+
+QMENERGY:     258         1.0000   -633557.6316
+
+QMENERGY:     259         1.0000   -633557.6467
+
+QMENERGY:     260         1.0000   -633557.5258
+
+QMENERGY:     261         1.0000   -633557.1656
+
+QMENERGY:     262         1.0000   -633556.7540
+
+QMENERGY:     263         1.0000   -633557.0109
+
+QMENERGY:     264         1.0000   -633558.1395
+
+QMENERGY:     265         1.0000   -633558.7742
+
+QMENERGY:     266         1.0000   -633557.1230
+
+QMENERGY:     267         1.0000   -633554.7938
+
+QMENERGY:     268         1.0000   -633554.5015
+
+QMENERGY:     269         1.0000   -633556.4408
+
+QMENERGY:     270         1.0000   -633558.5230
+
+QMENERGY:     271         1.0000   -633559.0093
+
+QMENERGY:     272         1.0000   -633558.2098
+
+QMENERGY:     273         1.0000   -633557.6001
+
+QMENERGY:     274         1.0000   -633557.2906
+
+QMENERGY:     275         1.0000   -633556.8085
+
+QMENERGY:     276         1.0000   -633556.9390
+
+QMENERGY:     277         1.0000   -633557.9781
+
+QMENERGY:     278         1.0000   -633559.2957
+
+QMENERGY:     279         1.0000   -633560.0377
+
+QMENERGY:     280         1.0000   -633559.8176
+
+QMENERGY:     281         1.0000   -633558.8695
+
+QMENERGY:     282         1.0000   -633557.4342
+
+QMENERGY:     283         1.0000   -633556.2010
+
+QMENERGY:     284         1.0000   -633556.0795
+
+QMENERGY:     285         1.0000   -633557.2287
+
+QMENERGY:     286         1.0000   -633558.4403
+
+QMENERGY:     287         1.0000   -633558.7568
+
+QMENERGY:     288         1.0000   -633558.4879
+
+QMENERGY:     289         1.0000   -633558.9115
+
+QMENERGY:     290         1.0000   -633559.0977
+
+QMENERGY:     291         1.0000   -633557.7417
+
+QMENERGY:     292         1.0000   -633555.6125
+
+QMENERGY:     293         1.0000   -633554.8756
+
+QMENERGY:     294         1.0000   -633556.4620
+
+QMENERGY:     295         1.0000   -633558.5049
+
+QMENERGY:     296         1.0000   -633558.6694
+
+QMENERGY:     297         1.0000   -633556.6532
+
+QMENERGY:     298         1.0000   -633554.9585
+
+QMENERGY:     299         1.0000   -633555.1691
+
+QMENERGY:     300         1.0000   -633556.7988
+
+Info: Benchmark time: 4 CPUs 0.102436 s/step 0.592799 days/ns 318.098 MB memory
+QMENERGY:     301         1.0000   -633558.1617
+
+QMENERGY:     302         1.0000   -633558.7956
+
+QMENERGY:     303         1.0000   -633558.7216
+
+QMENERGY:     304         1.0000   -633558.8421
+
+QMENERGY:     305         1.0000   -633559.7097
+
+QMENERGY:     306         1.0000   -633560.4529
+
+QMENERGY:     307         1.0000   -633560.3221
+
+QMENERGY:     308         1.0000   -633560.0262
+
+QMENERGY:     309         1.0000   -633560.2214
+
+QMENERGY:     310         1.0000   -633560.2666
+
+QMENERGY:     311         1.0000   -633559.7584
+
+QMENERGY:     312         1.0000   -633559.2029
+
+QMENERGY:     313         1.0000   -633559.5915
+
+QMENERGY:     314         1.0000   -633560.7446
+
+QMENERGY:     315         1.0000   -633562.3650
+
+QMENERGY:     316         1.0000   -633563.5115
+
+QMENERGY:     317         1.0000   -633562.8506
+
+QMENERGY:     318         1.0000   -633560.3473
+
+QMENERGY:     319         1.0000   -633557.0353
+
+QMENERGY:     320         1.0000   -633555.3687
+
+QMENERGY:     321         1.0000   -633555.7473
+
+QMENERGY:     322         1.0000   -633556.7025
+
+QMENERGY:     323         1.0000   -633556.3945
+
+QMENERGY:     324         1.0000   -633555.8706
+
+QMENERGY:     325         1.0000   -633557.2247
+
+QMENERGY:     326         1.0000   -633560.0848
+
+QMENERGY:     327         1.0000   -633561.0739
+
+QMENERGY:     328         1.0000   -633559.6943
+
+QMENERGY:     329         1.0000   -633558.6595
+
+QMENERGY:     330         1.0000   -633558.4383
+
+QMENERGY:     331         1.0000   -633558.2370
+
+QMENERGY:     332         1.0000   -633557.6414
+
+QMENERGY:     333         1.0000   -633557.6155
+
+QMENERGY:     334         1.0000   -633559.0286
+
+QMENERGY:     335         1.0000   -633561.7490
+
+QMENERGY:     336         1.0000   -633563.8243
+
+QMENERGY:     337         1.0000   -633563.5440
+
+QMENERGY:     338         1.0000   -633561.3769
+
+QMENERGY:     339         1.0000   -633560.6470
+
+QMENERGY:     340         1.0000   -633562.9963
+
+QMENERGY:     341         1.0000   -633565.5652
+
+QMENERGY:     342         1.0000   -633564.7302
+
+QMENERGY:     343         1.0000   -633560.9168
+
+QMENERGY:     344         1.0000   -633557.7353
+
+QMENERGY:     345         1.0000   -633557.2649
+
+QMENERGY:     346         1.0000   -633558.4193
+
+QMENERGY:     347         1.0000   -633559.4154
+
+QMENERGY:     348         1.0000   -633559.5912
+
+QMENERGY:     349         1.0000   -633559.3091
+
+QMENERGY:     350         1.0000   -633558.9829
+
+Info: Benchmark time: 4 CPUs 0.098004 s/step 0.567153 days/ns 318.098 MB memory
+QMENERGY:     351         1.0000   -633558.3446
+
+QMENERGY:     352         1.0000   -633557.3044
+
+QMENERGY:     353         1.0000   -633557.3818
+
+QMENERGY:     354         1.0000   -633559.5069
+
+QMENERGY:     355         1.0000   -633562.5622
+
+QMENERGY:     356         1.0000   -633564.3595
+
+QMENERGY:     357         1.0000   -633563.3926
+
+QMENERGY:     358         1.0000   -633560.8678
+
+QMENERGY:     359         1.0000   -633559.4839
+
+QMENERGY:     360         1.0000   -633560.0250
+
+QMENERGY:     361         1.0000   -633560.6550
+
+QMENERGY:     362         1.0000   -633560.0790
+
+QMENERGY:     363         1.0000   -633559.0971
+
+QMENERGY:     364         1.0000   -633558.9531
+
+QMENERGY:     365         1.0000   -633559.6625
+
+QMENERGY:     366         1.0000   -633560.0900
+
+QMENERGY:     367         1.0000   -633559.9309
+
+QMENERGY:     368         1.0000   -633560.0936
+
+QMENERGY:     369         1.0000   -633561.6985
+
+QMENERGY:     370         1.0000   -633562.6415
+
+QMENERGY:     371         1.0000   -633560.4759
+
+QMENERGY:     372         1.0000   -633555.2947
+
+QMENERGY:     373         1.0000   -633551.2516
+
+QMENERGY:     374         1.0000   -633552.4142
+
+QMENERGY:     375         1.0000   -633558.1357
+
+QMENERGY:     376         1.0000   -633563.1117
+
+QMENERGY:     377         1.0000   -633562.8478
+
+QMENERGY:     378         1.0000   -633559.5511
+
+QMENERGY:     379         1.0000   -633558.3544
+
+QMENERGY:     380         1.0000   -633560.4197
+
+QMENERGY:     381         1.0000   -633562.9542
+
+QMENERGY:     382         1.0000   -633563.2946
+
+QMENERGY:     383         1.0000   -633562.1884
+
+QMENERGY:     384         1.0000   -633561.8149
+
+QMENERGY:     385         1.0000   -633562.9899
+
+QMENERGY:     386         1.0000   -633564.1269
+
+QMENERGY:     387         1.0000   -633563.1660
+
+QMENERGY:     388         1.0000   -633560.7378
+
+QMENERGY:     389         1.0000   -633559.3594
+
+QMENERGY:     390         1.0000   -633560.5201
+
+QMENERGY:     391         1.0000   -633562.8525
+
+QMENERGY:     392         1.0000   -633563.3772
+
+QMENERGY:     393         1.0000   -633561.7831
+
+QMENERGY:     394         1.0000   -633560.3091
+
+QMENERGY:     395         1.0000   -633560.2176
+
+QMENERGY:     396         1.0000   -633559.9070
+
+QMENERGY:     397         1.0000   -633557.6561
+
+QMENERGY:     398         1.0000   -633555.6533
+
+QMENERGY:     399         1.0000   -633555.2270
+
+QMENERGY:     400         1.0000   -633555.9927
+
+Info: Benchmark time: 4 CPUs 0.0866358 s/step 0.501365 days/ns 318.098 MB memory
+QMENERGY:     401         1.0000   -633556.8489
+
+QMENERGY:     402         1.0000   -633558.2222
+
+QMENERGY:     403         1.0000   -633560.8015
+
+QMENERGY:     404         1.0000   -633563.5020
+
+QMENERGY:     405         1.0000   -633563.5488
+
+QMENERGY:     406         1.0000   -633559.9969
+
+QMENERGY:     407         1.0000   -633555.1952
+
+QMENERGY:     408         1.0000   -633552.8258
+
+QMENERGY:     409         1.0000   -633554.7727
+
+QMENERGY:     410         1.0000   -633558.7452
+
+QMENERGY:     411         1.0000   -633560.2279
+
+QMENERGY:     412         1.0000   -633558.1073
+
+QMENERGY:     413         1.0000   -633556.4528
+
+QMENERGY:     414         1.0000   -633558.2553
+
+QMENERGY:     415         1.0000   -633562.2473
+
+QMENERGY:     416         1.0000   -633564.8306
+
+QMENERGY:     417         1.0000   -633564.0158
+
+QMENERGY:     418         1.0000   -633560.7145
+
+QMENERGY:     419         1.0000   -633558.0808
+
+QMENERGY:     420         1.0000   -633558.5500
+
+QMENERGY:     421         1.0000   -633560.6388
+
+QMENERGY:     422         1.0000   -633561.0465
+
+QMENERGY:     423         1.0000   -633558.8125
+
+QMENERGY:     424         1.0000   -633556.1137
+
+QMENERGY:     425         1.0000   -633555.1383
+
+QMENERGY:     426         1.0000   -633556.7348
+
+QMENERGY:     427         1.0000   -633560.0566
+
+QMENERGY:     428         1.0000   -633562.7146
+
+QMENERGY:     429         1.0000   -633562.0639
+
+QMENERGY:     430         1.0000   -633558.7877
+
+QMENERGY:     431         1.0000   -633556.7579
+
+QMENERGY:     432         1.0000   -633557.6270
+
+QMENERGY:     433         1.0000   -633559.9773
+
+QMENERGY:     434         1.0000   -633562.1871
+
+QMENERGY:     435         1.0000   -633563.8836
+
+QMENERGY:     436         1.0000   -633564.6360
+
+QMENERGY:     437         1.0000   -633563.9692
+
+QMENERGY:     438         1.0000   -633562.2449
+
+QMENERGY:     439         1.0000   -633560.3992
+
+QMENERGY:     440         1.0000   -633558.9096
+
+QMENERGY:     441         1.0000   -633558.2934
+
+QMENERGY:     442         1.0000   -633558.4401
+
+QMENERGY:     443         1.0000   -633558.1596
+
+QMENERGY:     444         1.0000   -633556.8232
+
+QMENERGY:     445         1.0000   -633555.0106
+
+QMENERGY:     446         1.0000   -633554.7786
+
+QMENERGY:     447         1.0000   -633557.2175
+
+QMENERGY:     448         1.0000   -633561.1072
+
+QMENERGY:     449         1.0000   -633563.2318
+
+QMENERGY:     450         1.0000   -633562.6471
+
+Info: Benchmark time: 4 CPUs 0.0978775 s/step 0.566421 days/ns 318.098 MB memory
+QMENERGY:     451         1.0000   -633560.9454
+
+QMENERGY:     452         1.0000   -633559.2679
+
+QMENERGY:     453         1.0000   -633558.4271
+
+QMENERGY:     454         1.0000   -633559.9660
+
+QMENERGY:     455         1.0000   -633563.0080
+
+QMENERGY:     456         1.0000   -633564.6247
+
+QMENERGY:     457         1.0000   -633563.7509
+
+QMENERGY:     458         1.0000   -633561.6648
+
+QMENERGY:     459         1.0000   -633561.0562
+
+QMENERGY:     460         1.0000   -633562.4031
+
+QMENERGY:     461         1.0000   -633563.5039
+
+QMENERGY:     462         1.0000   -633562.4908
+
+QMENERGY:     463         1.0000   -633559.6541
+
+QMENERGY:     464         1.0000   -633557.2753
+
+QMENERGY:     465         1.0000   -633557.3894
+
+QMENERGY:     466         1.0000   -633559.2662
+
+QMENERGY:     467         1.0000   -633560.9149
+
+QMENERGY:     468         1.0000   -633560.2755
+
+QMENERGY:     469         1.0000   -633558.2712
+
+QMENERGY:     470         1.0000   -633557.7555
+
+QMENERGY:     471         1.0000   -633560.0140
+
+QMENERGY:     472         1.0000   -633563.1037
+
+QMENERGY:     473         1.0000   -633562.8639
+
+QMENERGY:     474         1.0000   -633558.7365
+
+QMENERGY:     475         1.0000   -633554.3526
+
+QMENERGY:     476         1.0000   -633554.1360
+
+QMENERGY:     477         1.0000   -633558.5942
+
+QMENERGY:     478         1.0000   -633563.3506
+
+QMENERGY:     479         1.0000   -633564.1663
+
+QMENERGY:     480         1.0000   -633560.8948
+
+QMENERGY:     481         1.0000   -633557.1337
+
+QMENERGY:     482         1.0000   -633556.5756
+
+QMENERGY:     483         1.0000   -633559.4461
+
+QMENERGY:     484         1.0000   -633563.5806
+
+QMENERGY:     485         1.0000   -633566.1211
+
+QMENERGY:     486         1.0000   -633566.0453
+
+QMENERGY:     487         1.0000   -633564.4495
+
+QMENERGY:     488         1.0000   -633563.2572
+
+QMENERGY:     489         1.0000   -633562.3316
+
+QMENERGY:     490         1.0000   -633561.3176
+
+QMENERGY:     491         1.0000   -633560.5259
+
+QMENERGY:     492         1.0000   -633560.5221
+
+QMENERGY:     493         1.0000   -633561.4048
+
+QMENERGY:     494         1.0000   -633562.0796
+
+QMENERGY:     495         1.0000   -633561.3042
+
+QMENERGY:     496         1.0000   -633559.8396
+
+QMENERGY:     497         1.0000   -633559.3170
+
+QMENERGY:     498         1.0000   -633560.1594
+
+QMENERGY:     499         1.0000   -633560.9791
+
+QMENERGY:     500         1.0000   -633559.7548
+
+QMENERGY:     501         1.0000   -633557.4314
+
+QMENERGY:     502         1.0000   -633556.4432
+
+QMENERGY:     503         1.0000   -633557.5596
+
+QMENERGY:     504         1.0000   -633559.8083
+
+QMENERGY:     505         1.0000   -633561.5693
+
+QMENERGY:     506         1.0000   -633561.9119
+
+QMENERGY:     507         1.0000   -633561.5440
+
+QMENERGY:     508         1.0000   -633561.4018
+
+QMENERGY:     509         1.0000   -633561.2597
+
+QMENERGY:     510         1.0000   -633560.5876
+
+QMENERGY:     511         1.0000   -633559.2743
+
+QMENERGY:     512         1.0000   -633558.5865
+
+QMENERGY:     513         1.0000   -633559.3957
+
+QMENERGY:     514         1.0000   -633560.8012
+
+QMENERGY:     515         1.0000   -633561.5584
+
+QMENERGY:     516         1.0000   -633561.4164
+
+QMENERGY:     517         1.0000   -633561.6672
+
+QMENERGY:     518         1.0000   -633561.9430
+
+QMENERGY:     519         1.0000   -633561.1577
+
+QMENERGY:     520         1.0000   -633559.0980
+
+QMENERGY:     521         1.0000   -633558.0856
+
+QMENERGY:     522         1.0000   -633559.5671
+
+QMENERGY:     523         1.0000   -633562.6476
+
+QMENERGY:     524         1.0000   -633564.4175
+
+QMENERGY:     525         1.0000   -633562.7408
+
+QMENERGY:     526         1.0000   -633559.3253
+
+QMENERGY:     527         1.0000   -633557.2701
+
+QMENERGY:     528         1.0000   -633557.2417
+
+QMENERGY:     529         1.0000   -633558.2684
+
+QMENERGY:     530         1.0000   -633559.4575
+
+QMENERGY:     531         1.0000   -633560.8776
+
+QMENERGY:     532         1.0000   -633562.4795
+
+QMENERGY:     533         1.0000   -633563.0683
+
+QMENERGY:     534         1.0000   -633561.2494
+
+QMENERGY:     535         1.0000   -633558.5949
+
+QMENERGY:     536         1.0000   -633558.2753
+
+QMENERGY:     537         1.0000   -633560.6132
+
+QMENERGY:     538         1.0000   -633562.3877
+
+QMENERGY:     539         1.0000   -633561.6834
+
+QMENERGY:     540         1.0000   -633559.1889
+
+QMENERGY:     541         1.0000   -633558.5189
+
+QMENERGY:     542         1.0000   -633560.5199
+
+QMENERGY:     543         1.0000   -633563.1572
+
+QMENERGY:     544         1.0000   -633564.0404
+
+QMENERGY:     545         1.0000   -633563.4553
+
+QMENERGY:     546         1.0000   -633562.6681
+
+QMENERGY:     547         1.0000   -633562.6861
+
+QMENERGY:     548         1.0000   -633562.9861
+
+QMENERGY:     549         1.0000   -633562.0621
+
+QMENERGY:     550         1.0000   -633559.2055
+
+QMENERGY:     551         1.0000   -633557.1363
+
+QMENERGY:     552         1.0000   -633558.9240
+
+QMENERGY:     553         1.0000   -633562.6004
+
+QMENERGY:     554         1.0000   -633564.3820
+
+QMENERGY:     555         1.0000   -633563.9211
+
+QMENERGY:     556         1.0000   -633563.2010
+
+QMENERGY:     557         1.0000   -633563.1844
+
+QMENERGY:     558         1.0000   -633562.8400
+
+QMENERGY:     559         1.0000   -633561.2000
+
+QMENERGY:     560         1.0000   -633558.8285
+
+QMENERGY:     561         1.0000   -633558.3732
+
+QMENERGY:     562         1.0000   -633561.1157
+
+QMENERGY:     563         1.0000   -633564.5498
+
+QMENERGY:     564         1.0000   -633565.6058
+
+QMENERGY:     565         1.0000   -633564.2956
+
+QMENERGY:     566         1.0000   -633563.3003
+
+QMENERGY:     567         1.0000   -633564.0112
+
+QMENERGY:     568         1.0000   -633565.4081
+
+QMENERGY:     569         1.0000   -633565.3220
+
+QMENERGY:     570         1.0000   -633563.6021
+
+QMENERGY:     571         1.0000   -633562.2191
+
+QMENERGY:     572         1.0000   -633562.8909
+
+QMENERGY:     573         1.0000   -633563.6161
+
+QMENERGY:     574         1.0000   -633562.8846
+
+QMENERGY:     575         1.0000   -633560.9116
+
+QMENERGY:     576         1.0000   -633559.8011
+
+QMENERGY:     577         1.0000   -633560.2945
+
+QMENERGY:     578         1.0000   -633562.0728
+
+QMENERGY:     579         1.0000   -633564.5433
+
+QMENERGY:     580         1.0000   -633566.4409
+
+QMENERGY:     581         1.0000   -633566.9937
+
+QMENERGY:     582         1.0000   -633565.1528
+
+QMENERGY:     583         1.0000   -633561.3553
+
+QMENERGY:     584         1.0000   -633558.4773
+
+QMENERGY:     585         1.0000   -633559.0117
+
+QMENERGY:     586         1.0000   -633561.9357
+
+QMENERGY:     587         1.0000   -633563.3290
+
+QMENERGY:     588         1.0000   -633561.5201
+
+QMENERGY:     589         1.0000   -633558.2813
+
+QMENERGY:     590         1.0000   -633557.6545
+
+QMENERGY:     591         1.0000   -633562.1426
+
+QMENERGY:     592         1.0000   -633567.4915
+
+QMENERGY:     593         1.0000   -633567.4381
+
+QMENERGY:     594         1.0000   -633562.1390
+
+QMENERGY:     595         1.0000   -633557.1487
+
+QMENERGY:     596         1.0000   -633556.4396
+
+QMENERGY:     597         1.0000   -633559.7747
+
+QMENERGY:     598         1.0000   -633563.4237
+
+QMENERGY:     599         1.0000   -633564.5556
+
+QMENERGY:     600         1.0000   -633563.8443
+
+QMENERGY:     601         1.0000   -633563.5473
+
+QMENERGY:     602         1.0000   -633563.5615
+
+QMENERGY:     603         1.0000   -633561.5429
+
+QMENERGY:     604         1.0000   -633559.2020
+
+QMENERGY:     605         1.0000   -633559.3998
+
+QMENERGY:     606         1.0000   -633562.1521
+
+QMENERGY:     607         1.0000   -633564.5575
+
+QMENERGY:     608         1.0000   -633564.1168
+
+QMENERGY:     609         1.0000   -633562.1316
+
+QMENERGY:     610         1.0000   -633562.0578
+
+QMENERGY:     611         1.0000   -633563.9457
+
+QMENERGY:     612         1.0000   -633564.9913
+
+QMENERGY:     613         1.0000   -633563.4975
+
+QMENERGY:     614         1.0000   -633561.2847
+
+QMENERGY:     615         1.0000   -633561.1179
+
+QMENERGY:     616         1.0000   -633563.0873
+
+QMENERGY:     617         1.0000   -633564.7598
+
+QMENERGY:     618         1.0000   -633563.9381
+
+QMENERGY:     619         1.0000   -633561.8146
+
+QMENERGY:     620         1.0000   -633561.7616
+
+QMENERGY:     621         1.0000   -633563.6023
+
+QMENERGY:     622         1.0000   -633563.1677
+
+QMENERGY:     623         1.0000   -633560.3113
+
+QMENERGY:     624         1.0000   -633559.4036
+
+QMENERGY:     625         1.0000   -633561.3500
+
+QMENERGY:     626         1.0000   -633563.1427
+
+QMENERGY:     627         1.0000   -633562.3599
+
+QMENERGY:     628         1.0000   -633559.6738
+
+QMENERGY:     629         1.0000   -633558.7141
+
+QMENERGY:     630         1.0000   -633560.8741
+
+QMENERGY:     631         1.0000   -633564.2381
+
+QMENERGY:     632         1.0000   -633566.0752
+
+QMENERGY:     633         1.0000   -633565.3142
+
+QMENERGY:     634         1.0000   -633563.4279
+
+QMENERGY:     635         1.0000   -633562.0941
+
+QMENERGY:     636         1.0000   -633561.8958
+
+QMENERGY:     637         1.0000   -633562.1719
+
+QMENERGY:     638         1.0000   -633562.9257
+
+QMENERGY:     639         1.0000   -633563.8083
+
+QMENERGY:     640         1.0000   -633564.4399
+
+QMENERGY:     641         1.0000   -633563.8752
+
+QMENERGY:     642         1.0000   -633561.6986
+
+QMENERGY:     643         1.0000   -633559.4895
+
+QMENERGY:     644         1.0000   -633559.0284
+
+QMENERGY:     645         1.0000   -633560.7579
+
+QMENERGY:     646         1.0000   -633563.1989
+
+QMENERGY:     647         1.0000   -633564.9640
+
+QMENERGY:     648         1.0000   -633565.9172
+
+QMENERGY:     649         1.0000   -633566.3205
+
+QMENERGY:     650         1.0000   -633565.3141
+
+QMENERGY:     651         1.0000   -633561.8101
+
+QMENERGY:     652         1.0000   -633557.7647
+
+QMENERGY:     653         1.0000   -633556.6562
+
+QMENERGY:     654         1.0000   -633558.9323
+
+QMENERGY:     655         1.0000   -633561.1469
+
+QMENERGY:     656         1.0000   -633561.5296
+
+QMENERGY:     657         1.0000   -633561.2395
+
+QMENERGY:     658         1.0000   -633561.2730
+
+QMENERGY:     659         1.0000   -633562.1668
+
+QMENERGY:     660         1.0000   -633563.8610
+
+QMENERGY:     661         1.0000   -633565.0523
+
+QMENERGY:     662         1.0000   -633564.7288
+
+QMENERGY:     663         1.0000   -633563.3376
+
+QMENERGY:     664         1.0000   -633562.7071
+
+QMENERGY:     665         1.0000   -633563.0153
+
+QMENERGY:     666         1.0000   -633562.8220
+
+QMENERGY:     667         1.0000   -633561.6062
+
+QMENERGY:     668         1.0000   -633560.1904
+
+QMENERGY:     669         1.0000   -633559.2399
+
+QMENERGY:     670         1.0000   -633560.1123
+
+QMENERGY:     671         1.0000   -633562.0150
+
+QMENERGY:     672         1.0000   -633563.0847
+
+QMENERGY:     673         1.0000   -633562.5835
+
+QMENERGY:     674         1.0000   -633561.1672
+
+QMENERGY:     675         1.0000   -633560.0276
+
+QMENERGY:     676         1.0000   -633559.1998
+
+QMENERGY:     677         1.0000   -633558.3980
+
+QMENERGY:     678         1.0000   -633558.1607
+
+QMENERGY:     679         1.0000   -633558.9312
+
+QMENERGY:     680         1.0000   -633561.1488
+
+QMENERGY:     681         1.0000   -633564.0832
+
+QMENERGY:     682         1.0000   -633566.2890
+
+QMENERGY:     683         1.0000   -633565.8829
+
+QMENERGY:     684         1.0000   -633563.3140
+
+QMENERGY:     685         1.0000   -633561.5600
+
+QMENERGY:     686         1.0000   -633561.5042
+
+QMENERGY:     687         1.0000   -633562.2092
+
+QMENERGY:     688         1.0000   -633562.1118
+
+QMENERGY:     689         1.0000   -633561.1595
+
+QMENERGY:     690         1.0000   -633560.1915
+
+QMENERGY:     691         1.0000   -633559.3695
+
+QMENERGY:     692         1.0000   -633559.1576
+
+QMENERGY:     693         1.0000   -633559.2008
+
+QMENERGY:     694         1.0000   -633559.3751
+
+QMENERGY:     695         1.0000   -633561.1824
+
+QMENERGY:     696         1.0000   -633565.1024
+
+QMENERGY:     697         1.0000   -633568.4990
+
+QMENERGY:     698         1.0000   -633567.9577
+
+QMENERGY:     699         1.0000   -633562.5851
+
+QMENERGY:     700         1.0000   -633556.3234
+
+QMENERGY:     701         1.0000   -633554.6916
+
+QMENERGY:     702         1.0000   -633558.5922
+
+QMENERGY:     703         1.0000   -633563.3090
+
+QMENERGY:     704         1.0000   -633565.0680
+
+QMENERGY:     705         1.0000   -633564.0703
+
+QMENERGY:     706         1.0000   -633561.6803
+
+QMENERGY:     707         1.0000   -633558.9466
+
+QMENERGY:     708         1.0000   -633556.9320
+
+QMENERGY:     709         1.0000   -633556.4615
+
+QMENERGY:     710         1.0000   -633557.8859
+
+QMENERGY:     711         1.0000   -633560.1730
+
+QMENERGY:     712         1.0000   -633561.8012
+
+QMENERGY:     713         1.0000   -633561.1935
+
+QMENERGY:     714         1.0000   -633559.0191
+
+QMENERGY:     715         1.0000   -633557.7043
+
+QMENERGY:     716         1.0000   -633557.4883
+
+QMENERGY:     717         1.0000   -633557.7294
+
+QMENERGY:     718         1.0000   -633558.7092
+
+QMENERGY:     719         1.0000   -633560.1729
+
+QMENERGY:     720         1.0000   -633561.1913
+
+QMENERGY:     721         1.0000   -633560.5513
+
+QMENERGY:     722         1.0000   -633558.5530
+
+QMENERGY:     723         1.0000   -633556.5793
+
+QMENERGY:     724         1.0000   -633555.7055
+
+QMENERGY:     725         1.0000   -633556.2043
+
+QMENERGY:     726         1.0000   -633556.8344
+
+QMENERGY:     727         1.0000   -633556.8424
+
+QMENERGY:     728         1.0000   -633557.7994
+
+QMENERGY:     729         1.0000   -633560.7197
+
+QMENERGY:     730         1.0000   -633563.7687
+
+QMENERGY:     731         1.0000   -633563.3862
+
+QMENERGY:     732         1.0000   -633559.2309
+
+QMENERGY:     733         1.0000   -633554.7061
+
+QMENERGY:     734         1.0000   -633554.0141
+
+QMENERGY:     735         1.0000   -633557.7640
+
+QMENERGY:     736         1.0000   -633562.2211
+
+QMENERGY:     737         1.0000   -633563.7757
+
+QMENERGY:     738         1.0000   -633562.7318
+
+QMENERGY:     739         1.0000   -633561.4904
+
+QMENERGY:     740         1.0000   -633561.5512
+
+QMENERGY:     741         1.0000   -633562.0576
+
+QMENERGY:     742         1.0000   -633561.4808
+
+QMENERGY:     743         1.0000   -633559.7183
+
+QMENERGY:     744         1.0000   -633558.3919
+
+QMENERGY:     745         1.0000   -633559.4069
+
+QMENERGY:     746         1.0000   -633561.6994
+
+QMENERGY:     747         1.0000   -633562.5755
+
+QMENERGY:     748         1.0000   -633560.7846
+
+QMENERGY:     749         1.0000   -633557.5530
+
+QMENERGY:     750         1.0000   -633555.0797
+
+QMENERGY:     751         1.0000   -633555.3161
+
+QMENERGY:     752         1.0000   -633557.9195
+
+QMENERGY:     753         1.0000   -633561.1844
+
+QMENERGY:     754         1.0000   -633562.3315
+
+QMENERGY:     755         1.0000   -633560.5970
+
+QMENERGY:     756         1.0000   -633557.2361
+
+QMENERGY:     757         1.0000   -633554.6730
+
+QMENERGY:     758         1.0000   -633554.7777
+
+QMENERGY:     759         1.0000   -633557.2074
+
+QMENERGY:     760         1.0000   -633559.8209
+
+QMENERGY:     761         1.0000   -633560.3225
+
+QMENERGY:     762         1.0000   -633558.8149
+
+QMENERGY:     763         1.0000   -633556.6038
+
+QMENERGY:     764         1.0000   -633555.6593
+
+QMENERGY:     765         1.0000   -633556.1136
+
+QMENERGY:     766         1.0000   -633557.0597
+
+QMENERGY:     767         1.0000   -633558.6534
+
+QMENERGY:     768         1.0000   -633560.9210
+
+QMENERGY:     769         1.0000   -633562.3478
+
+QMENERGY:     770         1.0000   -633561.9587
+
+QMENERGY:     771         1.0000   -633559.3083
+
+QMENERGY:     772         1.0000   -633555.7859
+
+QMENERGY:     773         1.0000   -633553.8262
+
+QMENERGY:     774         1.0000   -633554.2357
+
+QMENERGY:     775         1.0000   -633555.4913
+
+QMENERGY:     776         1.0000   -633555.6312
+
+QMENERGY:     777         1.0000   -633555.5711
+
+QMENERGY:     778         1.0000   -633557.4067
+
+QMENERGY:     779         1.0000   -633560.6642
+
+QMENERGY:     780         1.0000   -633561.7669
+
+QMENERGY:     781         1.0000   -633559.1838
+
+QMENERGY:     782         1.0000   -633554.8794
+
+QMENERGY:     783         1.0000   -633552.7232
+
+QMENERGY:     784         1.0000   -633554.8393
+
+QMENERGY:     785         1.0000   -633558.8149
+
+QMENERGY:     786         1.0000   -633560.3460
+
+QMENERGY:     787         1.0000   -633558.6744
+
+QMENERGY:     788         1.0000   -633556.9549
+
+QMENERGY:     789         1.0000   -633556.8587
+
+QMENERGY:     790         1.0000   -633556.6761
+
+QMENERGY:     791         1.0000   -633555.8819
+
+QMENERGY:     792         1.0000   -633555.0717
+
+QMENERGY:     793         1.0000   -633555.5060
+
+QMENERGY:     794         1.0000   -633557.4520
+
+QMENERGY:     795         1.0000   -633559.3034
+
+QMENERGY:     796         1.0000   -633558.8553
+
+QMENERGY:     797         1.0000   -633556.9479
+
+QMENERGY:     798         1.0000   -633555.9169
+
+QMENERGY:     799         1.0000   -633556.2045
+
+QMENERGY:     800         1.0000   -633556.4290
+
+QMENERGY:     801         1.0000   -633555.5302
+
+QMENERGY:     802         1.0000   -633554.6694
+
+QMENERGY:     803         1.0000   -633555.5232
+
+QMENERGY:     804         1.0000   -633557.3361
+
+QMENERGY:     805         1.0000   -633557.7198
+
+QMENERGY:     806         1.0000   -633556.4751
+
+QMENERGY:     807         1.0000   -633555.2227
+
+QMENERGY:     808         1.0000   -633555.5406
+
+QMENERGY:     809         1.0000   -633556.9433
+
+QMENERGY:     810         1.0000   -633558.0636
+
+QMENERGY:     811         1.0000   -633557.9837
+
+QMENERGY:     812         1.0000   -633557.3384
+
+QMENERGY:     813         1.0000   -633557.8658
+
+QMENERGY:     814         1.0000   -633559.7125
+
+QMENERGY:     815         1.0000   -633560.4233
+
+QMENERGY:     816         1.0000   -633559.3101
+
+QMENERGY:     817         1.0000   -633558.7870
+
+QMENERGY:     818         1.0000   -633560.3987
+
+QMENERGY:     819         1.0000   -633562.5645
+
+QMENERGY:     820         1.0000   -633562.1488
+
+QMENERGY:     821         1.0000   -633559.2209
+
+QMENERGY:     822         1.0000   -633555.9587
+
+QMENERGY:     823         1.0000   -633554.4906
+
+QMENERGY:     824         1.0000   -633555.2949
+
+QMENERGY:     825         1.0000   -633556.8974
+
+QMENERGY:     826         1.0000   -633558.6739
+
+QMENERGY:     827         1.0000   -633560.8388
+
+QMENERGY:     828         1.0000   -633563.2879
+
+QMENERGY:     829         1.0000   -633564.2075
+
+QMENERGY:     830         1.0000   -633561.6901
+
+QMENERGY:     831         1.0000   -633556.6821
+
+QMENERGY:     832         1.0000   -633553.1463
+
+QMENERGY:     833         1.0000   -633553.7515
+
+QMENERGY:     834         1.0000   -633557.3191
+
+QMENERGY:     835         1.0000   -633560.2328
+
+QMENERGY:     836         1.0000   -633561.2434
+
+QMENERGY:     837         1.0000   -633561.2089
+
+QMENERGY:     838         1.0000   -633560.6317
+
+QMENERGY:     839         1.0000   -633558.8384
+
+QMENERGY:     840         1.0000   -633557.1696
+
+QMENERGY:     841         1.0000   -633557.2674
+
+QMENERGY:     842         1.0000   -633558.6944
+
+QMENERGY:     843         1.0000   -633559.8735
+
+QMENERGY:     844         1.0000   -633559.1454
+
+QMENERGY:     845         1.0000   -633555.6470
+
+QMENERGY:     846         1.0000   -633552.5214
+
+QMENERGY:     847         1.0000   -633553.5573
+
+QMENERGY:     848         1.0000   -633559.1217
+
+QMENERGY:     849         1.0000   -633564.2369
+
+QMENERGY:     850         1.0000   -633564.4352
+
+QMENERGY:     851         1.0000   -633560.2220
+
+QMENERGY:     852         1.0000   -633556.3831
+
+QMENERGY:     853         1.0000   -633556.4993
+
+QMENERGY:     854         1.0000   -633559.1164
+
+QMENERGY:     855         1.0000   -633560.0158
+
+QMENERGY:     856         1.0000   -633558.0836
+
+QMENERGY:     857         1.0000   -633555.5894
+
+QMENERGY:     858         1.0000   -633555.2937
+
+QMENERGY:     859         1.0000   -633557.5597
+
+QMENERGY:     860         1.0000   -633560.0620
+
+QMENERGY:     861         1.0000   -633560.3971
+
+QMENERGY:     862         1.0000   -633559.3692
+
+QMENERGY:     863         1.0000   -633559.9839
+
+QMENERGY:     864         1.0000   -633561.4971
+
+QMENERGY:     865         1.0000   -633560.8794
+
+QMENERGY:     866         1.0000   -633558.4073
+
+QMENERGY:     867         1.0000   -633556.5641
+
+QMENERGY:     868         1.0000   -633556.1669
+
+QMENERGY:     869         1.0000   -633555.9093
+
+QMENERGY:     870         1.0000   -633555.5490
+
+QMENERGY:     871         1.0000   -633555.1610
+
+QMENERGY:     872         1.0000   -633555.6321
+
+QMENERGY:     873         1.0000   -633557.6688
+
+QMENERGY:     874         1.0000   -633559.4262
+
+QMENERGY:     875         1.0000   -633559.4686
+
+QMENERGY:     876         1.0000   -633559.1491
+
+QMENERGY:     877         1.0000   -633559.6330
+
+QMENERGY:     878         1.0000   -633561.0013
+
+QMENERGY:     879         1.0000   -633561.6108
+
+QMENERGY:     880         1.0000   -633559.9191
+
+QMENERGY:     881         1.0000   -633556.8359
+
+QMENERGY:     882         1.0000   -633554.9388
+
+QMENERGY:     883         1.0000   -633555.7923
+
+QMENERGY:     884         1.0000   -633558.2913
+
+QMENERGY:     885         1.0000   -633559.9111
+
+QMENERGY:     886         1.0000   -633559.8232
+
+QMENERGY:     887         1.0000   -633559.1005
+
+QMENERGY:     888         1.0000   -633558.3073
+
+QMENERGY:     889         1.0000   -633557.2325
+
+QMENERGY:     890         1.0000   -633555.6119
+
+QMENERGY:     891         1.0000   -633554.9319
+
+QMENERGY:     892         1.0000   -633556.5848
+
+QMENERGY:     893         1.0000   -633559.4646
+
+QMENERGY:     894         1.0000   -633560.9307
+
+QMENERGY:     895         1.0000   -633560.1369
+
+QMENERGY:     896         1.0000   -633558.0031
+
+QMENERGY:     897         1.0000   -633557.0062
+
+QMENERGY:     898         1.0000   -633558.4778
+
+QMENERGY:     899         1.0000   -633561.7856
+
+QMENERGY:     900         1.0000   -633563.6821
+
+QMENERGY:     901         1.0000   -633561.6478
+
+QMENERGY:     902         1.0000   -633557.2470
+
+QMENERGY:     903         1.0000   -633553.3893
+
+QMENERGY:     904         1.0000   -633551.0675
+
+QMENERGY:     905         1.0000   -633550.4034
+
+QMENERGY:     906         1.0000   -633551.6458
+
+QMENERGY:     907         1.0000   -633555.0217
+
+QMENERGY:     908         1.0000   -633559.5094
+
+QMENERGY:     909         1.0000   -633562.6877
+
+QMENERGY:     910         1.0000   -633561.3403
+
+QMENERGY:     911         1.0000   -633556.3117
+
+QMENERGY:     912         1.0000   -633551.7618
+
+QMENERGY:     913         1.0000   -633551.0442
+
+QMENERGY:     914         1.0000   -633553.4218
+
+QMENERGY:     915         1.0000   -633555.7201
+
+QMENERGY:     916         1.0000   -633556.1189
+
+QMENERGY:     917         1.0000   -633556.4121
+
+QMENERGY:     918         1.0000   -633557.8560
+
+QMENERGY:     919         1.0000   -633559.8281
+
+QMENERGY:     920         1.0000   -633559.6291
+
+QMENERGY:     921         1.0000   -633556.3556
+
+QMENERGY:     922         1.0000   -633552.3571
+
+QMENERGY:     923         1.0000   -633550.9201
+
+QMENERGY:     924         1.0000   -633552.9953
+
+QMENERGY:     925         1.0000   -633556.5709
+
+QMENERGY:     926         1.0000   -633557.0659
+
+QMENERGY:     927         1.0000   -633554.9682
+
+QMENERGY:     928         1.0000   -633554.8309
+
+QMENERGY:     929         1.0000   -633557.7805
+
+QMENERGY:     930         1.0000   -633560.4955
+
+QMENERGY:     931         1.0000   -633560.0615
+
+QMENERGY:     932         1.0000   -633557.6138
+
+QMENERGY:     933         1.0000   -633555.2051
+
+QMENERGY:     934         1.0000   -633554.3046
+
+QMENERGY:     935         1.0000   -633554.4620
+
+QMENERGY:     936         1.0000   -633554.8751
+
+QMENERGY:     937         1.0000   -633555.7962
+
+QMENERGY:     938         1.0000   -633557.1718
+
+QMENERGY:     939         1.0000   -633557.3845
+
+QMENERGY:     940         1.0000   -633555.6433
+
+QMENERGY:     941         1.0000   -633554.3139
+
+QMENERGY:     942         1.0000   -633555.4505
+
+QMENERGY:     943         1.0000   -633557.8485
+
+QMENERGY:     944         1.0000   -633559.5964
+
+QMENERGY:     945         1.0000   -633559.4561
+
+QMENERGY:     946         1.0000   -633558.1992
+
+QMENERGY:     947         1.0000   -633558.0964
+
+QMENERGY:     948         1.0000   -633559.8727
+
+QMENERGY:     949         1.0000   -633561.1402
+
+QMENERGY:     950         1.0000   -633559.1306
+
+QMENERGY:     951         1.0000   -633554.2454
+
+QMENERGY:     952         1.0000   -633551.3863
+
+QMENERGY:     953         1.0000   -633553.4403
+
+QMENERGY:     954         1.0000   -633557.9462
+
+QMENERGY:     955         1.0000   -633560.8355
+
+QMENERGY:     956         1.0000   -633560.6822
+
+QMENERGY:     957         1.0000   -633559.2866
+
+QMENERGY:     958         1.0000   -633558.7659
+
+QMENERGY:     959         1.0000   -633558.4825
+
+QMENERGY:     960         1.0000   -633556.6500
+
+QMENERGY:     961         1.0000   -633553.6136
+
+QMENERGY:     962         1.0000   -633552.6246
+
+QMENERGY:     963         1.0000   -633555.2905
+
+QMENERGY:     964         1.0000   -633558.6650
+
+QMENERGY:     965         1.0000   -633559.3008
+
+QMENERGY:     966         1.0000   -633557.4433
+
+QMENERGY:     967         1.0000   -633555.7727
+
+QMENERGY:     968         1.0000   -633556.2180
+
+QMENERGY:     969         1.0000   -633556.9700
+
+QMENERGY:     970         1.0000   -633556.3622
+
+QMENERGY:     971         1.0000   -633554.2077
+
+QMENERGY:     972         1.0000   -633551.9052
+
+QMENERGY:     973         1.0000   -633551.6051
+
+QMENERGY:     974         1.0000   -633553.6866
+
+QMENERGY:     975         1.0000   -633555.9501
+
+QMENERGY:     976         1.0000   -633556.9092
+
+QMENERGY:     977         1.0000   -633556.3535
+
+QMENERGY:     978         1.0000   -633554.8395
+
+QMENERGY:     979         1.0000   -633553.8615
+
+QMENERGY:     980         1.0000   -633553.9372
+
+QMENERGY:     981         1.0000   -633554.3977
+
+QMENERGY:     982         1.0000   -633554.7048
+
+QMENERGY:     983         1.0000   -633554.3648
+
+QMENERGY:     984         1.0000   -633553.8513
+
+QMENERGY:     985         1.0000   -633553.7408
+
+QMENERGY:     986         1.0000   -633554.3146
+
+QMENERGY:     987         1.0000   -633555.5911
+
+QMENERGY:     988         1.0000   -633557.5057
+
+QMENERGY:     989         1.0000   -633559.3132
+
+QMENERGY:     990         1.0000   -633559.1916
+
+QMENERGY:     991         1.0000   -633557.0196
+
+QMENERGY:     992         1.0000   -633554.0517
+
+QMENERGY:     993         1.0000   -633552.3868
+
+QMENERGY:     994         1.0000   -633552.6689
+
+QMENERGY:     995         1.0000   -633554.6944
+
+QMENERGY:     996         1.0000   -633558.1081
+
+QMENERGY:     997         1.0000   -633560.7261
+
+QMENERGY:     998         1.0000   -633559.7216
+
+QMENERGY:     999         1.0000   -633556.0457
+
+colvars: Saving collective variables state to "md.colvars.state".
+QMENERGY:    1000         1.0000   -633552.1416
+
+WRITING EXTENDED SYSTEM TO OUTPUT FILE AT STEP 1000
+CLOSING EXTENDED SYSTEM TRAJECTORY FILE
+WRITING COORDINATES TO OUTPUT FILE AT STEP 1000
+COORDINATE DCD FILE md.dcd WAS NOT CREATED
+The last position output (seq=-2) takes 0.001 seconds, 318.098 MB of memory in use
+WRITING VELOCITIES TO OUTPUT FILE AT STEP 1000
+The last velocity output (seq=-2) takes 0.000 seconds, 318.098 MB of memory in use
+====================================================
+
+WallClock: 118.247231  CPUTime: 20.965654  Memory: 318.097656 MB
+[Partition 0][Node 0] End of program
