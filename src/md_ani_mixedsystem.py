@@ -12,14 +12,8 @@ crd_file=sys.argv[2]
 prmtop = AmberPrmtopFile(prmtop_file)
 inpcrd = AmberInpcrdFile(crd_file)
 
-#potential = MLPotential('ani2x')
-#ml_atoms  = [atom.index for atom in prmtop.topology.atoms() if atom.residue.name == "MOL"]
-#mm_system = prmtop.createSystem(nonbondedMethod=NoCutoff)
-#ml_system = potential.createMixedSystem(prmtop.topology, mm_system, ml_atoms)
-
-
 potential = MLPotential('ani2x')
-ml_atoms  = [atom.index for atom in prmtop.topology.atoms() if atom.residue.name == "MOL289"]
+ml_atoms  = [atom.index for atom in prmtop.topology.atoms() if atom.residue.name == "MOL"]
 mm_system = prmtop.createSystem(nonbondedMethod=PME,
 nonbondedCutoff=1.0*unit.nanometers, constraints=HBonds, rigidWater=True,
 ewaldErrorTolerance=0.0005)
