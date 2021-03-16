@@ -22,10 +22,11 @@ lig= traj.top.select('resname MOL')
 rmsd = md.rmsd(traj, traj,atom_indices=lig)
 
 #plot results
+time=np.arange(0,6,0.01)
 plt.figure()
-plt.plot(rmsd)
+plt.plot(time, rmsd)
 plt.title('RMSD to first frame')
-plt.xlabel('Frame (10 ps/frame)')
+plt.xlabel('Time (ns)')
 plt.ylabel('RMSD (nm)')
 plt.savefig('rmsd.png', dpi=300)
 plt.show()
@@ -33,10 +34,11 @@ plt.close()
 
 print("RMSD figure saved as rmsd.png")
 
-rmsd_results = pd.DataFrame(columns=["Frame (10 ps/frame)"])
-for i in range(600):
-    rmsd_results=rmsd_results.append({"Frame (10 ps/frame)":i}, ignore_index=True)
+rmsd_results = pd.DataFrame()
+for i in range(0,6000,10):
+    rmsd_results=rmsd_results.append({"Time (ps)":i}, ignore_index=True)
 rmsd_results["RMSD (nm)"]=pd.Series(rmsd)
+rmsd_results.set_index("Time (ps)")
 rmsd_results.to_csv("rmsd_results.csv")
 
 print("RMSD results saved as rmsd_results.csv")
