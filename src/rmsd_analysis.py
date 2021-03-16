@@ -31,7 +31,7 @@ plt.savefig('rmsd.png', dpi=300)
 plt.show()
 plt.close()
 
-Print("RMSD figure saved as rmsd.png")
+print("RMSD figure saved as rmsd.png")
 
 rmsd_results = pd.DataFrame(columns=["Frame (10 ps/frame)"])
 for i in range(600):
@@ -39,4 +39,4 @@ for i in range(600):
 rmsd_results["RMSD (nm)"]=pd.Series(rmsd)
 rmsd_results.to_csv("rmsd_results.csv")
 
-Print("RMSD results saved as rmsd_results.csv")
+print("RMSD results saved as rmsd_results.csv")
