@@ -38,7 +38,7 @@ rmsd_results = pd.DataFrame()
 for i in range(0,6000,10):
     rmsd_results=rmsd_results.append({"Time (ps)":i}, ignore_index=True)
 rmsd_results["RMSD (nm)"]=pd.Series(rmsd)
-rmsd_results.set_index("Time (ps)")
+rmsd_results.set_index("Time (ps)", inplace=True)
 rmsd_results.to_csv("rmsd_results.csv")
 
 print("RMSD results saved as rmsd_results.csv")
