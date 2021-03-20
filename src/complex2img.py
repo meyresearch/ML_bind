@@ -21,7 +21,7 @@
 #############################################################################
 
 '''
-Usage: python unpairedmap2img.py -complex production.pdb -out (lig)_allcontacts.svg
+Usage: python unpairedmap2img.py -complex production.pdb -out (lig)_interactions.svg
 '''
 
 import sys
