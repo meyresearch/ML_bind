@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"   viewBox="0.00 0.00 900.00 600.00">
+<!-- Created by OpenEye Scientific Software -->
+<!-- Creation Date Sat Mar 20 14:15:08 2021 -->
+<rect width="900.00" height="600.00" fill="white" />
+<rect x="180" y="0" width="720" height="600" fill="white" />
+<text x="540.00" y="52.50" fill="black" font-family="Arial" font-size="45" font-style="normal" font-weight="normal" text-anchor="middle">  MOL </text>
+<path d = "M 718.89 441.11 A 49.79 49.79 0 0 1 641.13 486.00" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 718.89 441.11 A 27.23 27.23 0 0 1 721.81 426.62" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 724.61 400.89 A 36.31 36.31 0 0 1 721.81 426.62" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 724.61 400.89 A 27.23 27.23 0 0 1 730.47 376.06" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 695.08 286.00 A 54.47 54.47 0 0 1 730.47 376.06" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 695.08 286.00 A 27.23 27.23 0 0 1 672.11 250.09" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 653.70 196.90 A 45.72 45.72 0 0 1 672.11 250.09" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 653.70 196.90 A 27.23 27.23 0 0 1 643.55 184.95" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 595.32 164.48 A 38.13 38.13 0 0 1 643.55 184.95" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 595.32 164.48 A 27.23 27.23 0 0 1 578.24 165.11" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 535.57 183.90 A 36.31 36.31 0 0 1 578.24 165.11" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 535.57 183.90 A 27.23 27.23 0 0 1 509.72 199.03" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 493.97 201.71 A 36.31 36.31 0 0 1 509.72 199.03" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 493.97 201.71 A 27.23 27.23 0 0 1 464.44 195.90" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 354.49 235.37 A 64.76 64.76 0 0 1 464.44 195.90" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 354.49 235.37 A 27.23 27.23 0 0 1 350.74 246.62" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 363.62 308.31 A 27.23 27.23 0 0 1 372.72 319.47" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 453.00 336.61 A 50.71 50.71 0 0 1 372.72 319.47" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 453.00 336.61 A 27.23 27.23 0 0 1 486.98 334.65" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 504.06 341.14 A 36.31 36.31 0 0 1 486.98 334.65" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 504.06 341.14 A 27.23 27.23 0 0 1 526.20 357.64" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 528.08 361.58 A 45.72 45.72 0 0 1 526.20 357.64" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 528.08 361.58 A 27.23 27.23 0 0 1 527.94 387.68" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 574.45 455.95 A 46.27 46.27 0 0 1 527.94 387.68" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 574.45 455.95 A 27.23 27.23 0 0 1 599.84 466.70" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 627.13 481.28 A 36.31 36.31 0 0 1 599.84 466.70" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<path d = "M 627.13 481.28 A 27.23 27.23 0 0 1 641.13 486.00" fill = "none"  stroke="#bfbfbf" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="534.28" y1="175.24" x2="530.53" y2="175.82" stroke="#c8c8ff" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="534.28" y1="175.24" x2="533.70" y2="171.48" stroke="#c8c8ff" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="540.28" y1="179.62" x2="539.70" y2="175.87" stroke="#c8c8ff" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="546.28" y1="184.01" x2="542.53" y2="184.59" stroke="#c8c8ff" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="552.28" y1="188.40" x2="551.70" y2="184.65" stroke="#c8c8ff" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="558.28" y1="192.79" x2="554.53" y2="193.37" stroke="#c8c8ff" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="558.28" y1="192.79" x2="557.70" y2="189.03" stroke="#c8c8ff" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="509.63" y1="207.71" x2="512.13" y2="210.57" stroke="#ffc8c8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="509.63" y1="207.71" x2="506.77" y2="210.22" stroke="#ffc8c8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="510.17" y1="199.61" x2="507.31" y2="202.11" stroke="#ffc8c8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="510.70" y1="191.50" x2="513.21" y2="194.36" stroke="#ffc8c8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="511.24" y1="183.39" x2="513.74" y2="186.25" stroke="#ffc8c8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="511.24" y1="183.39" x2="508.38" y2="185.90" stroke="#ffc8c8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="669.25" y1="444.90" x2="628.96" y2="445.02" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="662.78" y1="436.48" x2="635.38" y2="436.56" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="669.25" y1="444.90" x2="689.49" y2="410.08" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="628.96" y1="445.02" x2="608.72" y2="409.95" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="608.72" y1="409.95" x2="583.04" y2="410.03" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="608.72" y1="409.95" x2="628.75" y2="374.77" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="619.26" y1="408.50" x2="632.89" y2="384.58" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="628.75" y1="374.77" x2="608.61" y2="339.88" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="628.75" y1="374.77" x2="669.24" y2="375.01" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="669.24" y1="375.01" x2="682.15" y2="352.81" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="669.24" y1="375.01" x2="689.49" y2="410.08" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="665.17" y1="384.84" x2="678.94" y2="408.69" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="608.61" y1="335.66" x2="581.50" y2="335.66" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="608.61" y1="344.11" x2="581.50" y2="344.11" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="608.61" y1="339.88" x2="622.89" y2="315.16" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="622.89" y1="294.84" x2="608.61" y2="270.11" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="608.61" y1="270.11" x2="628.86" y2="235.28" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="604.55" y1="260.30" x2="618.31" y2="236.61" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="608.61" y1="270.11" x2="568.33" y2="270.23" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="628.86" y1="235.28" x2="608.61" y2="200.22" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="608.61" y1="200.22" x2="579.85" y2="200.05" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="602.08" y1="208.62" x2="574.55" y2="208.46" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="562.31" y1="210.18" x2="548.08" y2="235.16" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="548.08" y1="235.16" x2="519.53" y2="235.25" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="548.08" y1="235.16" x2="568.33" y2="270.23" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="558.64" y1="236.55" x2="572.40" y2="260.40" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="501.96" y1="245.46" x2="487.76" y2="270.23" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="487.76" y1="270.23" x2="447.48" y2="270.35" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="484.11" y1="272.35" x2="497.74" y2="295.79" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="491.41" y1="268.10" x2="505.04" y2="291.54" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="447.48" y1="270.35" x2="418.91" y2="241.95" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="447.48" y1="270.35" x2="419.08" y2="298.91" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="419.08" y1="298.91" x2="390.51" y2="270.51" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="390.51" y1="270.51" x2="418.91" y2="241.95" stroke="black" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+<text x="689.49" y="345.79" fill="black" font-family="Arial" font-size="17" font-style="normal" font-weight="normal" text-anchor="middle">  Cl </text>
+<text x="568.33" y="345.49" fill="black" font-family="Arial" font-size="17" font-style="normal" font-weight="normal" text-anchor="middle">  O </text>
+<text x="628.75" y="310.61" fill="black" font-family="Arial" font-size="17" font-style="normal" font-weight="normal" text-anchor="middle">  N </text>
+<text x="640.65" y="310.61" fill="black" font-family="Arial" font-size="17" font-style="normal" font-weight="normal" text-anchor="middle">  H </text>
+<text x="568.12" y="205.59" fill="black" font-family="Arial" font-size="17" font-style="normal" font-weight="normal" text-anchor="middle">  N </text>
+<text x="507.80" y="240.89" fill="black" font-family="Arial" font-size="17" font-style="normal" font-weight="normal" text-anchor="middle">  N </text>
+<text x="507.80" y="227.29" fill="black" font-family="Arial" font-size="17" font-style="normal" font-weight="normal" text-anchor="middle">  H </text>
+<text x="508.01" y="310.66" fill="black" font-family="Arial" font-size="17" font-style="normal" font-weight="normal" text-anchor="middle">  O </text>
+<text x="568.43" y="415.68" fill="black" font-family="Arial" font-size="17" font-style="normal" font-weight="normal" text-anchor="middle">  Cl </text>
+<circle cx="308.06" cy="229.13" r="16.11" fill="white" />
+<circle cx="308.06" cy="229.13" r="16.11" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="308.06" y1="213.01" x2="308.06" y2="209.79" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="313.57" y1="213.98" x2="314.68" y2="210.96" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="318.42" y1="216.78" x2="320.49" y2="214.31" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="322.02" y1="221.07" x2="324.81" y2="219.46" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="323.93" y1="226.33" x2="327.10" y2="225.77" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="323.93" y1="231.92" x2="327.10" y2="232.48" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="322.02" y1="237.18" x2="324.81" y2="238.79" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="318.42" y1="241.47" x2="320.49" y2="243.94" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="313.57" y1="244.27" x2="314.68" y2="247.29" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="308.06" y1="245.24" x2="308.06" y2="248.46" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="302.55" y1="244.27" x2="301.45" y2="247.29" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="297.71" y1="241.47" x2="295.63" y2="243.94" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="294.11" y1="237.18" x2="291.32" y2="238.79" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="292.19" y1="231.92" x2="289.02" y2="232.48" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="292.19" y1="226.33" x2="289.02" y2="225.77" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="294.11" y1="221.07" x2="291.32" y2="219.46" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="297.71" y1="216.78" x2="295.63" y2="214.31" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="302.55" y1="213.98" x2="301.45" y2="210.96" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="308.06" y="227.33" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  ARG </text>
+<text x="308.06" y="236.33" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  12A </text>
+<circle cx="473.62" cy="143.65" r="16.11" fill="white" />
+<circle cx="473.62" cy="143.65" r="16.11" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="473.62" y1="127.53" x2="473.62" y2="124.31" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="479.13" y1="128.51" x2="480.23" y2="125.48" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="483.97" y1="131.30" x2="486.05" y2="128.84" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="487.57" y1="135.59" x2="490.36" y2="133.98" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="489.48" y1="140.85" x2="492.66" y2="140.29" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="489.48" y1="146.45" x2="492.66" y2="147.00" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="487.57" y1="151.70" x2="490.36" y2="153.32" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="483.97" y1="155.99" x2="486.05" y2="158.46" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="479.13" y1="158.79" x2="480.23" y2="161.82" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="473.62" y1="159.76" x2="473.62" y2="162.98" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="468.11" y1="158.79" x2="467.00" y2="161.82" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="463.26" y1="155.99" x2="461.19" y2="158.46" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="459.66" y1="151.70" x2="456.87" y2="153.32" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="457.75" y1="146.45" x2="454.57" y2="147.00" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="457.75" y1="140.85" x2="454.57" y2="140.29" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="459.66" y1="135.59" x2="456.87" y2="133.98" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="463.26" y1="131.30" x2="461.19" y2="128.84" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="468.11" y1="128.51" x2="467.00" y2="125.48" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="473.62,127.53 474.81,130.00 475.99,130.16 477.79,128.08 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="479.13,128.51 479.40,131.23 480.46,131.79 482.86,130.45 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="483.97,131.30 483.30,133.96 484.11,134.84 486.82,134.41 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="487.57,135.59 486.03,137.86 486.49,138.96 489.18,139.48 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="489.48,140.85 487.26,142.45 487.31,143.65 489.67,145.05 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="489.48,146.45 486.85,147.19 486.49,148.33 488.22,150.46 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="487.57,151.70 484.84,151.50 484.11,152.45 485.01,155.04 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="483.97,155.99 481.47,154.87 480.46,155.51 480.43,158.25 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="479.13,158.79 477.16,156.88 475.99,157.14 475.02,159.70 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="473.62,159.76 472.42,157.29 471.24,157.14 469.45,159.21 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="468.11,158.79 467.83,156.06 466.77,155.51 464.37,156.85 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="463.26,155.99 463.93,153.33 463.12,152.45 460.42,152.89 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="459.66,151.70 461.20,149.44 460.75,148.33 458.05,147.82 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="457.75,146.45 459.97,144.84 459.92,143.65 457.56,142.24 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="457.75,140.85 460.39,140.10 460.75,138.96 459.01,136.84 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="459.66,135.59 462.40,135.79 463.12,134.84 462.22,132.25 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="463.26,131.30 465.76,132.43 466.77,131.79 466.81,129.04 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="468.11,128.51 470.07,130.42 471.24,130.16 472.21,127.60 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="473.62" y="141.85" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  LEU </text>
+<text x="473.62" y="150.85" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  14A </text>
+<circle cx="482.66" cy="475.76" r="16.11" fill="white" />
+<polygon points="482.66,459.65 483.85,462.12 485.04,462.27 486.83,460.20 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="488.17,460.62 488.45,463.35 489.51,463.90 491.90,462.56 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="493.02,463.42 492.34,466.08 493.15,466.96 495.86,466.52 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="496.61,467.71 495.07,469.97 495.53,471.08 498.22,471.59 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="498.53,472.96 496.30,474.57 496.35,475.76 498.71,477.17 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="498.53,478.56 495.89,479.31 495.53,480.45 497.26,482.57 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="496.61,483.82 493.88,483.62 493.15,484.57 494.05,487.16 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="493.02,488.11 490.51,486.98 489.51,487.62 489.47,490.37 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="488.17,490.90 486.20,488.99 485.04,489.25 484.06,491.81 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="482.66,491.88 481.46,489.41 480.28,489.25 478.49,491.33 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="477.15,490.90 476.87,488.18 475.81,487.62 473.42,488.96 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="472.30,488.11 472.97,485.45 472.17,484.57 469.46,485.00 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="468.70,483.82 470.25,481.55 469.79,480.45 467.09,479.93 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="466.79,478.56 469.01,476.96 468.96,475.76 466.61,474.36 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="466.79,472.96 469.43,472.22 469.79,471.08 468.05,468.95 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="468.70,467.71 471.44,467.91 472.17,466.96 471.26,464.37 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="472.30,463.42 474.80,464.54 475.81,463.90 475.85,461.16 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="477.15,460.62 479.11,462.53 480.28,462.27 481.25,459.71 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="482.66" y="473.96" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  GLY </text>
+<text x="482.66" y="482.96" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  15A </text>
+<circle cx="579.29" cy="529.59" r="16.11" fill="white" />
+<polygon points="579.29,513.47 580.49,515.94 581.67,516.10 583.46,514.02 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="584.80,514.44 585.08,517.17 586.14,517.73 588.54,516.39 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="589.65,517.24 588.98,519.90 589.79,520.78 592.49,520.34 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="593.25,521.53 591.71,523.80 592.16,524.90 594.86,525.42 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="595.16,526.79 592.94,528.39 592.99,529.59 595.35,530.99 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="595.16,532.38 592.52,533.13 592.16,534.27 593.90,536.40 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="593.25,537.64 590.51,537.44 589.79,538.39 590.69,540.98 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="589.65,541.93 587.15,540.81 586.14,541.45 586.10,544.19 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="584.80,544.73 582.84,542.82 581.67,543.07 580.70,545.64 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="579.29,545.70 578.10,543.23 576.92,543.07 575.12,545.15 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="573.78,544.73 573.51,542.00 572.45,541.45 570.05,542.79 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="568.94,541.93 569.61,539.27 568.80,538.39 566.09,538.83 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="565.34,537.64 566.88,535.37 566.42,534.27 563.73,533.76 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="563.43,532.38 565.65,530.78 565.60,529.59 563.24,528.18 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="563.43,526.79 566.06,526.04 566.42,524.90 564.69,522.78 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="565.34,521.53 568.07,521.73 568.80,520.78 567.90,518.19 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="568.94,517.24 571.44,518.37 572.45,517.73 572.48,514.98 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="573.78,514.44 575.75,516.36 576.92,516.10 577.89,513.53 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="579.29" y="527.79" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  GLU </text>
+<text x="579.29" y="536.79" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  16A </text>
+<circle cx="476.64" cy="427.97" r="16.11" fill="white" />
+<circle cx="476.64" cy="427.97" r="16.11" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="476.64" y1="411.86" x2="476.64" y2="408.63" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="482.15" y1="412.83" x2="483.25" y2="409.80" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="486.99" y1="415.63" x2="489.06" y2="413.16" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="490.59" y1="419.91" x2="493.38" y2="418.30" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="492.50" y1="425.17" x2="495.68" y2="424.61" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="492.50" y1="430.77" x2="495.68" y2="431.33" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="490.59" y1="436.03" x2="493.38" y2="437.64" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="486.99" y1="440.31" x2="489.06" y2="442.78" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="482.15" y1="443.11" x2="483.25" y2="446.14" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="476.64" y1="444.08" x2="476.64" y2="447.31" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="471.12" y1="443.11" x2="470.02" y2="446.14" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="466.28" y1="440.31" x2="464.21" y2="442.78" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="462.68" y1="436.03" x2="459.89" y2="437.64" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="460.77" y1="430.77" x2="457.59" y2="431.33" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="460.77" y1="425.17" x2="457.59" y2="424.61" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="462.68" y1="419.91" x2="459.89" y2="418.30" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="466.28" y1="415.63" x2="464.21" y2="413.16" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="471.12" y1="412.83" x2="470.02" y2="409.80" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="476.64" y="426.17" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  VAL </text>
+<text x="476.64" y="435.17" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  22A </text>
+<circle cx="609.42" cy="100.33" r="16.11" fill="white" />
+<circle cx="609.42" cy="100.33" r="16.11" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="609.42" y1="84.21" x2="609.42" y2="80.99" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="614.93" y1="85.19" x2="616.03" y2="82.16" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="619.78" y1="87.98" x2="621.85" y2="85.52" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="623.37" y1="92.27" x2="626.17" y2="90.66" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="625.29" y1="97.53" x2="628.46" y2="96.97" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="625.29" y1="103.13" x2="628.46" y2="103.68" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="623.37" y1="108.38" x2="626.17" y2="110.00" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="619.78" y1="112.67" x2="621.85" y2="115.14" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="614.93" y1="115.47" x2="616.03" y2="118.50" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="609.42" y1="116.44" x2="609.42" y2="119.66" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="603.91" y1="115.47" x2="602.81" y2="118.50" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="599.06" y1="112.67" x2="596.99" y2="115.14" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="595.47" y1="108.38" x2="592.68" y2="110.00" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="593.55" y1="103.13" x2="590.38" y2="103.68" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="593.55" y1="97.53" x2="590.38" y2="96.97" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="595.47" y1="92.27" x2="592.68" y2="90.66" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="599.06" y1="87.98" x2="596.99" y2="85.52" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="603.91" y1="85.19" x2="602.81" y2="82.16" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="609.42" y="98.53" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  ALA </text>
+<text x="609.42" y="107.53" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  39A </text>
+<circle cx="731.59" cy="203.67" r="16.11" fill="white" />
+<circle cx="731.59" cy="203.67" r="16.11" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="731.59" y1="187.55" x2="731.59" y2="184.33" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="737.10" y1="188.53" x2="738.20" y2="185.50" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="741.94" y1="191.32" x2="744.01" y2="188.85" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="745.54" y1="195.61" x2="748.33" y2="194.00" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="747.45" y1="200.87" x2="750.63" y2="200.31" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="747.45" y1="206.46" x2="750.63" y2="207.02" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="745.54" y1="211.72" x2="748.33" y2="213.33" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="741.94" y1="216.01" x2="744.01" y2="218.48" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="737.10" y1="218.81" x2="738.20" y2="221.84" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="731.59" y1="219.78" x2="731.59" y2="223.00" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="726.08" y1="218.81" x2="724.97" y2="221.84" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="721.23" y1="216.01" x2="719.16" y2="218.48" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="717.63" y1="211.72" x2="714.84" y2="213.33" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="715.72" y1="206.46" x2="712.54" y2="207.02" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="715.72" y1="200.87" x2="712.54" y2="200.31" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="717.63" y1="195.61" x2="714.84" y2="194.00" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="721.23" y1="191.32" x2="719.16" y2="188.85" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="726.08" y1="188.53" x2="724.97" y2="185.50" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="731.59" y="201.87" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  ILE </text>
+<text x="731.59" y="210.87" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  71A </text>
+<circle cx="800.98" cy="307.33" r="16.11" fill="white" />
+<circle cx="800.98" cy="307.33" r="16.11" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="800.98" y1="291.21" x2="800.98" y2="287.99" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="806.49" y1="292.18" x2="807.60" y2="289.16" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="811.34" y1="294.98" x2="813.41" y2="292.51" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="814.94" y1="299.27" x2="817.73" y2="297.66" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="816.85" y1="304.53" x2="820.02" y2="303.97" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="816.85" y1="310.12" x2="820.02" y2="310.68" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="814.94" y1="315.38" x2="817.73" y2="316.99" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="811.34" y1="319.67" x2="813.41" y2="322.14" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="806.49" y1="322.47" x2="807.60" y2="325.50" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="800.98" y1="323.44" x2="800.98" y2="326.66" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="795.47" y1="322.47" x2="794.37" y2="325.50" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="790.63" y1="319.67" x2="788.55" y2="322.14" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="787.03" y1="315.38" x2="784.24" y2="316.99" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="785.11" y1="310.12" x2="781.94" y2="310.68" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="785.11" y1="304.53" x2="781.94" y2="303.97" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="787.03" y1="299.27" x2="784.24" y2="297.66" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="790.63" y1="294.98" x2="788.55" y2="292.51" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="795.47" y1="292.18" x2="794.37" y2="289.16" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="800.98" y="305.53" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  MET </text>
+<text x="800.98" y="314.53" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  89A </text>
+<circle cx="662.77" cy="116.28" r="16.11" fill="white" />
+<polygon points="662.77,100.17 663.96,102.63 665.14,102.79 666.94,100.71 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="668.28,101.14 668.55,103.87 669.61,104.42 672.01,103.08 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="673.12,103.93 672.45,106.59 673.26,107.47 675.96,107.04 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="676.72,108.22 675.18,110.49 675.64,111.59 678.33,112.11 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="678.63,113.48 676.41,115.08 676.46,116.28 678.82,117.68 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="678.63,119.08 675.99,119.82 675.64,120.96 677.37,123.09 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="676.72,124.33 673.98,124.13 673.26,125.08 674.16,127.67 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="673.12,128.62 670.62,127.50 669.61,128.14 669.57,130.88 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="668.28,131.42 666.31,129.51 665.14,129.77 664.17,132.33 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="662.77,132.39 661.57,129.92 660.39,129.77 658.59,131.84 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="657.25,131.42 656.98,128.69 655.92,128.14 653.52,129.48 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="652.41,128.62 653.08,125.96 652.27,125.08 649.57,125.52 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="648.81,124.33 650.35,122.07 649.90,120.96 647.20,120.45 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="646.90,119.08 649.12,117.47 649.07,116.28 646.71,114.87 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="646.90,113.48 649.54,112.73 649.90,111.59 648.16,109.47 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="648.81,108.22 651.55,108.42 652.27,107.47 651.37,104.88 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="652.41,103.93 654.91,105.06 655.92,104.42 655.96,101.67 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="657.25,101.14 659.22,103.05 660.39,102.79 661.36,100.23 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="662.77" y="114.48" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  GLU </text>
+<text x="662.77" y="123.48" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  90A </text>
+<circle cx="545.68" cy="121.15" r="16.11" fill="white" />
+<circle cx="545.68" cy="121.15" r="16.11" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="545.68" y1="105.04" x2="545.68" y2="101.82" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="551.19" y1="106.01" x2="552.29" y2="102.98" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="556.03" y1="108.81" x2="558.10" y2="106.34" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="559.63" y1="113.10" x2="562.42" y2="111.48" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="561.54" y1="118.35" x2="564.72" y2="117.79" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="561.54" y1="123.95" x2="564.72" y2="124.51" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="559.63" y1="129.21" x2="562.42" y2="130.82" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="556.03" y1="133.50" x2="558.10" y2="135.96" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="551.19" y1="136.29" x2="552.29" y2="139.32" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="545.68" y1="137.27" x2="545.68" y2="140.49" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="540.16" y1="136.29" x2="539.06" y2="139.32" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="535.32" y1="133.50" x2="533.25" y2="135.96" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="531.72" y1="129.21" x2="528.93" y2="130.82" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="529.81" y1="123.95" x2="526.63" y2="124.51" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="529.81" y1="118.35" x2="526.63" y2="117.79" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="531.72" y1="113.10" x2="528.93" y2="111.48" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="535.32" y1="108.81" x2="533.25" y2="106.34" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="540.16" y1="106.01" x2="539.06" y2="102.98" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="545.68,105.04 546.87,107.51 548.05,107.66 549.85,105.59 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="551.19,106.01 551.46,108.74 552.52,109.29 554.92,107.95 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="556.03,108.81 555.36,111.47 556.17,112.35 558.87,111.91 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="559.63,113.10 558.09,115.36 558.55,116.47 561.24,116.98 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="561.54,118.35 559.32,119.96 559.37,121.15 561.73,122.56 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="561.54,123.95 558.90,124.70 558.55,125.84 560.28,127.96 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="559.63,129.21 556.89,129.01 556.17,129.96 557.07,132.55 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="556.03,133.50 553.53,132.37 552.52,133.01 552.48,135.76 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="551.19,136.29 549.22,134.38 548.05,134.64 547.08,137.20 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="545.68,137.27 544.48,134.80 543.30,134.64 541.50,136.72 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="540.16,136.29 539.89,133.57 538.83,133.01 536.43,134.35 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="535.32,133.50 535.99,130.84 535.18,129.96 532.48,130.39 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="531.72,129.21 533.26,126.94 532.81,125.84 530.11,125.32 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="529.81,123.95 532.03,122.35 531.98,121.15 529.62,119.75 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="529.81,118.35 532.45,117.61 532.81,116.47 531.07,114.34 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="531.72,113.10 534.46,113.30 535.18,112.35 534.28,109.76 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="535.32,108.81 537.82,109.93 538.83,109.29 538.87,106.55 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="540.16,106.01 542.13,107.92 543.30,107.66 544.27,105.10 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="545.68" y="119.35" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  TYR </text>
+<text x="545.68" y="128.35" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  91A </text>
+<path d = "M 512.82 159.55 L 512.82 143.43 A 16.11 16.11 0 0 1 512.82 175.66 z"  fill="#e6e6ff" />
+<path d = "M 512.82 159.55 L 512.82 175.66 A 16.11 16.11 0 0 1 512.82 143.43 z"  fill="#ffe6e6" />
+<circle cx="512.82" cy="159.55" r="16.11" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="512.82" cy="159.55" r="16.11" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="512.82" y1="143.43" x2="512.82" y2="140.21" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="518.33" y1="144.40" x2="519.44" y2="141.38" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="523.18" y1="147.20" x2="525.25" y2="144.73" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="526.78" y1="151.49" x2="529.57" y2="149.88" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="528.69" y1="156.75" x2="531.86" y2="156.19" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="528.69" y1="162.34" x2="531.86" y2="162.90" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="526.78" y1="167.60" x2="529.57" y2="169.21" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="523.18" y1="171.89" x2="525.25" y2="174.36" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="518.33" y1="174.69" x2="519.44" y2="177.71" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="512.82" y1="175.66" x2="512.82" y2="178.88" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="507.31" y1="174.69" x2="506.21" y2="177.71" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="502.46" y1="171.89" x2="500.39" y2="174.36" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="498.87" y1="167.60" x2="496.08" y2="169.21" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="496.95" y1="162.34" x2="493.78" y2="162.90" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="496.95" y1="156.75" x2="493.78" y2="156.19" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="498.87" y1="151.49" x2="496.08" y2="149.88" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="502.46" y1="147.20" x2="500.39" y2="144.73" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="507.31" y1="144.40" x2="506.21" y2="141.38" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="512.82,143.43 514.02,145.90 515.20,146.06 516.99,143.98 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="518.33,144.40 518.61,147.13 519.67,147.68 522.06,146.35 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="523.18,147.20 522.51,149.86 523.31,150.74 526.02,150.30 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="526.78,151.49 525.24,153.76 525.69,154.86 528.39,155.37 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="528.69,156.75 526.47,158.35 526.52,159.55 528.87,160.95 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="528.69,162.34 526.05,163.09 525.69,164.23 527.43,166.35 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="526.78,167.60 524.04,167.40 523.31,168.35 524.22,170.94 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="523.18,171.89 520.68,170.76 519.67,171.41 519.63,174.15 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="518.33,174.69 516.37,172.77 515.20,173.03 514.23,175.60 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="512.82,175.66 511.63,173.19 510.44,173.03 508.65,175.11 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="507.31,174.69 507.03,171.96 505.97,171.41 503.58,172.74 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="502.46,171.89 503.14,169.23 502.33,168.35 499.62,168.79 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="498.87,167.60 500.41,165.33 499.95,164.23 497.26,163.72 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="496.95,162.34 499.18,160.74 499.13,159.55 496.77,158.14 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="496.95,156.75 499.59,156.00 499.95,154.86 498.22,152.74 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="498.87,151.49 501.60,151.69 502.33,150.74 501.43,148.15 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="502.46,147.20 504.97,148.33 505.97,147.68 506.01,144.94 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="507.31,144.40 509.28,146.32 510.44,146.06 511.42,143.49 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="512.82" y="157.75" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  VAL </text>
+<text x="512.82" y="166.75" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  92A </text>
+<circle cx="335.33" cy="373.99" r="16.11" fill="white" />
+<polygon points="335.33,357.87 336.52,360.34 337.71,360.50 339.50,358.42 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="340.84,358.84 341.11,361.57 342.17,362.12 344.57,360.79 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="345.68,361.64 345.01,364.30 345.82,365.18 348.53,364.74 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="349.28,365.93 347.74,368.20 348.20,369.30 350.89,369.82 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="351.19,371.19 348.97,372.79 349.02,373.99 351.38,375.39 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="351.19,376.78 348.56,377.53 348.20,378.67 349.93,380.80 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="349.28,382.04 346.55,381.84 345.82,382.79 346.72,385.38 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="345.68,386.33 343.18,385.21 342.17,385.85 342.14,388.59 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="340.84,389.13 338.87,387.22 337.71,387.47 336.73,390.04 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="335.33,390.10 334.13,387.63 332.95,387.47 331.16,389.55 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="329.82,389.13 329.54,386.40 328.48,385.85 326.08,387.18 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="324.97,386.33 325.64,383.67 324.83,382.79 322.13,383.23 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="321.37,382.04 322.91,379.77 322.46,378.67 319.76,378.16 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="319.46,376.78 321.68,375.18 321.63,373.99 319.28,372.58 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="319.46,371.19 322.10,370.44 322.46,369.30 320.72,367.18 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="321.37,365.93 324.11,366.13 324.83,365.18 323.93,362.59 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="324.97,361.64 327.47,362.77 328.48,362.12 328.52,359.38 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="329.82,358.84 331.78,360.76 332.95,360.50 333.92,357.93 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="335.33" y="372.19" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  LEU </text>
+<text x="335.33" y="381.19" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  94A </text>
+<circle cx="440.29" cy="397.93" r="16.11" fill="white" />
+<polygon points="440.29,381.82 441.49,384.29 442.67,384.45 444.46,382.37 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="445.80,382.79 446.08,385.52 447.14,386.07 449.53,384.73 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="450.65,385.59 449.98,388.25 450.78,389.13 453.49,388.69 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="454.25,389.88 452.70,392.15 453.16,393.25 455.86,393.76 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="456.16,395.14 453.94,396.74 453.99,397.93 456.34,399.34 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="456.16,400.73 453.52,401.48 453.16,402.62 454.90,404.74 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="454.25,405.99 451.51,405.79 450.78,406.74 451.69,409.33 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="450.65,410.28 448.15,409.15 447.14,409.80 447.10,412.54 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="445.80,413.08 443.84,411.16 442.67,411.42 441.70,413.99 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="440.29,414.05 439.10,411.58 437.91,411.42 436.12,413.50 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="434.78,413.08 434.50,410.35 433.44,409.80 431.05,411.13 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="429.93,410.28 430.61,407.62 429.80,406.74 427.09,407.18 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="426.34,405.99 427.88,403.72 427.42,402.62 424.73,402.10 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="424.42,400.73 426.65,399.13 426.60,397.93 424.24,396.53 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="424.42,395.14 427.06,394.39 427.42,393.25 425.69,391.12 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="426.34,389.88 429.07,390.08 429.80,389.13 428.90,386.54 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="429.93,385.59 432.44,386.71 433.44,386.07 433.48,383.33 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="434.78,382.79 436.75,384.70 437.91,384.45 438.89,381.88 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="440.29" y="396.13" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  GLY </text>
+<text x="440.29" y="405.13" fill="black" font-family="Arial" font-size="9" font-style="normal" font-weight="bold" text-anchor="middle">  95A </text>
+<circle cx="622.59" cy="546.24" r="16.11" fill="white" />
+<polygon points="622.59,530.13 623.78,532.59 624.97,532.75 626.76,530.67 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="628.10,531.10 628.38,533.83 629.44,534.38 631.83,533.04 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="632.95,533.90 632.27,536.55 633.08,537.43 635.79,537.00 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="636.54,538.18 635.00,540.45 635.46,541.55 638.15,542.07 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="638.46,543.44 636.23,545.04 636.29,546.24 638.64,547.64 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="638.46,549.04 635.82,549.78 635.46,550.92 637.19,553.05 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="636.54,554.30 633.81,554.09 633.08,555.04 633.98,557.63 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="632.95,558.58 630.45,557.46 629.44,558.10 629.40,560.84 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="628.10,561.38 626.14,559.47 624.97,559.73 623.99,562.29 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="622.59,562.35 621.40,559.88 620.21,559.73 618.42,561.80 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="617.08,561.38 616.80,558.65 615.74,558.10 613.35,559.44 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="612.23,558.58 612.91,555.92 612.10,555.04 609.39,555.48 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="608.64,554.30 610.18,552.03 609.72,550.92 607.03,550.41 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="606.72,549.04 608.95,547.43 608.89,546.24 606.54,544.83 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="606.72,543.44 609.36,542.69 609.72,541.55 607.99,539.43 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="608.64,538.18 611.37,538.38 612.10,537.43 611.20,534.84 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="612.23,533.90 614.73,535.02 615.74,534.38 615.78,531.64 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="617.08,531.10 619.05,533.01 620.21,532.75 621.19,530.19 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="622.59" y="544.64" fill="black" font-family="Arial" font-size="8" font-style="normal" font-weight="bold" text-anchor="middle">  ARG </text>
+<text x="622.59" y="552.64" fill="black" font-family="Arial" font-size="8" font-style="normal" font-weight="bold" text-anchor="middle">  138A </text>
+<circle cx="730.65" cy="243.75" r="16.11" fill="white" />
+<circle cx="730.65" cy="243.75" r="16.11" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="730.65" y1="227.63" x2="730.65" y2="224.41" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="736.16" y1="228.60" x2="737.26" y2="225.58" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="741.01" y1="231.40" x2="743.08" y2="228.93" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="744.60" y1="235.69" x2="747.39" y2="234.08" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="746.52" y1="240.95" x2="749.69" y2="240.39" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="746.52" y1="246.54" x2="749.69" y2="247.10" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="744.60" y1="251.80" x2="747.39" y2="253.41" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="741.01" y1="256.09" x2="743.08" y2="258.56" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="736.16" y1="258.89" x2="737.26" y2="261.91" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="730.65" y1="259.86" x2="730.65" y2="263.08" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="725.14" y1="258.89" x2="724.04" y2="261.91" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="720.29" y1="256.09" x2="718.22" y2="258.56" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="716.69" y1="251.80" x2="713.90" y2="253.41" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="714.78" y1="246.54" x2="711.61" y2="247.10" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="714.78" y1="240.95" x2="711.61" y2="240.39" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="716.69" y1="235.69" x2="713.90" y2="234.08" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="720.29" y1="231.40" x2="718.22" y2="228.93" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="725.14" y1="228.60" x2="724.04" y2="225.58" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="730.65" y="242.15" fill="black" font-family="Arial" font-size="8" font-style="normal" font-weight="bold" text-anchor="middle">  LEU </text>
+<text x="730.65" y="250.15" fill="black" font-family="Arial" font-size="8" font-style="normal" font-weight="bold" text-anchor="middle">  141A </text>
+<circle cx="788.97" cy="405.78" r="16.11" fill="white" />
+<polygon points="788.97,389.67 790.16,392.14 791.35,392.29 793.14,390.22 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="794.48,390.64 794.76,393.37 795.82,393.92 798.21,392.58 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="799.33,393.44 798.65,396.10 799.46,396.98 802.17,396.54 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="802.92,397.73 801.38,399.99 801.84,401.10 804.53,401.61 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="804.84,402.98 802.61,404.59 802.67,405.78 805.02,407.19 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="804.84,408.58 802.20,409.33 801.84,410.47 803.57,412.59 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="802.92,413.84 800.19,413.64 799.46,414.59 800.36,417.18 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="799.33,418.13 796.83,417.00 795.82,417.64 795.78,420.39 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="794.48,420.92 792.51,419.01 791.35,419.27 790.37,421.83 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="788.97,421.90 787.78,419.43 786.59,419.27 784.80,421.35 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="783.46,420.92 783.18,418.19 782.12,417.64 779.73,418.98 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="778.61,418.13 779.29,415.47 778.48,414.59 775.77,415.02 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="775.02,413.84 776.56,411.57 776.10,410.47 773.41,409.95 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="773.10,408.58 775.33,406.98 775.27,405.78 772.92,404.38 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="773.10,402.98 775.74,402.24 776.10,401.10 774.37,398.97 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="775.02,397.73 777.75,397.93 778.48,396.98 777.58,394.39 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="778.61,393.44 781.11,394.56 782.12,393.92 782.16,391.18 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="783.46,390.64 785.43,392.55 786.59,392.29 787.57,389.73 " fill="black" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="788.97" y="404.18" fill="black" font-family="Arial" font-size="8" font-style="normal" font-weight="bold" text-anchor="middle">  GLY </text>
+<text x="788.97" y="412.18" fill="black" font-family="Arial" font-size="8" font-style="normal" font-weight="bold" text-anchor="middle">  151A </text>
+<circle cx="778.97" cy="465.05" r="16.11" fill="white" />
+<circle cx="778.97" cy="465.05" r="16.11" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="778.97" y1="448.94" x2="778.97" y2="445.72" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="784.48" y1="449.91" x2="785.58" y2="446.88" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="789.33" y1="452.71" x2="791.40" y2="450.24" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="792.92" y1="457.00" x2="795.71" y2="455.39" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="794.84" y1="462.26" x2="798.01" y2="461.70" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="794.84" y1="467.85" x2="798.01" y2="468.41" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="792.92" y1="473.11" x2="795.71" y2="474.72" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="789.33" y1="477.40" x2="791.40" y2="479.87" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="784.48" y1="480.19" x2="785.58" y2="483.22" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="778.97" y1="481.17" x2="778.97" y2="484.39" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="773.46" y1="480.19" x2="772.36" y2="483.22" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="768.61" y1="477.40" x2="766.54" y2="479.87" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="765.02" y1="473.11" x2="762.22" y2="474.72" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="763.10" y1="467.85" x2="759.93" y2="468.41" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="763.10" y1="462.26" x2="759.93" y2="461.70" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="765.02" y1="457.00" x2="762.22" y2="455.39" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="768.61" y1="452.71" x2="766.54" y2="450.24" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="773.46" y1="449.91" x2="772.36" y2="446.88" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="778.97" y="463.45" fill="black" font-family="Arial" font-size="8" font-style="normal" font-weight="bold" text-anchor="middle">  ASP </text>
+<text x="778.97" y="471.45" fill="black" font-family="Arial" font-size="8" font-style="normal" font-weight="bold" text-anchor="middle">  152A </text>
+<path d="M 318.18 275.59 L 329.35 288.48 C 330.53 290.53 331.07 292.55 331.07 294.92 C 331.07 302.04 325.30 307.81 318.18 307.81 C 311.07 307.81 305.29 302.04 305.29 294.92 C 305.29 292.55 305.83 290.53 307.02 288.48 Z" fill="white" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="318.18" y="292.03" fill="black" font-family="Arial" font-size="8" font-style="normal" font-weight="bold" text-anchor="middle">  HOH </text>
+<text x="318.18" y="300.03" fill="black" font-family="Arial" font-size="8" font-style="normal" font-weight="bold" text-anchor="middle">  480A </text>
+<path d="M 612.05 490.61 L 623.21 503.50 C 624.40 505.56 624.94 507.57 624.94 509.95 C 624.94 517.07 619.17 522.84 612.05 522.84 C 604.93 522.84 599.16 517.07 599.16 509.95 C 599.16 507.57 599.70 505.56 600.88 503.50 Z" fill="white" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="612.05" y="507.06" fill="black" font-family="Arial" font-size="8" font-style="normal" font-weight="bold" text-anchor="middle">  HOH </text>
+<text x="612.05" y="515.06" fill="black" font-family="Arial" font-size="8" font-style="normal" font-weight="bold" text-anchor="middle">  699A </text>
+<path d="M 339.84 309.02 L 351.00 321.91 C 352.19 323.96 352.73 325.98 352.73 328.35 C 352.73 335.47 346.96 341.24 339.84 341.24 C 332.72 341.24 326.95 335.47 326.95 328.35 C 326.95 325.98 327.49 323.96 328.67 321.91 Z" fill="white" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="339.84" y="325.66" fill="black" font-family="Arial" font-size="7" font-style="normal" font-weight="bold" text-anchor="middle">  HOH </text>
+<text x="339.84" y="332.66" fill="black" font-family="Arial" font-size="7" font-style="normal" font-weight="bold" text-anchor="middle">  2136A </text>
+<path d="M 576.81 471.60 L 587.97 484.49 C 589.16 486.54 589.70 488.56 589.70 490.93 C 589.70 498.05 583.93 503.82 576.81 503.82 C 569.69 503.82 563.92 498.05 563.92 490.93 C 563.92 488.56 564.46 486.54 565.64 484.49 Z" fill="white" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="576.81" y="488.24" fill="black" font-family="Arial" font-size="7" font-style="normal" font-weight="bold" text-anchor="middle">  HOH </text>
+<text x="576.81" y="495.24" fill="black" font-family="Arial" font-size="7" font-style="normal" font-weight="bold" text-anchor="middle">  3350A </text>
+<path d="M 751.66 413.72 L 762.82 426.61 C 764.01 428.67 764.55 430.68 764.55 433.06 C 764.55 440.18 758.78 445.95 751.66 445.95 C 744.54 445.95 738.77 440.18 738.77 433.06 C 738.77 430.68 739.31 428.67 740.50 426.61 Z" fill="white" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="751.66" y="430.37" fill="black" font-family="Arial" font-size="7" font-style="normal" font-weight="bold" text-anchor="middle">  HOH </text>
+<text x="751.66" y="437.37" fill="black" font-family="Arial" font-size="7" font-style="normal" font-weight="bold" text-anchor="middle">  4118A </text>
+<path d="M 537.97 461.45 L 549.14 474.34 C 550.32 476.40 550.86 478.41 550.86 480.79 C 550.86 487.91 545.09 493.68 537.97 493.68 C 530.85 493.68 525.08 487.91 525.08 480.79 C 525.08 478.41 525.62 476.40 526.81 474.34 Z" fill="white" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="537.97" y="478.10" fill="black" font-family="Arial" font-size="7" font-style="normal" font-weight="bold" text-anchor="middle">  HOH </text>
+<text x="537.97" y="485.10" fill="black" font-family="Arial" font-size="7" font-style="normal" font-weight="bold" text-anchor="middle">  5018A </text>
+<path d="M 282.46 247.73 L 293.62 260.62 C 294.81 262.67 295.35 264.69 295.35 267.06 C 295.35 274.18 289.57 279.95 282.46 279.95 C 275.34 279.95 269.57 274.18 269.57 267.06 C 269.57 264.69 270.11 262.67 271.29 260.62 Z" fill="white" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="282.46" y="264.37" fill="black" font-family="Arial" font-size="7" font-style="normal" font-weight="bold" text-anchor="middle">  HOH </text>
+<text x="282.46" y="271.37" fill="black" font-family="Arial" font-size="7" font-style="normal" font-weight="bold" text-anchor="middle">  7794A </text>
+<path d="M 529.77 510.00 L 540.93 522.89 C 542.11 524.95 542.66 526.97 542.66 529.34 C 542.66 536.46 536.88 542.23 529.77 542.23 C 522.65 542.23 516.87 536.46 516.87 529.34 C 516.87 526.97 517.42 524.95 518.60 522.89 Z" fill="white" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="529.77" y="526.65" fill="black" font-family="Arial" font-size="7" font-style="normal" font-weight="bold" text-anchor="middle">  HOH </text>
+<text x="529.77" y="533.65" fill="black" font-family="Arial" font-size="7" font-style="normal" font-weight="bold" text-anchor="middle">  7807A </text>
+<path d="M 773.49 321.20 L 784.66 334.09 C 785.84 336.15 786.38 338.16 786.38 340.54 C 786.38 347.66 780.61 353.43 773.49 353.43 C 766.37 353.43 760.60 347.66 760.60 340.54 C 760.60 338.16 761.14 336.15 762.33 334.09 Z" fill="white" stroke="black" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="773.49" y="337.85" fill="black" font-family="Arial" font-size="7" font-style="normal" font-weight="bold" text-anchor="middle">  HOH </text>
+<text x="773.49" y="344.85" fill="black" font-family="Arial" font-size="7" font-style="normal" font-weight="bold" text-anchor="middle">  9918A </text>
+<polygon points="27.43,24.14 28.57,26.50 29.70,26.64 31.40,24.67 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="32.68,25.07 32.95,27.67 33.96,28.20 36.24,26.92 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="37.30,27.74 36.66,30.27 37.43,31.11 40.01,30.69 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="40.73,31.82 39.26,33.98 39.69,35.04 42.26,35.53 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="42.55,36.83 40.43,38.36 40.48,39.50 42.73,40.84 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="42.55,42.17 40.04,42.88 39.69,43.96 41.35,45.99 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="40.73,47.18 38.12,46.99 37.43,47.89 38.29,50.36 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="37.30,51.26 34.92,50.19 33.96,50.80 33.92,53.42 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="32.68,53.93 30.81,52.11 29.70,52.36 28.77,54.80 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="27.43,54.86 26.29,52.50 25.16,52.36 23.45,54.33 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="22.18,53.93 21.91,51.33 20.90,50.80 18.62,52.08 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="17.56,51.26 18.20,48.73 17.43,47.89 14.85,48.31 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="14.13,47.18 15.60,45.02 15.16,43.96 12.59,43.47 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="12.30,42.17 14.42,40.64 14.37,39.50 12.13,38.16 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="12.30,36.83 14.82,36.12 15.16,35.04 13.51,33.01 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="14.13,31.82 16.74,32.01 17.43,31.11 16.57,28.64 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="17.56,27.74 19.94,28.81 20.90,28.20 20.94,25.58 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="22.18,25.07 24.05,26.89 25.16,26.64 26.09,24.20 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="27.43" cy="85.50" r="15.36" fill="none" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="27.43" y1="70.14" x2="27.43" y2="67.07" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="32.68" y1="71.07" x2="33.73" y2="68.18" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="37.30" y1="73.74" x2="39.27" y2="71.38" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="40.73" y1="77.82" x2="43.39" y2="76.29" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="42.55" y1="82.83" x2="45.58" y2="82.30" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="42.55" y1="88.17" x2="45.58" y2="88.70" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="40.73" y1="93.18" x2="43.39" y2="94.71" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="37.30" y1="97.26" x2="39.27" y2="99.62" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="32.68" y1="99.93" x2="33.73" y2="102.82" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="27.43" y1="100.86" x2="27.43" y2="103.93" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="22.18" y1="99.93" x2="21.13" y2="102.82" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="17.56" y1="97.26" x2="15.58" y2="99.62" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="14.13" y1="93.18" x2="11.47" y2="94.71" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="12.30" y1="88.17" x2="9.28" y2="88.70" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="12.30" y1="82.83" x2="9.28" y2="82.30" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="14.13" y1="77.82" x2="11.47" y2="76.29" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="17.56" y1="73.74" x2="15.58" y2="71.38" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="22.18" y1="71.07" x2="21.13" y2="68.18" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="27.43" cy="131.50" r="15.36" fill="none" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="27.43" y1="116.14" x2="27.43" y2="113.07" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="32.68" y1="117.07" x2="33.73" y2="114.18" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="37.30" y1="119.74" x2="39.27" y2="117.38" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="40.73" y1="123.82" x2="43.39" y2="122.29" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="42.55" y1="128.83" x2="45.58" y2="128.30" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="42.55" y1="134.17" x2="45.58" y2="134.70" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="40.73" y1="139.18" x2="43.39" y2="140.71" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="37.30" y1="143.26" x2="39.27" y2="145.62" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="32.68" y1="145.93" x2="33.73" y2="148.82" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="27.43" y1="146.86" x2="27.43" y2="149.93" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="22.18" y1="145.93" x2="21.13" y2="148.82" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="17.56" y1="143.26" x2="15.58" y2="145.62" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="14.13" y1="139.18" x2="11.47" y2="140.71" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="12.30" y1="134.17" x2="9.28" y2="134.70" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="12.30" y1="128.83" x2="9.28" y2="128.30" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="14.13" y1="123.82" x2="11.47" y2="122.29" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="17.56" y1="119.74" x2="15.58" y2="117.38" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="22.18" y1="117.07" x2="21.13" y2="114.18" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="27.43,116.14 28.57,118.50 29.70,118.64 31.40,116.67 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="32.68,117.07 32.95,119.67 33.96,120.20 36.24,118.92 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="37.30,119.74 36.66,122.27 37.43,123.11 40.01,122.69 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="40.73,123.82 39.26,125.98 39.69,127.04 42.26,127.53 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="42.55,128.83 40.43,130.36 40.48,131.50 42.73,132.84 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="42.55,134.17 40.04,134.88 39.69,135.96 41.35,137.99 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="40.73,139.18 38.12,138.99 37.43,139.89 38.29,142.36 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="37.30,143.26 34.92,142.19 33.96,142.80 33.92,145.42 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="32.68,145.93 30.81,144.11 29.70,144.36 28.77,146.80 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="27.43,146.86 26.29,144.50 25.16,144.36 23.45,146.33 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="22.18,145.93 21.91,143.33 20.90,142.80 18.62,144.08 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="17.56,143.26 18.20,140.73 17.43,139.89 14.85,140.31 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="14.13,139.18 15.60,137.02 15.16,135.96 12.59,135.47 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="12.30,134.17 14.42,132.64 14.37,131.50 12.13,130.16 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="12.30,128.83 14.82,128.12 15.16,127.04 13.51,125.01 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="14.13,123.82 16.74,124.01 17.43,123.11 16.57,120.64 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="17.56,119.74 19.94,120.81 20.90,120.20 20.94,117.58 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<polygon points="22.18,117.07 24.05,118.89 25.16,118.64 26.09,116.20 " fill="black" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 27.43 160.30 L 38.07 172.59 C 39.20 174.54 39.71 176.47 39.71 178.73 C 39.71 185.51 34.21 191.01 27.43 191.01 C 20.64 191.01 15.14 185.51 15.14 178.73 C 15.14 176.47 15.66 174.54 16.79 172.59 Z" fill="none" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="27.43" cy="247.50" r="15.36" fill="#e6e6ff" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="27.43" cy="293.50" r="15.36" fill="#ffe6e6" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<circle cx="27.43" cy="339.50" r="15.36" fill="white" stroke="black" stroke-linejoin="round" stroke-linecap="round" />
+<text x="55.07" y="42.17" fill="black" font-family="Arial" font-size="8" font-style="normal" font-weight="bold" text-anchor="start">  backbone              </text>
+<text x="55.07" y="88.17" fill="black" font-family="Arial" font-size="8" font-style="normal" font-weight="bold" text-anchor="start">  side-chain            </text>
+<text x="55.07" y="134.17" fill="black" font-family="Arial" font-size="8" font-style="normal" font-weight="bold" text-anchor="start">  backbone &amp; side-chain </text>
+<text x="55.07" y="180.17" fill="black" font-family="Arial" font-size="8" font-style="normal" font-weight="bold" text-anchor="start">  water </text>
+<text x="55.07" y="250.17" fill="black" font-family="Arial" font-size="8" font-style="normal" font-weight="bold" text-anchor="start">  non-ideal ligand acceptor </text>
+<text x="55.07" y="296.17" fill="black" font-family="Arial" font-size="8" font-style="normal" font-weight="bold" text-anchor="start">  non-ideal ligand donor </text>
+<text x="55.07" y="342.17" fill="black" font-family="Arial" font-size="8" font-style="normal" font-weight="bold" text-anchor="start">  contact only </text>
+<path d="M 13.50 10.80 L 166.50 10.80 C 170.48 10.80 173.70 14.02 173.70 18.00 L 173.70 194.50 C 173.70 198.48 170.48 201.70 166.50 201.70 L 13.50 201.70 C 9.52 201.70 6.30 198.48 6.30 194.50 L 6.30 18.00 C 6.30 14.02 9.52 10.80 13.50 10.80 Z" fill="none" stroke="#bfbfbf" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="34.54" y="4.5" width="110.91" height="9" fill="white" stroke="white" stroke-linejoin="round" stroke-linecap="round" />
+<text x="90.00" y="13.67" fill="black" font-family="Arial" font-size="14" font-style="normal" font-weight="bold" text-anchor="middle">  Residue Styles </text>
+<path d="M 13.50 218.80 L 166.50 218.80 C 170.48 218.80 173.70 222.02 173.70 226.00 L 173.70 356.50 C 173.70 360.48 170.48 363.70 166.50 363.70 L 13.50 363.70 C 9.52 363.70 6.30 360.48 6.30 356.50 L 6.30 226.00 C 6.30 222.02 9.52 218.80 13.50 218.80 Z" fill="none" stroke="#bfbfbf" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<rect x="25.6" y="212.5" width="128.8" height="9" fill="white" stroke="white" stroke-linejoin="round" stroke-linecap="round" />
+<text x="90.00" y="221.67" fill="black" font-family="Arial" font-size="14" font-style="normal" font-weight="bold" text-anchor="middle">  Interaction Styles </text>
+<path d="M 10.50 0.50 L 889.50 0.50 C 895.02 0.50 899.50 4.98 899.50 10.50 L 899.50 589.50 C 899.50 595.02 895.02 599.50 889.50 599.50 L 10.50 599.50 C 4.98 599.50 0.50 595.02 0.50 589.50 L 0.50 10.50 C 0.50 4.98 4.98 0.50 10.50 0.50 Z" fill="none" stroke="#bfbfbf" stroke-linejoin="round" stroke-linecap="round" />
+</svg>
