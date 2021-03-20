@@ -20,6 +20,10 @@
 # Depicts the interactions of an active site
 #############################################################################
 
+'''
+Usage: python unpairedmap2img.py -complex production.pdb -out (lig)_allcontacts.svg
+'''
+
 import sys
 from openeye import oechem
 from openeye import oedepict
