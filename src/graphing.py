@@ -73,7 +73,7 @@ def create_plots(y_variable):
         plt.plot(time, potentialenergy/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Potential Energy (x$10^3$ kilocalorie/mol)")
-        plt.savefig('potentialenergy.png', dpi=300)
+        plt.savefig('potentialenergy.png', bbox_inches='tight', dpi=300)
         plt.clf()
 
     elif y_variable == 'temperature':
