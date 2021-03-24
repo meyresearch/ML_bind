@@ -57,7 +57,7 @@ def create_plots(y_variable):
         plt.plot(time, totalenergy/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Total Energy (x$10^3$ kilocalorie/mol)")
-        plt.savefig('totalenergy.png', dpi=300)
+        plt.savefig('totalenergy.png', dpi=300, bbox_inches = "tight")
         plt.clf()
 
     elif y_variable == 'kineticenergy':
@@ -65,7 +65,7 @@ def create_plots(y_variable):
         plt.plot(time, kineticenergy/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Kinetic Energy (x$10^3$ kilocalorie/mol)")
-        plt.savefig('kineticenergy.png', dpi=300)
+        plt.savefig('kineticenergy.png', dpi=300, bbox_inches = "tight")
         plt.clf()
 
     elif y_variable == 'potentialenergy':
@@ -73,7 +73,7 @@ def create_plots(y_variable):
         plt.plot(time, potentialenergy/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Potential Energy (x$10^3$ kilocalorie/mol)")
-        plt.savefig('potentialenergy.png', dpi=300)
+        plt.savefig('potentialenergy.png', dpi=300, bbox_inches = "tight")
         plt.clf()
 
     elif y_variable == 'temperature':
@@ -81,7 +81,7 @@ def create_plots(y_variable):
         plt.plot(time, temperature, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Temperature (K)")
-        plt.savefig('temperature.png', dpi=300)
+        plt.savefig('temperature.png', dpi=300, bbox_inches = "tight")
         plt.clf()
 
     elif y_variable == 'density':
@@ -89,7 +89,7 @@ def create_plots(y_variable):
         plt.plot(time, density, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Density (g/(item*mL))")
-        plt.savefig('density.png', dpi=300)
+        plt.savefig('density.png', dpi=300, bbox_inches = "tight")
         plt.clf()
 
     elif y_variable == 'volume':
@@ -126,21 +126,21 @@ def create_plots(y_variable):
         plt.plot(time, temperature, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Temperature (K)")
-        plt.savefig('temperature.png', dpi=300)
+        plt.savefig('temperature.png', dpi=300, bbox_inches = "tight")
         plt.clf()
 
         # Create density plot. Saved as "density.png"
         plt.plot(time, density, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Density (g/(item*mL))")
-        plt.savefig('density.png', dpi=300)
+        plt.savefig('density.png', dpi=300, bbox_inches = "tight")
         plt.clf()
 
         # Create volume plot. Saved as "volume.png"
         plt.plot(time, volume/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Box Volume ($nm^3$)")
-        plt.savefig('volume.png', dpi=300)
+        plt.savefig('volume.png', dpi=300, bbox_inches = "tight")
         plt.clf()
 
 create_plots(sys.argv[2])
