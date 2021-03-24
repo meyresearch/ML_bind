@@ -73,7 +73,7 @@ def create_plots(y_variable):
         plt.plot(time, potentialenergy/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Potential Energy (x$10^3$ kilocalorie/mol)")
-        plt.savefig('potentialenergy.png', bbox_inches='tight', dpi=300)
+        plt.savefig('potentialenergy.png', dpi=300)
         plt.clf()
 
     elif y_variable == 'temperature':
@@ -97,7 +97,7 @@ def create_plots(y_variable):
         plt.plot(time, volume/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Box Volume ($nm^3$)")
-        plt.savefig('volume.png', dpi=300)
+        plt.savefig('volume.png', dpi=300, bbox_inches = "tight")
         plt.clf()
 
     elif y_variable == 'all':
@@ -105,21 +105,21 @@ def create_plots(y_variable):
         plt.plot(time, totalenergy/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Total Energy (x$10^3$ kcal/mol)")
-        plt.savefig('totalenergy.png', dpi=300)
+        plt.savefig('totalenergy.png', dpi=300, bbox_inches = "tight")
         plt.clf()
 
         # Create kinetic energy plot. Saved as "kineticenergy.png"
         plt.plot(time, kineticenergy/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Kinetic Energy (x$10^3$ kcal/mol)")
-        plt.savefig('kineticenergy.png', dpi=300)
+        plt.savefig('kineticenergy.png', dpi=300, bbox_inches = "tight")
         plt.clf()
 
         # Create potential energy plot. Saved as "potentialenergy.png"
         plt.plot(time, potentialenergy/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Potential Energy (x$10^3$ kcal/mol)")
-        plt.savefig('potentialenergy.png', dpi=300)
+        plt.savefig('potentialenergy.png', dpi=300, bbox_inches = "tight")
         plt.clf()
 
         # Create temperature plot. Saved as "temperature.png"
