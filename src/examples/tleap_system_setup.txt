@@ -1,0 +1,19 @@
+The miniconda environment containing the AmberTools 20.15 package must be activated.
+This example is for ligand ejm_31.
+The following commands were issued in succession:
+
+tleap
+source leaprc.protein.ff14SB
+source leaprc.water.tip3p
+loadAmberParams lig_ejm_31.frcmod
+lig = loadMol2 lig_ejm_31.mol2
+receptor = loadPDB tyk2.pdb
+complex = combine {receptor lig}
+set default PBRadii mbondi3
+saveAmberParm lig lig_ejm_31.prmtop lig_ejm_31.inpcrd
+saveAmberParm receptor tyk2.prmtop tyk2.inpcrd
+saveAmberParm complex complex.prmtop complex.inpcrd
+solvateOct complex TIP3PBOX 12.0 
+addIons2 complex Na+ 0
+saveAmberParm complex solvated_complex.prmtop solvated_complex.inpcrd
+quit

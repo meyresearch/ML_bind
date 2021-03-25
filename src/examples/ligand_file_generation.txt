@@ -1,0 +1,12 @@
+
+The miniconda environment containing the AmberTools 20.15 package must be activated.
+This example is for ligand ejm_31.
+
+Bash command line input for obtaining .prepi file from .sdf file, using Antechamber:
+antechamber -fi sdf -fo prepi -i lig_ejm_31.sdf -o lig_ejm_31.prepi
+
+Bash command line input for obtaining .mol2 file from .sdf file, using Antechamber:
+antechamber -fi sdf -fo mol2 -i lig_ejm_31.sdf -o lig_ejm_31.mol2
+
+Bash command line input for obtaining .frcmod file from .prepi file, using Parmchk2:
+parmchk2 -i lig_ejm_31.prepi -o lig_ejm_31.frcmod -f prepi -a Y

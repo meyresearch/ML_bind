@@ -1,0 +1,10 @@
+The miniconda environment containing the AmberTools 20.15 package must be activated.
+
+The following commands were issued to obtain a single frame (frame 300) in pdb format from a shortened, 600 frame trajectory. The inputs were the solvated complex topology file (solvated_complex.prmtop) and the shortened simulation trajectory file (production_short.mdcrd). The single frame was saved as production_frame300.pdb.
+
+cpptraj
+parm solvated_complex.prmtop
+trajin production_short.mdcrd 300 300 1
+trajout production_frame300.pdb pdb
+run
+quit

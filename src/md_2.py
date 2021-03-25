@@ -62,8 +62,6 @@ if __name__ == '__main__':
     simulation.context.setPositions(positions)
     # Set the velocities from end of equilibration
     simulation.context.setVelocities(velocities)
-    print('Equilibrating...')
-    
 
     print("Running production")
     # Simulation reporters
