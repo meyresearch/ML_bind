@@ -1,0 +1,10 @@
+The miniconda environment containing the AmberTools 20.15 package must be activated.
+
+The following commands were issued to parse a full 6 ns trajectory containing 30,000 frames into 600 frames by taking every 50th frame. The inputs were the solvated complex topology file (solvated_complex.prmtop) and the simulation trajectory file (production.mdcrd). The shortened trajectory was saved as production_short.mdcrd.
+
+cpptraj
+parm solvated_complex.prmtop
+trajin production.mdcrd 1 last 50 
+trajout production_short.mdcrd
+run
+quit

@@ -11,6 +11,8 @@ from contact_map import ContactTrajectory, RollingContactFrequency, ContactFrequ
 Find hydrogen bonds and contacts between ligand and protein. Inputs are trajectory (mdcrd) file and topology (top, prmtop or prm7) file.
 Please note this only works with Tyk2 solvated_complex topology files (which have the ligand as the 289th residue).
 
+Note that the atom/residue contacts threshold is 0.5 (i.e. only shows atom or residue contacts that are present in at least 50% of frames)
+
 Usage: python contact_analysis.py trajectory_short.mdcrd solvated_complex.top
 '''
 
@@ -44,14 +46,14 @@ def contact_analysis(mdcrd_file, top_file):
     print("Most common residue contacts between residue and protein:")
     print("   (If empty there were no contacts to report)")
     for residue_contact in trajectory_contacts.residue_contacts.most_common(lig_top):
-        if residue_contact[1] > 0.8:
+        if residue_contact[1] > 0.5:
             print(residue_contact)
     print(" ")
 
     print("Most common atom contacts between residue and protein:")
     print("   (If empty there were no contacts to report)")
     for atom_contact in trajectory_contacts.most_common_atoms_for_residue(lig_top):
-        if atom_contact[1] > 0.8:
+        if atom_contact[1] > 0.5:
             print(atom_contact)
     print(" ")
 

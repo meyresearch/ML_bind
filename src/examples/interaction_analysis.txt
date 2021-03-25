@@ -1,0 +1,5 @@
+The miniconda environment containing the OpenEye Toolkits 2020.2.0 package must be activated.
+
+The following command line input was issued to obtain an intermolecular interaction cartoon image for ejm_31. This uses a PDB file as input (in this case, the final frame from the production simulation, production.pdb), and the image is saved to an SVG file called ejm_31_interactions.svg.
+
+python ~/project2021/ML_bind/src/complex2img.py -complex production.pdb -out ejm_31_interactions.svg
