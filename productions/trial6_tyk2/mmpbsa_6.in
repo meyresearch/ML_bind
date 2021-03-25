@@ -1,10 +1,10 @@
 Input file for running PB and GB in serial
 &general
-   startframe=1, endframe=100, interval=1, keep_files=0
+   startframe=1, endframe=25000, interval=100, keep_files=0
 /
 &gb
-  igb=5, saltcon=0.000,
+  igb=8, saltcon=0.000,
 /
 &pb
-  istrng=0.100, radiopt=0
+  istrng=0.000, radiopt=0
 /
