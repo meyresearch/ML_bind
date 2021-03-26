@@ -1,0 +1,4 @@
+Statistics from plot of predicted deltaG vs. experimental deltaG:
+Mean absolute error: 3.8026937500000004
+Root mean squared error: 4.407923514323382
+Kendall Tau: 0.13333333333333333
