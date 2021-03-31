@@ -1,0 +1,7 @@
+
+The miniconda environment containing the AmberTools 20.15 package must be activated.
+This example is for ligand ejm_31.
+
+The following command was issued to run MM/PBSA analysis using the MMPBSA.py script. The files passed to the script included the MM/PBSA input file (mmpbsa.in), the shortened trajectory for the complex (production_short.mdcrd), and topology files for the solvated complex (solvated_complex.prmtop), vacuum complex (complex.prmtop), vacuum (receptor) protein (tyk2.prmtop) and vacuum ligand (lig_ejm_31.prmtop). Results were saved to a file named "MMPBSA_results.dat".
+
+$AMBERHOME/bin/MMPBSA.py -O -i mmpbsa.in -o MMPBSA_results.dat -sp solvated_complex.prmtop -cp complex.prmtop -rp tyk2.prmtop -lp lig_ejm_31.prmtop -y production_short.mdcrd
