@@ -20,5 +20,5 @@ Contains folders corresponding to each protein-ligand simulation. Each folder co
 (Please note that, due to GitHub file size restrictions, the full-size trajectory files containing all frames are not in this repository. If you require these full-size files, please contact the authors.
 
 #### src:
-Contains all the scripts used for running simulations and analysing results. Also contains example command line inputs or jupyter notebooks for preparing systems, running simulations, and analysing results.
+Contains all the scripts used for running simulations and analysing results. Also contains example command line inputs or jupyter notebooks for preparing systems, conducting MM/PBSA, and analysing results.
 
