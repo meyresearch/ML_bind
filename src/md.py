@@ -6,14 +6,19 @@ from simtk import unit
 from sys import stdout
 import sys
 
+'''
+Run 500 ps equilibration followed by 6 ns production simulation. Input files include solvated complex topology (prmtop)
+and input coordinate (inpcrd) files. Select which GPU to run the simulation on by passing an integer between 0 and 3 as
+the third argument.
+Usage: python md.py solvated_complex.prmtop solvated_complex.inpcrd 0
+'''
+
 def equilibration(prmtop_file, crd_file):
     prmtop = AmberPrmtopFile(prmtop_file)
     inpcrd = AmberInpcrdFile(crd_file)
-    system = prmtop.createSystem(nonbondedMethod=PME,
-    nonbondedCutoff=1.0*unit.nanometers, constraints=HBonds, rigidWater=True,
-    ewaldErrorTolerance=0.0005)
-    integrator = LangevinIntegrator(300*unit.kelvin, 1.0/unit.picoseconds,
-    2.0*unit.femtoseconds)
+    system = prmtop.createSystem(nonbondedMethod=PME, nonbondedCutoff=1.0*unit.nanometers, constraints=HBonds,
+        rigidWater=True,ewaldErrorTolerance=0.0005)
+    integrator = LangevinIntegrator(300*unit.kelvin, 1.0/unit.picoseconds, 2.0*unit.femtoseconds)
     integrator.setConstraintTolerance(0.00001)
     platform = Platform.getPlatformByName('OpenCL')
     properties = {'OpenCLPrecision': 'mixed', 'OpenCLDeviceIndex': str(deviceindex)}
@@ -31,7 +36,8 @@ def equilibration(prmtop_file, crd_file):
 
     # Simulation reporters
     simulation.reporters.append(DCDReporter('equilibration.dcd', 100))
-    simulation.reporters.append(StateDataReporter('equilibration.csv', 100, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True, volume = True , totalEnergy= True, separator='\t'))
+    simulation.reporters.append(StateDataReporter('equilibration.csv', 100, step = True, potentialEnergy = True,
+        kineticEnergy=True, temperature = True, density = True, volume = True , totalEnergy= True, separator='\t'))
     simulation.step(250000)
 
     # Saving data
@@ -46,9 +52,8 @@ def equilibration(prmtop_file, crd_file):
 def production(prmtop_file, crd_file, positions, velocities):
     prmtop = AmberPrmtopFile(prmtop_file)
     inpcrd = AmberInpcrdFile(crd_file)
-    system = prmtop.createSystem(nonbondedMethod=PME,
-    nonbondedCutoff=1.0*unit.nanometers, constraints=HBonds, rigidWater=True,
-    ewaldErrorTolerance=0.0005)
+    system = prmtop.createSystem(nonbondedMethod=PME, nonbondedCutoff=1.0*unit.nanometers, constraints=HBonds,
+        rigidWater=True, ewaldErrorTolerance=0.0005)
     # NPT for production:
     system.addForce(MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
     integrator = LangevinIntegrator(300*unit.kelvin, 1.0/unit.picoseconds,
@@ -68,7 +73,8 @@ def production(prmtop_file, crd_file, positions, velocities):
 
     # Simulation reporters
     simulation.reporters.append(DCDReporter('production.dcd', 100))
-    simulation.reporters.append(StateDataReporter('production.csv', 100, step = True, potentialEnergy = True, kineticEnergy=True, temperature = True, density = True,volume=True, totalEnergy= True, separator='\t'))
+    simulation.reporters.append(StateDataReporter('production.csv', 100, step = True, potentialEnergy = True,
+        kineticEnergy=True, temperature = True, density = True,volume=True, totalEnergy= True, separator='\t'))
     simulation.reporters.append(MdcrdReporter('production.mdcrd', 100))
 
     simulation.step(3000000)
