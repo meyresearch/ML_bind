@@ -53,7 +53,7 @@ print(equilibration_data)
 def create_plots(y_variable):
 
     if y_variable == 'totalenergy':
-    # Create total energy plot. Saved as "totalenergy.png"
+        # Create total energy plot. Saved as "totalenergy.png"
         plt.plot(time, totalenergy/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Total Energy (x$10^3$ kilocalorie/mol)")
@@ -61,7 +61,7 @@ def create_plots(y_variable):
         plt.clf()
 
     elif y_variable == 'kineticenergy':
-    # Create kinetic energy plot. Saved as "kineticenergy.png"
+        # Create kinetic energy plot. Saved as "kineticenergy.png"
         plt.plot(time, kineticenergy/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Kinetic Energy (x$10^3$ kilocalorie/mol)")
@@ -69,7 +69,7 @@ def create_plots(y_variable):
         plt.clf()
 
     elif y_variable == 'potentialenergy':
-    # Create potential energy plot. Saved as "potentialenergy.png"
+        # Create potential energy plot. Saved as "potentialenergy.png"
         plt.plot(time, potentialenergy/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Potential Energy (x$10^3$ kilocalorie/mol)")
@@ -77,7 +77,7 @@ def create_plots(y_variable):
         plt.clf()
 
     elif y_variable == 'temperature':
-    # Create temperature plot. Saved as "temperature.png"
+        # Create temperature plot. Saved as "temperature.png"
         plt.plot(time, temperature, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Temperature (K)")
@@ -85,7 +85,7 @@ def create_plots(y_variable):
         plt.clf()
 
     elif y_variable == 'density':
-    # Create density plot. Saved as "density.png"
+        # Create density plot. Saved as "density.png"
         plt.plot(time, density, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Density (g/(item*mL))")
@@ -93,7 +93,7 @@ def create_plots(y_variable):
         plt.clf()
 
     elif y_variable == 'volume':
-    # Create volume plot. Saved as "volume.png"
+        # Create volume plot. Saved as "volume.png"
         plt.plot(time, volume/1000, color = 'black', linewidth = '1.5')
         plt.xlabel("Time (ps)")
         plt.ylabel("Box Volume ($nm^3$)")

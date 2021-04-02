@@ -7,7 +7,7 @@ import pandas as pd
 import sys
 
 '''
-Calculate the RMSD for the ligand using a shortened production as input (all 300 frames). RMSD (nm) is plotted vs. Frame (10 ps/frame). Also saves RMSD to a csv file.
+Calculate the RMSD for the ligand using a shortened production as input (all 600 frames). RMSD (nm) is plotted vs. Frame (10 ps/frame). Also saves RMSD to a csv file.
 This uses "production_short.mdcrd" and "solvated_complex.prmtop" as input, so make sure it is used within the directory of the protein-ligand trajectory that you want to carry out RMSD analysis for.
 Usage: python rmsd_analysis.py
 '''
