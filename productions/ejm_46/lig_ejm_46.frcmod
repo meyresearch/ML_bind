@@ -1,0 +1,120 @@
+Remark line goes here
+MASS
+cx 12.010        0.360
+hc 1.008         0.135
+c  12.010        0.616
+o  16.000        0.434
+n  14.010        0.530
+hn 1.008         0.161
+ca 12.010        0.360
+ha 1.008         0.135
+nb 14.010        0.530
+h4 1.008         0.135
+cl 35.450        1.910
+
+BOND
+cx-hc  344.30   1.087
+cx-cx  328.50   1.508
+c -cx  333.40   1.503
+c -o   637.70   1.218
+c -n   427.60   1.379
+hn-n   403.20   1.013
+ca-n   384.20   1.412
+ca-ca  461.10   1.398
+ca-nb  488.00   1.339
+ca-ha  345.80   1.086
+ca-h4  341.50   1.089
+c -ca  345.90   1.491
+ca-cl  305.60   1.750
+
+ANGLE
+cx-cx-hc   45.600     117.690
+cx-cx-cx   87.400      60.000
+c -cx-cx   62.400     117.980
+hc-cx-hc   38.500     114.430
+cx-c -o    68.300     122.720
+cx-c -n    67.500     114.570
+c -cx-hc   45.900     116.670
+c -n -hn   48.300     117.550
+c -n -ca   63.800     123.710
+n -c -o    74.200     123.050
+ca-ca-n    67.900     120.190
+n -ca-nb   72.700     116.940   same as nb-ca-nh, penalty score=  1.8
+ca-n -hn   47.600     116.000
+ca-ca-ha   48.200     119.880
+ca-ca-ca   66.600     120.020
+ca-nb-ca   68.300     117.220
+ca-ca-nb   68.800     122.940
+h4-ca-nb   51.900     116.030
+ca-ca-h4   48.100     120.340
+ca-c -n    67.700     115.250
+c -ca-ca   64.300     120.330
+ca-c -o    68.700     122.600
+ca-ca-cl   57.900     119.390
+
+DIHE
+cx-cx-cx-cx   9    1.400         0.000           3.000
+cx-cx-cx-hc   9    1.400         0.000           3.000
+c -cx-cx-cx   9    1.400         0.000           3.000
+o -c -cx-cx   6    0.000       180.000           2.000
+n -c -cx-cx   6    0.000       180.000           2.000
+hc-cx-cx-hc   9    1.400         0.000           3.000
+c -cx-cx-hc   9    1.400         0.000           3.000
+cx-c -n -hn   4   10.000       180.000           2.000
+cx-c -n -ca   4   10.000       180.000           2.000
+o -c -cx-hc   6    0.000       180.000           2.000
+n -c -cx-hc   6    0.000       180.000           2.000
+ca-ca-n -c    4    1.800       180.000           2.000
+nb-ca-n -c    4    1.800       180.000           2.000
+o -c -n -hn   1    2.500       180.000          -2.000
+o -c -n -hn   1    2.000         0.000           1.000
+o -c -n -ca   4   10.000       180.000           2.000
+ha-ca-ca-n    4   14.500       180.000           2.000
+ca-ca-ca-n    4   14.500       180.000           2.000
+n -ca-nb-ca   2    9.600       180.000           2.000
+ca-ca-n -hn   4    1.800       180.000           2.000
+nb-ca-n -hn   4    1.800       180.000           2.000
+ca-ca-ca-ca   4   14.500       180.000           2.000
+h4-ca-nb-ca   2    9.600       180.000           2.000
+ca-ca-nb-ca   2    9.600       180.000           2.000
+ca-ca-ca-ha   4   14.500       180.000           2.000
+ha-ca-ca-nb   4   14.500       180.000           2.000
+ca-ca-ca-nb   4   14.500       180.000           2.000
+h4-ca-ca-ha   4   14.500       180.000           2.000
+ca-ca-ca-h4   4   14.500       180.000           2.000
+ca-c -n -ca   4   10.000       180.000           2.000
+n -c -ca-ca   4    4.000       180.000           2.000
+ca-c -n -hn   4   10.000       180.000           2.000
+c -ca-ca-cl   4   14.500       180.000           2.000
+c -ca-ca-ca   4   14.500       180.000           2.000
+o -c -ca-ca   4    4.000       180.000           2.000
+ca-ca-ca-cl   4   14.500       180.000           2.000
+cl-ca-ca-ha   4   14.500       180.000           2.000
+ha-ca-ca-ha   4   14.500       180.000           2.000
+
+IMPROPER
+cx-n -c -o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c -ca-n -hn         1.1          180.0         2.0          Using general improper torsional angle  X- X- n-hn, penalty score=  6.0)
+ca-n -ca-nb         1.1          180.0         2.0          Using the default value
+ca-ca-ca-ha         1.1          180.0         2.0          Using general improper torsional angle  X- X-ca-ha, penalty score=  6.0)
+ca-h4-ca-nb         1.1          180.0         2.0          Using the default value
+ca-ca-ca-n          1.1          180.0         2.0          Using the default value
+ca-n -c -o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c -ca-ca-ca         1.1          180.0         2.0          Using the default value
+ca-ca-ca-cl         1.1          180.0         2.0
+
+NONBON
+  cx          1.9080  0.0860
+  hc          1.4870  0.0157
+  c           1.9080  0.0860
+  o           1.6612  0.2100
+  n           1.8240  0.1700
+  hn          0.6000  0.0157
+  ca          1.9080  0.0860
+  ha          1.4590  0.0150
+  nb          1.8240  0.1700
+  h4          1.4090  0.0150
+  cl          1.9480  0.2650
+
+
+
