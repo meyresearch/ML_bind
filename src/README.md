@@ -3,7 +3,7 @@
 Contains scripts, jupyter notebooks, or example command line inputs for setting up systems, running simulations, and analysing results. Please see each individual script for comments describing how to use it. 
 
 The following files can be found:
-- md.py: OpenMM script used for running protein-ligand simulations
+- md.py : OpenMM script used for running protein-ligand simulations
 - graphing.py : script used for plotting system conditions (e.g. temperature, energies, etc.) over the course of the equilibration period and saving the results as images
 - mmpbsa.in : MM/PBSA input file that was passed to the MMPBSA.py script during binding affinity analysis
 - complex2img.py : OpenEye Toolkits script for analysing protein-ligand interactions 
