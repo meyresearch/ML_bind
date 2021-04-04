@@ -1,4 +1,4 @@
-# Productions
+# productions
 
 This directory contains folders corresponding to each protein-ligand complex simulation. The folders are named according to the ligand used in the simulation, as all simulations have been run using Tyk2 as the protein.
 
