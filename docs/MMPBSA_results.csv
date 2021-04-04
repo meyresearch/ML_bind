@@ -1,4 +1,4 @@
-Ligand,Pred. dG (kcal/mol),Exp. dG (kcal/mol),Std. error of mean,Estimated experimental error
+Ligand,Pred. dG (kcal/mol),Exp. dG (kcal/mol),Std. error of mean,Estimated experimental error (kcal/mol)
 ejm_31,-11.9983,-9.54,0.1394,0.64
 ejm_42,-9.9951,-9.78,0.1111,0.64
 ejm_43,-12.3635,-8.26,0.1449,0.64
