@@ -1,6 +1,7 @@
 
 The miniconda environment containing the AmberTools 20.15 package must be activated.
 This example is for ligand ejm_31.
+The commands below were issued to process raw ligand structure files (.sdf) into ligand parameter (.frcmod) and SYBYL structure (.mol2) files.
 
 Bash command line input for obtaining .prepi file from .sdf file, using Antechamber:
 antechamber -fi sdf -fo prepi -i lig_ejm_31.sdf -o lig_ejm_31.prepi
