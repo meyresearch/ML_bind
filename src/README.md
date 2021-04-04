@@ -1,7 +1,12 @@
-# Running MD
-------------
+# src
 
-python md.py ../data/Tyk2/Tyk2_10/tyk2_10.prm7 ../data/Tyk2/Tyk2_10/tyk2_10.rst7
+Contains scripts, jupyter notebooks, or example command line inputs for setting up systems, running simulations, and analysing results. Please see each individual script for comments describing how to use it. 
 
-# Running MMGBSA
+The following files can be found:
+- md.py: OpenMM script used for running protein-ligand simulations
+- graphing.py : script used for plotting system conditions (e.g. temperature, energies, etc.) over the course of the equilibration period and saving the results as images
+- mmpbsa.in : MM/PBSA input file that was passed to the MMPBSA.py script during binding affinity analysis
+- complex2img.py : OpenEye Toolkits script for analysing protein-ligand interactions 
+- rmsd_analysis.py Ligand RMSD script for calculating the ligand RMSD
 
+The 'examples' folder contains example command line inputs (as .txt files) for preparing structure files for AMBER, creating simulation systems, processing trajectories, analysing results and more. Please see each individual file for a description. The folder also contains Jupyter notebooks for plotting MM/PBSA results (in the 'MMPBSA_plotting' subfolder) and creating box-and-whisker plots from ligand RMSD results (in the 'box_whisker_plot' subfolder).
