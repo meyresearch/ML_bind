@@ -7,7 +7,7 @@ from sys import stdout
 import sys
 
 '''
-Run 500 ps equilibration followed by 6 ns production simulation. Input files include solvated complex topology (prmtop)
+Run 500 ps NVT equilibration followed by 6 ns NPT production simulation. Input files include solvated complex topology (prmtop)
 and input coordinate (inpcrd) files. Select which GPU to run the simulation on by passing an integer between 0 and 3 as
 the third argument.
 Usage: python md.py solvated_complex.prmtop solvated_complex.inpcrd 0
