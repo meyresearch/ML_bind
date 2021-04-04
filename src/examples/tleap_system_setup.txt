@@ -1,7 +1,12 @@
 The miniconda environment containing the AmberTools 20.15 package must be activated.
 This example is for ligand ejm_31.
 
-The following commands were issued in succession to create and solvate the simulation system. The AMBER ff14SB force field was used with TIP3P water molecules and mbondi3 PBRadii. The complex was solvated in an octahedral box with a 12 angstrom solvent buffer distance, and the system was neutralized by adding sodium ions. The input files included the ligand paramater file (.frcmod), Tyk2 structure file (tyk2.pdb) and ligand structure file (.mol2). Topology (.prmtop) and input coordinate (.inpcrd) files were saved for the vacuum ligand, vacuum protein, vacuum complex, and solvated complex. 
+The commands below were issued in succession to create and solvate the simulation system using the tleap programme of AmberTools. 
+The AMBER ff14SB force field was used with TIP3P water molecules and mbondi3 PBRadii. 
+The complex was solvated in an octahedral box with a 12 angstrom solvent buffer distance, and the system was neutralized by adding sodium ions. 
+The input files included the ligand paramater file (.frcmod), Tyk2 structure file (tyk2.pdb) and ligand structure file (.mol2). 
+Topology (.prmtop) and input coordinate (.inpcrd) files were saved for the vacuum ligand, vacuum protein, vacuum complex, and solvated complex.
+The following commands were issued:
 
 tleap
 source leaprc.protein.ff14SB
