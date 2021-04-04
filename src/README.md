@@ -1,6 +1,6 @@
 # src
 
-Contains scripts, jupyter notebooks, or example command line inputs for setting up systems, running simulations, and analysing results. Please see each individual script for comments describing how to use it. 
+This directory contains scripts, jupyter notebooks, or example command line inputs for setting up systems, running simulations, and analysing results. Please see each individual script for comments describing how to use it. 
 
 The following files can be found:
 - md.py : OpenMM script used for running protein-ligand simulations
