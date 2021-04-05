@@ -1,4 +1,4 @@
-# Productions
+# productions
 
 This directory contains folders corresponding to each protein-ligand complex simulation. The folders are named according to the ligand used in the simulation, as all simulations have been run using Tyk2 as the protein.
 
@@ -12,4 +12,5 @@ Each folder contains the following files:
 - A folder called 'equilibration_graphs' containing plots of various variables throughout the equilibration period of simulations. Plots are saved as images (.png) according to the dependent variable plotted.
 - A structure file of the final production simulation frame (production.pdb)
 - Result from MM/PBSA binding affinity calculations (MMPBSA_results.dat)
-- Ligand RMSD results in text format (rmsd_results.csv), as well as plotted and saved as an image (rmsd.png) 
+- Ligand RMSD results in text format (rmsd_results.csv), as well as plotted and saved as an image (rmsd.png)
+- OpenEye protein-ligand interaction results, saved as a vector file (.svg)
