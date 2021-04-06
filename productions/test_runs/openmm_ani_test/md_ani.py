@@ -1,6 +1,6 @@
 from __future__ import print_function
-from simtk.openmm import *
-from simtk.openmm.app import *
+from openmm import *
+from openmm.app import *
 from parmed.openmm import *
 from simtk import unit
 from sys import stdout
@@ -19,7 +19,7 @@ inpcrd = AmberInpcrdFile(crd_file)
 
 
 potential = MLPotential('ani2x')
-ml_atoms  = [atom.index for atom in prmtop.topology.atoms() if atom.residue.name == "MOL289"]
+ml_atoms  = [atom.index for atom in prmtop.topology.atoms() if atom.residue.name == "MOL"]
 mm_system = prmtop.createSystem(nonbondedMethod=PME,
 nonbondedCutoff=1.0*unit.nanometers, constraints=HBonds, rigidWater=True,
 ewaldErrorTolerance=0.0005)
@@ -28,9 +28,9 @@ ml_system = potential.createMixedSystem(prmtop.topology, mm_system, ml_atoms)
 integrator = LangevinIntegrator(300*unit.kelvin, 1.0/unit.picoseconds,
 2.0*unit.femtoseconds)
 integrator.setConstraintTolerance(0.00001)
-platform = Platform.getPlatformByName('OpenCL')
-properties = {'OpenCLPrecision': 'mixed'}
-simulation = Simulation(prmtop.topology, ml_system, integrator, platform, properties)
+platform = Platform.getPlatformByName('CPU')
+#properties = {'OpenCLPrecision': 'mixed'}
+simulation = Simulation(prmtop.topology, ml_system, integrator, platform)
 # Set the current positions
 simulation.context.setPositions(inpcrd.positions)
 
