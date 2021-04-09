@@ -7,7 +7,7 @@ import argparse
 import sys
 
 '''
-Description: Calculate the number of frames in which certain common protein-ligand interactions occur,
+Description: Calculate the percentage of frames in which certain common protein-ligand interactions occur,
 e.g. Van Der Waals' contacts, hydrogen bonding, and a cation-pi interaction for ejm_49.
 Results are plotted as a graph (interactions_frames.png) and saved as a .csv file (interactions_frames.csv)
 If the script is being run on the complex using ejm_49, please use the --ejm_49 option to calculate
@@ -127,41 +127,41 @@ if args.ejm_49:
 
 
 #Create dictionary of results:
-    results={'Interaction':["VDW Val92(CG2)-Mol289(C10)", "VDW Val22(CG1)-Mol289(C5)",
-                        "VDW Ala39(CB)-Mol289(C10)", "VDW Ile71(CD1)-Mol289(C9)",
-                        "VDW Leu141(CD2)-Mol289(C3)","VDW Leu141(CD2)-Mol289(C4)",
-                        "VDW Leu14(CD1)-Mol289(C11)", "VDW Asp152(CB)-Mol289(C6)",
-                        "HBond Val92(NH)-Mol289(Pyridine N)",
-                        "HBond Val92(O)-Mol289(Amide NH)", "Cation-pi Arg12-Mol289"],
-         'Frames Present':[np.shape(cutoff_vdw_pyridine1)[0],
-                           np.shape(cutoff_vdw_dichlorobenzene1)[0],
-                           np.shape(cutoff_vdw_pyridine2)[0],
-                           np.shape(cutoff_vdw_pyridine3)[0],
-                           np.shape(cutoff_vdw_dichlorobenzene2)[0],
-                           np.shape(cutoff_vdw_dichlorobenzene3)[0],
-                           np.shape(cutoff_vdw_pyridine4)[0],
-                           np.shape(cutoff_vdw_dichlorobenzene4)[0],
-                           np.shape(cutoff_hbond_pyridineN)[0],
-                           np.shape(cutoff_hbond_amideH)[0],
-                           np.shape(cutoff_cation_pi)[0],]}
+    results={'Interaction':["VDW Val92(CG2)-Lig(C10)", "VDW Val22(CG1)-Lig(C5)",
+                        "VDW Ala39(CB)-Lig(C10)", "VDW Ile71(CD1)-Lig(C9)",
+                        "VDW Leu141(CD2)-Lig(C3)","VDW Leu141(CD2)-Lig(C4)",
+                        "VDW Leu14(CD1)-Lig(C11)", "VDW Asp152(CB)-Lig(C6)",
+                        "HBond Val92(NH)-Lig(Pyridine N)",
+                        "HBond Val92(O)-Lig(Amide NH)", "Cation-pi Arg12-Lig"],
+         'Frames Present (%)':[np.shape(cutoff_vdw_pyridine1)[0]/6,
+                           np.shape(cutoff_vdw_dichlorobenzene1)[0]/6,
+                           np.shape(cutoff_vdw_pyridine2)[0]/6,
+                           np.shape(cutoff_vdw_pyridine3)[0]/6,
+                           np.shape(cutoff_vdw_dichlorobenzene2)[0]/6,
+                           np.shape(cutoff_vdw_dichlorobenzene3)[0]/6,
+                           np.shape(cutoff_vdw_pyridine4)[0]/6,
+                           np.shape(cutoff_vdw_dichlorobenzene4)[0]/6,
+                           np.shape(cutoff_hbond_pyridineN)[0]/6,
+                           np.shape(cutoff_hbond_amideH)[0]/6,
+                           np.shape(cutoff_cation_pi)[0],]/6}
 
 else:
-    results={'Interaction':["VDW Val92(CG2)-Mol289(C10)", "VDW Val22(CG1)-Mol289(C5)",
-                        "VDW Ala39(CB)-Mol289(C10)", "VDW Ile71(CD1)-Mol289(C9)",
-                        "VDW Leu141(CD2)-Mol289(C3)","VDW Leu141(CD2)-Mol289(C4)",
-                        "VDW Leu14(CD1)-Mol289(C11)", "VDW Asp152(CB)-Mol289(C6)",
-                        "HBond Val92(NH)-Mol289(Pyridine N)",
-                        "HBond Val92(O)-Mol289(Amide NH)"],
-         'Frames Present':[np.shape(cutoff_vdw_pyridine1)[0],
-                           np.shape(cutoff_vdw_dichlorobenzene1)[0],
-                           np.shape(cutoff_vdw_pyridine2)[0],
-                           np.shape(cutoff_vdw_pyridine3)[0],
-                           np.shape(cutoff_vdw_dichlorobenzene2)[0],
-                           np.shape(cutoff_vdw_dichlorobenzene3)[0],
-                           np.shape(cutoff_vdw_pyridine4)[0],
-                           np.shape(cutoff_vdw_dichlorobenzene4)[0],
-                           np.shape(cutoff_hbond_pyridineN)[0],
-                           np.shape(cutoff_hbond_amideH)[0]]}
+    results={'Interaction':["VDW Val92(CG2)-Lig(C10)", "VDW Val22(CG1)-Lig(C5)",
+                        "VDW Ala39(CB)-Lig(C10)", "VDW Ile71(CD1)-Lig(C9)",
+                        "VDW Leu141(CD2)-Lig(C3)","VDW Leu141(CD2)-Lig(C4)",
+                        "VDW Leu14(CD1)-Lig(C11)", "VDW Asp152(CB)-Lig(C6)",
+                        "HBond Val92(NH)-Lig(Pyridine N)",
+                        "HBond Val92(O)-Lig(Amide NH)"],
+         'Frames Present (%)':[np.shape(cutoff_vdw_pyridine1)[0]/6,
+                           np.shape(cutoff_vdw_dichlorobenzene1)[0]/6,
+                           np.shape(cutoff_vdw_pyridine2)[0]/6,
+                           np.shape(cutoff_vdw_pyridine3)[0]/6,
+                           np.shape(cutoff_vdw_dichlorobenzene2)[0]/6,
+                           np.shape(cutoff_vdw_dichlorobenzene3)[0]/6,
+                           np.shape(cutoff_vdw_pyridine4)[0]/6,
+                           np.shape(cutoff_vdw_dichlorobenzene4)[0]/6,
+                           np.shape(cutoff_hbond_pyridineN)[0]/6,
+                           np.shape(cutoff_hbond_amideH)[0]/6]}
 
 #Create dataframe of results:
 df_results=pd.DataFrame(results)
@@ -170,9 +170,9 @@ print("Results saved as 'interactions_frames.csv'")
 
 #Plot results to bar chart
 colours=["green", "green", "green", "green", "green", "green", "green", "green", "blue", "blue", "red"]
-df_results.plot.bar(x="Interaction",y="Frames Present", color=colours, figsize=(20,10), fontsize=15, legend=None)
+df_results.plot.bar(x="Interaction",y="Frames Present (%)", color=colours, figsize=(20,10), fontsize=15, legend=None)
 plt.xlabel("Interaction", fontsize=20)
-plt.ylabel("Frames Present", fontsize=20)
+plt.ylabel("Frames Present (%)", fontsize=20)
 plt.tight_layout()
 #Save plot
 plt.savefig("interactions_frames.png", dpi=300)
