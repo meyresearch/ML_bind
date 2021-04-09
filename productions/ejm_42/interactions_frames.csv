@@ -1,0 +1,11 @@
+Interaction,Frames Present
+VDW Val92(CG2)-Mol289(C10),5
+VDW Val22(CG1)-Mol289(C5),271
+VDW Ala39(CB)-Mol289(C10),4
+VDW Ile71(CD1)-Mol289(C9),1
+VDW Leu141(CD2)-Mol289(C3),222
+VDW Leu141(CD2)-Mol289(C4),209
+VDW Leu14(CD1)-Mol289(C11),7
+VDW Asp152(CB)-Mol289(C6),3
+HBond Val92(NH)-Mol289(Pyridine N),0
+HBond Val92(O)-Mol289(Amide NH),3
