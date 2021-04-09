@@ -14,3 +14,4 @@ Each folder contains the following files:
 - Result from MM/PBSA binding affinity calculations (MMPBSA_results.dat)
 - Ligand RMSD results in text format (rmsd_results.csv), as well as plotted and saved as an image (rmsd.png)
 - OpenEye protein-ligand interaction results, saved as a vector file (.svg)
+- Percentage of frames in which specific protein-ligand interactions are present (results from interactions_frames.py), saved as a .csv file (interactions_frames.csv), as well as plotted and saved as an image (interactions_frames.png)
