@@ -133,7 +133,7 @@ if args.ejm_49:
                         "VDW Leu14(CD1)-Lig(C11)", "VDW Asp152(CB)-Lig(C6)",
                         "HBond Val92(NH)-Lig(Pyridine N)",
                         "HBond Val92(O)-Lig(Amide NH)", "Cation-pi Arg12-Lig"],
-         'Frames Present (%)':[np.shape(cutoff_vdw_pyridine1)[0]/6 ,
+         'Frames Present (%)':[np.shape(cutoff_vdw_pyridine1)[0]/6,
                            np.shape(cutoff_vdw_dichlorobenzene1)[0]/6,
                            np.shape(cutoff_vdw_pyridine2)[0]/6,
                            np.shape(cutoff_vdw_pyridine3)[0]/6,
@@ -143,7 +143,7 @@ if args.ejm_49:
                            np.shape(cutoff_vdw_dichlorobenzene4)[0]/6,
                            np.shape(cutoff_hbond_pyridineN)[0]/6,
                            np.shape(cutoff_hbond_amideH)[0]/6,
-                           np.shape(cutoff_cation_pi)[0],]/6}
+                           np.shape(cutoff_cation_pi)[0]/6]}
 
 else:
     results={'Interaction':["VDW Val92(CG2)-Lig(C10)", "VDW Val22(CG1)-Lig(C5)",
