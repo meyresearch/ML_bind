@@ -54,11 +54,15 @@ def equilibration(prmtop_file, crd_file):
 def production(prmtop_file, crd_file, positions, velocities):
     prmtop = AmberPrmtopFile(prmtop_file)
     inpcrd = AmberInpcrdFile(crd_file)
+    #use ANI-2x potential for ML system
     potential = MLPotential('ani2x')
+    #index ligand atoms in the solvated Tyk2+ligand system
     ml_atoms  = [atom.index for atom in prmtop.topology.atoms() if atom.residue.name == "MOL"]
+    #create traditional MM system from topology file
     mm_system = prmtop.createSystem(nonbondedMethod=PME,
     nonbondedCutoff=1.0*unit.nanometers, constraints=HBonds, rigidWater=True,
     ewaldErrorTolerance=0.0005)
+    #apply ANI-2x ML potential to the ligand atoms
     ml_system = potential.createMixedSystem(prmtop.topology, mm_system, ml_atoms)
     # NPT for production:
     ml_system.addForce(MonteCarloBarostat(1*unit.atmospheres, 300*unit.kelvin, 25))
