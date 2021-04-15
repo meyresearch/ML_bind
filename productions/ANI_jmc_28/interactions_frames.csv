@@ -1,0 +1,11 @@
+Interaction,Frames Present (%)
+VDW Val92(CG2)-Lig(C10),57.5
+VDW Val22(CG1)-Lig(C5),0.8333333333333334
+VDW Ala39(CB)-Lig(C10),77.83333333333333
+VDW Ile71(CD1)-Lig(C9),20.166666666666668
+VDW Leu141(CD2)-Lig(C3),20.0
+VDW Leu141(CD2)-Lig(C4),32.5
+VDW Leu14(CD1)-Lig(C11),57.0
+VDW Asp152(CB)-Lig(C6),25.5
+HBond Val92(NH)-Lig(Pyridine N),9.5
+HBond Val92(O)-Lig(Amide NH),30.5
