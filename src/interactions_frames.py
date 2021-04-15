@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import mdtraj as md
+import seaborn as sns
 import argparse
 import sys
 
@@ -127,12 +128,12 @@ if args.ejm_49:
 
 
 #Create dictionary of results:
-    results={'Interaction':["VDW Val92(CG2)-Lig(C10)", "VDW Val22(CG1)-Lig(C5)",
-                        "VDW Ala39(CB)-Lig(C10)", "VDW Ile71(CD1)-Lig(C9)",
-                        "VDW Leu141(CD2)-Lig(C3)","VDW Leu141(CD2)-Lig(C4)",
-                        "VDW Leu14(CD1)-Lig(C11)", "VDW Asp152(CB)-Lig(C6)",
-                        "HBond Val92(NH)-Lig(Pyridine N)",
-                        "HBond Val92(O)-Lig(Amide NH)", "Cation-pi Arg12-Lig(Phenyl group)"],
+    results={'Interaction':["Val92(CG2)-Lig(C10)", "Val22(CG1)-Lig(C5)",
+                        "Ala39(CB)-Lig(C10)", "Ile71(CD1)-Lig(C9)",
+                        "Leu141(CD2)-Lig(C3)","Leu141(CD2)-Lig(C4)",
+                        "Leu14(CD1)-Lig(C11)", "Asp152(CB)-Lig(C6)",
+                        "Val92(NH)-Lig(Pyridine N)",
+                        "Val92(O)-Lig(Amide NH)", "Arg12(Cz)-Lig(Phenyl C16)"],
          'Frames Present (%)':[np.shape(cutoff_vdw_pyridine1)[0]/6,
                            np.shape(cutoff_vdw_dichlorobenzene1)[0]/6,
                            np.shape(cutoff_vdw_pyridine2)[0]/6,
@@ -146,12 +147,12 @@ if args.ejm_49:
                            np.shape(cutoff_cation_pi)[0]/6]}
 
 else:
-    results={'Interaction':["VDW Val92(CG2)-Lig(C10)", "VDW Val22(CG1)-Lig(C5)",
-                        "VDW Ala39(CB)-Lig(C10)", "VDW Ile71(CD1)-Lig(C9)",
-                        "VDW Leu141(CD2)-Lig(C3)","VDW Leu141(CD2)-Lig(C4)",
-                        "VDW Leu14(CD1)-Lig(C11)", "VDW Asp152(CB)-Lig(C6)",
-                        "HBond Val92(NH)-Lig(Pyridine N)",
-                        "HBond Val92(O)-Lig(Amide NH)"],
+    results={'Interaction':["Val92(CG2)-Lig(C10)", "Val22(CG1)-Lig(C5)",
+                        "Ala39(CB)-Lig(C10)", "Ile71(CD1)-Lig(C9)",
+                        "Leu141(CD2)-Lig(C3)","Leu141(CD2)-Lig(C4)",
+                        "Leu14(CD1)-Lig(C11)", "Asp152(CB)-Lig(C6)",
+                        "Val92(NH)-Lig(Pyridine N)",
+                        "Val92(O)-Lig(Amide NH)"],
          'Frames Present (%)':[np.shape(cutoff_vdw_pyridine1)[0]/6,
                            np.shape(cutoff_vdw_dichlorobenzene1)[0]/6,
                            np.shape(cutoff_vdw_pyridine2)[0]/6,
@@ -169,10 +170,14 @@ df_results.to_csv("interactions_frames.csv", index=False)
 print("Results saved as 'interactions_frames.csv'")
 
 #Plot results to bar chart
+sns.set_theme(context='paper', style='white', font_scale=2)
+sns.set_style("ticks")
 colours=["green", "green", "green", "green", "green", "green", "green", "green", "blue", "blue", "red"]
-df_results.plot.bar(x="Interaction",y="Frames Present (%)", color=colours, figsize=(20,10), fontsize=15, legend=None)
-plt.xlabel("Interaction", fontsize=20)
-plt.ylabel("Frames Present (%)", fontsize=20)
+df_results.plot.bar(x="Interaction",y="Frames Present (%)", color=colours, figsize=(20,10), fontsize=25, legend=None)
+plt.xlabel("Interaction", fontsize=30)
+plt.xticks(rotation=45, ha="right")
+plt.ylabel("Frames Present (%)", fontsize=30)
+sns.despine()
 plt.tight_layout()
 #Save plot
 plt.savefig("interactions_frames.png", dpi=300)
