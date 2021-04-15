@@ -174,9 +174,9 @@ sns.set_theme(context='paper', style='white', font_scale=2)
 sns.set_style("ticks")
 colours=["green", "green", "green", "green", "green", "green", "green", "green", "blue", "blue", "red"]
 df_results.plot.bar(x="Interaction",y="Frames Present (%)", color=colours, figsize=(20,10), fontsize=25, legend=None)
-plt.xlabel("Interaction", fontsize=30)
+plt.xlabel("Interaction", fontsize=30, labelpad=15)
 plt.xticks(rotation=45, ha="right")
-plt.ylabel("Frames Present (%)", fontsize=30)
+plt.ylabel("Frames Present (%)", fontsize=30, labelpad=30)
 sns.despine()
 plt.tight_layout()
 #Save plot
