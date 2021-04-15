@@ -4,6 +4,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import seaborn as sns
 import sys
 
 '''
@@ -22,12 +23,16 @@ lig= traj.top.select('resname MOL')
 rmsd = md.rmsd(traj, traj,atom_indices=lig)
 
 #plot results
+sns.set_theme(context='paper', style='white', font_scale=1.5)
+sns.set_style("ticks")
 time=np.arange(0,6,0.01)
 plt.figure()
 plt.plot(time, rmsd)
 plt.title('RMSD to first frame')
 plt.xlabel('Time (ns)')
 plt.ylabel('RMSD (nm)')
+sns.despine()
+plt.tight_layout()
 plt.savefig('rmsd.png', dpi=300)
 plt.show()
 plt.close()
