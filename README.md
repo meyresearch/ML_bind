@@ -12,10 +12,14 @@ Contains results that are applicable to all protein-ligand systems. If you are l
 Contains folders corresponding to each protein-ligand simulation. Each folder contains files including:
 - Processed structure files for creating the system
 - Topology and input coordinate files for running simulations and/or conducting MM/PBSA analysis
-- Graphs of various variables during the equilibration period of simulations
-- Shortened production simulation trajectory files (600 frames)
+- Graphs of different variables over the equilibration period of simulations
+- Simulations reporters for equilibration and production periods of simulations
+- PDB structure file of the final production simulation frame
 - MM/PBSA results
 - Ligand RMSD analysis results
+- OpenEye Toolkits results for protein-ligand interaction
+- MDTraj contact analysis
+
 
 (Please note that, due to GitHub file size restrictions, the trajectory files from production simulations have not been added. If you require these trajectory files, please contact the authors.)
 
