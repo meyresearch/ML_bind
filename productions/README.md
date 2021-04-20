@@ -1,6 +1,6 @@
 # productions
 
-This directory contains folders corresponding to each protein-ligand complex simulation. The folders are named according to the ligand used in the simulation, as all simulations have been run using Tyk2 as the protein.
+This directory contains folders corresponding to each protein-ligand complex simulation. The folders are named according to the ligand used in the simulation, as all simulations have been run using Tyk2 as the protein. The folders containing 'ANI' in the name are for hybrid ANI-2x/AMBER simulations, whereas those without it are for traditional AMBER simulations.
 
 Each folder contains the following files:
 - Raw structure files for Tyk2 (.pdb) and the ligand (.sdf)
