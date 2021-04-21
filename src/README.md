@@ -4,6 +4,7 @@ This directory contains scripts, jupyter notebooks, or example command line inpu
 
 The following files can be found:
 - md.py : OpenMM script used for running AMBER protein-ligand simulations
+- md_ani.py : OpenMM script used for running ANI-2x/AMBER protein-ligand simulations
 - graphing.py : script used for plotting system conditions (e.g. temperature, energies, etc.) over the course of the equilibration period and saving the results as images
 - mmpbsa.in : MM/PBSA input file that was passed to the MMPBSA.py script during binding affinity analysis
 - complex2img.py : OpenEye Toolkits script for analysing protein-ligand interactions 
