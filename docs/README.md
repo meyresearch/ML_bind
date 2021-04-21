@@ -8,5 +8,5 @@ This directory contains the following files:
 - MMPBSA_results.csv : contains MM/PBSA binding affinity results for each protein-ligand system, as well as experimental binding affinity results obtained from Wang et al.
 - MMPBSA_accuracy.png : a plot of predicted vs. experimental binding affinity results
 - MMPBSA_statistics.txt : mean absolute error, root mean square error, and kendall tau of predicted binding affinity results compared to experimentally obtained binding affinities
-- rmsd_results.xlsx : ligand RMSD in every protein-ligand system throughout the shortened trajectory
-- rmsd_box_whisker.png : box-and-whisker plot of ligand RMSDs in every protein-ligand simulation
+- rmsd_results.xlsx : ligand RMSD in every AMBER protein-ligand simulation (throughout the shortened trajectory)
+- rmsd_box_whisker.png : box-and-whisker plot of ligand RMSDs in every AMBER protein-ligand simulation
