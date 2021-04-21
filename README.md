@@ -14,7 +14,7 @@ Contains folders corresponding to each protein-ligand simulation. Each folder co
 - Topology and input coordinate files for running simulations and conducting MM/PBSA analysis
 - Graphs of certain variables over the equilibration period of simulations
 - Simulation reporters for equilibration and production periods of simulations
-- PDB structure file of the final production simulation frame
+- PDB structure files of the final frame of equilibration and production simulations
 - MM/PBSA results
 - Ligand RMSD analysis results
 - OpenEye Toolkits results for protein-ligand interactions
