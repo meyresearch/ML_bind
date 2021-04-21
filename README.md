@@ -6,7 +6,7 @@ This respository contains all the raw data, simulation files, results, and analy
 Contains all the protein and ligand structure files used to set up systems for simulations.
 
 #### docs:
-Contains results that are applicable to all protein-ligand systems. If you are looking for results of a specific system, please visit the relevant folder in the 'production' directory.
+Contains results that are applicable to all protein-ligand systems (e.g. predicted vs. experimental binding affinity plots, ligand RMSD box-and-whisker plots, etc.). If you are looking for results of a specific system (e.g. protein-ligand interactions, ligand RMSD over time, etc.), please visit the relevant folder in the 'production' directory.
 
 #### productions:
 Contains folders corresponding to each protein-ligand simulation. Each folder contains files including:
