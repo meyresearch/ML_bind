@@ -10,5 +10,6 @@ This directory contains the following files:
 - MMPBSA_accuracy_amber.png : a plot of predicted vs. experimental binding affinity results. Predicted binding affinities were obtained from AMBER simulations.
 - MMPBSA_accuracy_ani.png : a plot of predicted vs. experimental binding affinity results. Predicted binding affinities were obtained from ANI-2x/AMBER simulations.
 - MMPBSA_statistics.txt : mean absolute error, root mean square error, and kendall tau of predicted binding affinity results (for both AMBER and ANI-2x/AMBER simulations) compared to experimentally obtained binding affinities. 
-- rmsd_results.xlsx : ligand RMSD in every AMBER protein-ligand simulation (throughout the shortened trajectory)
-- rmsd_box_whisker.png : box-and-whisker plot of ligand RMSDs in every AMBER protein-ligand simulation
+- rmsd_results.xlsx : ligand RMSD in every AMBER and ANI-2x/AMBER simulation (throughout the shortened trajectory)
+- rmsd_box_whisker_amber.png : box-and-whisker plot of ligand RMSDs in every AMBER simulation
+- rmsd_box_whisker_ani.png : box-and-whisker plot of ligand RMSDs in every ANI-2x/AMBER simulation and the subset of AMBER simulations for the same protein-ligand systems
