@@ -1,4 +1,14 @@
-Statistics from plot of predicted deltaG vs. experimental deltaG:
+Statistics of predicted deltaG vs. experimental deltaG for AMBER simulations:
 Mean absolute error: 3.8026937500000004
-Root mean squared error: 4.407923514323382
+Root-mean-square error: 4.407923514323382
 Kendall Tau: 0.13333333333333333
+
+Statistics of predicted deltaG vs. experimental deltaG for ANI-2x/AMBER simulations:
+Mean absolute error: 3.2447111111111115
+Root-mean-square error: 4.045016827598565
+Kendall Tau: 0.05555555555555555
+
+Statistics of predicted deltaG vs. experimental deltaG for AMBER simulations using ONLY the subset of ligands for which ANI-2x/AMBER simulations were run as well:
+Mean absolute error: 3.2959333333333336
+Root-mean-square error: 4.087979249240659
+Kendall Tau: -0.05555555555555555
