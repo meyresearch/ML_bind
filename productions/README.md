@@ -7,7 +7,7 @@ Each folder contains the following files:
 - AMBER prep file (.prepi) for the ligand
 - Processed structure file for the ligand (.mol2)
 - Ligand parameter file (.frcmod)
-- Topology (.prmtop) and input coordinate (.inpcrd) files for vacuum tyk2, vacuum ligand, vacuum complex, and solvated complex
+- Topology (.prmtop) and input coordinate (.inpcrd) files for vacuum Tyk2, vacuum ligand, vacuum complex, and solvated complex
 - Text files containing the reported system conditions (e.g. temperature, energies, etc.) throughout the MD simulations, for both the equilibration period (equilibration.csv) and production period (production.csv)
 - A folder called 'equilibration_graphs' containing plots of various variables throughout the equilibration period of simulations. Plots are saved as images (.png) according to the dependent variable plotted.
 - Structure file of the final equilibration simulation frame (equilibration.pdb) and production simulation frame (production.pdb)
